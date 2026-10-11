@@ -4,6 +4,8 @@
 
 初版: 2026-10-11。目標の数字は暫定です。同日、Google フォームの設置を月間 PV 500 超過後の作業に移し、Cloudflare Web Analytics を接続した。
 
+運営ダッシュボードは `/rf-learning/docs/dashboard.html` にあります（noindex）。
+
 ## いまの状態
 
 計測は接続済みです。`_config.yml` の `analytics.provider` は `cloudflare` です。本番 `https://kfpn6.github.io/rf-learning/` の HTML には、`static.cloudflareinsights.com/beacon.min.js` とサイトのトークンが出ています。ホストは `kfpn6.github.io` です。接続した日は 2026-10-11（JST）です。

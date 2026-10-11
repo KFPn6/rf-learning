@@ -62,7 +62,9 @@ nav:
 
 exclude:
   - README.md
-  - docs
+  # docs/ 全体を除外すると運営ダッシュボードも配信されない。
+  # メモの Markdown は公開せず、docs/dashboard.html だけ静的ファイルとして出す。
+  - docs/METRICS.md
   - Gemfile
   - Gemfile.lock
   - vendor
