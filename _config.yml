@@ -31,10 +31,10 @@ contact_form_embed_url: ""
 # 公開後の手順は docs/METRICS.md。有料プランは MVP の前提にしない。
 # provider: none | cloudflare | plausible | ga4
 analytics:
-  provider: "none"
+  provider: "cloudflare"
   # Cloudflare Web Analytics（無料・推奨）。ビーコンの token だけを貼る。
   # アカウントの API トークンや Global API Key は貼らない。
-  cloudflare_token: ""
+  cloudflare_token: "635704e976d440db8826811c119a59a1"
   # Plausible。クラウド版は有料。未契約なら使わず、cloudflare を選ぶ。
   # 自己ホストしている場合だけ plausible_src をその配信 URL に変える。
   plausible_domain: ""
