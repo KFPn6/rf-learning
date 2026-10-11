@@ -20,8 +20,10 @@ kramdown:
   auto_ids: false
   hard_wrap: false
 
-# Google フォームの埋め込み URL。空のあいだは手順だけを表示する。
-# https://docs.google.com/forms/ で始まる URL だけを iframe にする。
+# Google フォームの埋め込み URL。
+# 設置はポストゴール。月間 PV が 500 を超えるまで空のままにする。
+# 空のあいだ、問い合わせページはプレースホルダだけを出す。
+# ゲート後に貼るときだけ、https://docs.google.com/forms/ で始まる URL を入れる。
 # 例: "https://docs.google.com/forms/d/e/xxxx/viewform?embedded=true"
 contact_form_embed_url: ""
 
