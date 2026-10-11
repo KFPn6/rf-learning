@@ -18,7 +18,7 @@ Web Analytics の Cloudflare アカウントは、GitHub アカウントでサ�
 
 ## 運用の担当
 
-Grok Bot がこの計測を読み、毎週月曜の定例を回します。Cloudflare Web Analytics は、ダッシュボードの画面だけが読み口ではありません。接続済みの Cloudflare コネクタからも読めます。経路は GraphQL の rum、`site_info` です。
+サイト専用Botの rf-learning Bot（名前は「rf-learning」）がこの計測を読み、毎週月曜の定例を回します。Cloudflare Web Analytics は、ダッシュボードの画面だけが読み口ではありません。接続済みの Cloudflare コネクタからも読めます。経路は GraphQL の rum、`site_info` です。
 
 定例では、読んだ PV をこのファイルの暫定目標と比べます。その結果、サイトを更新することがあります。更新してよい範囲は、この文書のゲートに限ります。
 
