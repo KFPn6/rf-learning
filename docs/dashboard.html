@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>rf-learning 運営ダッシュボード</title>
+<style>
+  :root {
+    --bg: #0f1419;
+    --card: #1a2332;
+    --border: #2d3a4f;
+    --text: #e7ecf3;
+    --muted: #8b9bb4;
+    --accent: #3b82f6;
+    --ok: #22c55e;
+    --warn: #f59e0b;
+    --locked: #64748b;
+    --danger: #ef4444;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+    padding: 24px 16px 48px;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; }
+  header { margin-bottom: 28px; }
+  header h1 { font-size: 1.45rem; font-weight: 700; margin: 0 0 6px; }
+  header p { margin: 0; color: var(--muted); font-size: 0.92rem; }
+  header a { color: var(--accent); text-decoration: none; }
+  header a:hover { text-decoration: underline; }
+  .meta { display: flex; flex-wrap: wrap; gap: 10px 18px; margin-top: 12px; font-size: 0.85rem; color: var(--muted); }
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); margin-bottom: 16px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 18px 16px;
+  }
+  .card h2 {
+    margin: 0 0 12px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .big { font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; }
+  .unit { font-size: 0.9rem; font-weight: 500; color: var(--muted); margin-left: 4px; }
+  .sub { margin-top: 6px; font-size: 0.85rem; color: var(--muted); }
+  .badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 999px;
+    vertical-align: middle;
+  }
+  .badge.open { background: rgba(34,197,94,.15); color: var(--ok); }
+  .badge.closed { background: rgba(100,116,139,.2); color: #94a3b8; }
+  .badge.progress { background: rgba(59,130,246,.15); color: #93c5fd; }
+  .badge.todo { background: rgba(245,158,11,.15); color: #fbbf24; }
+  .section { margin-top: 8px; margin-bottom: 16px; }
+  .section > .card { padding: 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+  th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
+  tr:last-child td { border-bottom: none; }
+  .bar {
+    height: 8px;
+    background: #243044;
+    border-radius: 999px;
+    overflow: hidden;
+    margin-top: 8px;
+  }
+  .bar > span {
+    display: block;
+    height: 100%;
+    background: linear-gradient(90deg, #2563eb, #38bdf8);
+    border-radius: 999px;
+    width: 0%;
+  }
+  .goal-row { margin-bottom: 18px; }
+  .goal-row:last-child { margin-bottom: 0; }
+  .goal-head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+  .goal-head strong { font-size: 0.95rem; }
+  .list { margin: 0; padding: 0; list-style: none; }
+  .list li {
+    display: flex;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.92rem;
+  }
+  .list li:last-child { border-bottom: none; padding-bottom: 0; }
+  .list li:first-child { padding-top: 0; }
+  .list .label { flex: 0 0 auto; min-width: 4.5rem; }
+  .list .body { flex: 1; color: var(--text); }
+  .list .body small { display: block; color: var(--muted); margin-top: 4px; }
+  footer {
+    margin-top: 28px;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>rf-learning 運営ダッシュボード</h1>
+      <p>公開サイト <a href="https://kfpn6.github.io/rf-learning/" target="_blank" rel="noopener">kfpn6.github.io/rf-learning</a> ・ 計測ホスト <code>kfpn6.github.io</code></p>
+      <div class="meta">
+        <span>更新: 2026-10-11 17:30 JST</span>
+        <span>計測開始: 2026-10-11（1ヶ月目の起点）</span>
+        <span>ゲート: <span class="badge closed">閉鎖中</span>（月間 PV 500 未満）</span>
+      </div>
+    </header>
+
+    <div class="grid">
+      <div class="card">
+        <h2>過去7日 PV</h2>
+        <div class="big">0<span class="unit">PV</span></div>
+        <div class="sub">目安: 月100なら週〜25 / 月500なら週〜125</div>
+      </div>
+      <div class="card">
+        <h2>過去30日 PV</h2>
+        <div class="big">0<span class="unit">PV</span></div>
+        <div class="sub">ユニーク訪問者（参考）: 0</div>
+      </div>
+      <div class="card">
+        <h2>2026年10月（暦月）</h2>
+        <div class="big">0<span class="unit">PV</span></div>
+        <div class="sub">ビーコン接続直後。数字が出るまで未達に数えません</div>
+      </div>
+      <div class="card">
+        <h2>ゲート判定</h2>
+        <div class="big" style="font-size:1.35rem;">未達</div>
+        <div class="sub">いずれかの暦月で 500 PV 以上が条件</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="card">
+        <h2>目標アクセス数</h2>
+        <div class="goal-row">
+          <div class="goal-head">
+            <strong>1ヶ月目 · 月間 100 PV</strong>
+            <span class="badge progress">途中経過</span>
+          </div>
+          <div class="sub">これだけではポストゴールに進みません · 現在 0 / 100</div>
+          <div class="bar"><span style="width:0%"></span></div>
+        </div>
+        <div class="goal-row">
+          <div class="goal-head">
+            <strong>3ヶ月目 · 月間 500 PV</strong>
+            <span class="badge closed">ゲート本線</span>
+          </div>
+          <div class="sub">超えた月でゲートが開きます · 現在 0 / 500</div>
+          <div class="bar"><span style="width:0%"></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="card">
+        <h2>達成後（ゲート開放後）にすること</h2>
+        <ul class="list">
+          <li>
+            <span class="label"><span class="badge closed">ロック</span></span>
+            <span class="body">英語版（パス設計・翻訳を含む）</span>
+          </li>
+          <li>
+            <span class="label"><span class="badge closed">ロック</span></span>
+            <span class="body">モバイルの追加磨き込み（段組の作り直し、表のカード化、メニュー動作など）</span>
+          </li>
+          <li>
+            <span class="label"><span class="badge closed">ロック</span></span>
+            <span class="body">Google フォーム作成と問い合わせページ接続（<code>contact_form_embed_url</code>）</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="card">
+        <h2>いまの課題・やること（ゲート前でも可）</h2>
+        <table>
+          <thead>
+            <tr><th>状態</th><th>項目</th><th>メモ</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="badge open">完了</span></td>
+              <td>Cloudflare Web Analytics 接続</td>
+              <td>2026-10-11 · ホスト kfpn6.github.io</td>
+            </tr>
+            <tr>
+              <td><span class="badge open">完了</span></td>
+              <td>サイト MVP 公開</td>
+              <td><a href="https://github.com/KFPn6/corpration/issues/13" style="color:#93c5fd">corpration #13</a></td>
+            </tr>
+            <tr>
+              <td><span class="badge todo">課題</span></td>
+              <td>学習マンガのイラスト付き化</td>
+              <td><a href="https://github.com/KFPn6/corpration/issues/14" style="color:#93c5fd">corpration #14</a> · スキャン転載禁止</td>
+            </tr>
+            <tr>
+              <td><span class="badge todo">未決</span></td>
+              <td>屋号の確定</td>
+              <td>仮置き「学習ハブ」· <code>_config.yml</code> の brand</td>
+            </tr>
+            <tr>
+              <td><span class="badge progress">運用中</span></td>
+              <td>週次アクセス点検</td>
+              <td>月曜 8:55 JST · このBotが報告</td>
+            </tr>
+            <tr>
+              <td><span class="badge progress">随時</span></td>
+              <td>日本語本文の追記・誤り修正・リンク切れ</td>
+              <td>ゲート前でも実施可</td>
+            </tr>
+            <tr>
+              <td><span class="badge closed">待機</span></td>
+              <td>問い合わせフォーム</td>
+              <td>プレースホルダのまま · 月間500超えてから</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="card">
+        <h2>ページ別上位（過去7日）</h2>
+        <p class="sub" style="margin:0">まだ計測データがありません。入口として見るパス: <code>/rf-learning/</code> · <code>/industry/</code> · <code>/learn/beginner/</code> · <code>/glossary/</code></p>
+      </div>
+    </div>
+
+    <footer>
+      原本の数字は Cloudflare Web Analytics。目標・ゲートの定義は
+      <a href="https://github.com/KFPn6/rf-learning/blob/main/docs/METRICS.md">docs/METRICS.md</a>。
+      ワカ社名はサイトに出しません。
+    </footer>
+  </div>
+</body>
+</html>
