@@ -44,7 +44,7 @@ permalink: /reading/
 
 ## 学習マンガ
 
-このサイトの会話は自作です。第1話は [USB-Cがあれば同軸はいらない？]({{ '/manga/01-usb-c/' | relative_url }}) です。一覧は [学習マンガ]({{ '/manga/' | relative_url }}) にあります。
+このサイトの会話は自作です。第1話は [USB-Cがあれば同軸はいらない？]({{ '/manga/01-usb-c/' | relative_url }})、第2話は [光の方が新しいから、同軸はいらない？]({{ '/manga/02-coax-fiber/' | relative_url }}) です。一覧は [学習マンガ]({{ '/manga/' | relative_url }}) にあります。
 
 市販の学習マンガは、表紙を転載せず、公式のページへのリンクだけをその一覧に置いています。
 

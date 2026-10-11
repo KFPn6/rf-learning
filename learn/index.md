@@ -45,8 +45,13 @@ permalink: /learn/
     <p><a href="{{ '/learn/compare/coax-vs-usbc/' | relative_url }}">比較を読む</a></p>
   </article>
   <article class="card">
+    <h2>同軸と光ファイバー</h2>
+    <p>電気の高周波の波と、光。同じ「線」でも、損失と距離とノイズの出方が違います。</p>
+    <p><a href="{{ '/learn/compare/coax-vs-fiber/' | relative_url }}">比較を読む</a></p>
+  </article>
+  <article class="card">
     <h2>学習マンガ</h2>
-    <p>このサイトの自作の会話です。第1話は「USB-Cがあれば同軸はいらない？」です。</p>
+    <p>このサイトの自作の会話です。第1話は USB-C、第2話は同軸と光ファイバーです。</p>
     <p><a href="{{ '/manga/' | relative_url }}">マンガの一覧へ</a></p>
   </article>
 </div>

@@ -7,12 +7,13 @@ permalink: /glossary/
 
 # 用語集
 
-高周波コネクタ＋同軸ケーブルアッセンブリを読むための主な語です。短い定義であり、製品の保証値ではありません。比べるために、差動伝送と USB Type-C を足しています。業界の文脈は [業界を知る]({{ '/industry/' | relative_url }})、帯域の対応は [規格・周波数]({{ '/spectrum/' | relative_url }}) にあります。
+高周波コネクタ＋同軸ケーブルアッセンブリを読むための主な語です。短い定義であり、製品の保証値ではありません。比べるために、光ファイバー、差動伝送、USB Type-C を足しています。業界の文脈は [業界を知る]({{ '/industry/' | relative_url }})、帯域の対応は [規格・周波数]({{ '/spectrum/' | relative_url }}) にあります。
 
 <nav class="tag-row" aria-label="用語">
   <a class="tag" href="#assembly">アッセンブリ</a>
   <a class="tag" href="#connector">コネクタ</a>
   <a class="tag" href="#coax">同軸</a>
+  <a class="tag" href="#fiber">光ファイバー</a>
   <a class="tag" href="#impedance">インピーダンス</a>
   <a class="tag" href="#vswr">VSWR</a>
   <a class="tag" href="#return-loss">リターンロス</a>
@@ -45,7 +46,13 @@ permalink: /glossary/
 
 <p class="term-en">coaxial cable</p>
 
-中心導体、誘電体、外部導体を、同じ軸に重ねた伝送路です。外部導体が信号の戻り経路と遮蔽を兼ねます。電源線と違い、断面の寸法比と誘電体で特性インピーダンスが決まります。
+中心導体、誘電体、外部導体を、同じ軸に重ねた伝送路です。「同」は同じ軸、という意味で、中心導体と外部導体が同じ中心線を共有します。外部導体が信号の戻り経路と遮蔽を兼ねます。電源線と違い、断面の寸法比と誘電体で特性インピーダンスが決まります。電気の高周波の波を運び、光を運ぶ光ファイバーとは媒体が違います。比較は [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。
+
+## 光ファイバー {#fiber}
+
+<p class="term-en">optical fiber</p>
+
+ガラス、またはプラスチックのコアと、それより光の進み方が違うクラッドで、光を閉じ込めて運ぶ線です。同軸が運ぶ電気の高周波の波とは、媒体が違います。電磁ノイズをほとんど受けず、長い距離の通信に向くことが多いです。急な曲げや、端面の汚れで光が漏れます。テレビのアンテナ端子や、50 Ω の計測ポートの代わりではありません。比較は [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。
 
 ## 特性インピーダンス {#impedance}
 

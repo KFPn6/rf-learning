@@ -49,4 +49,4 @@ permalink: /learn/beginner/
 
 ## USB-Cと何が違う？
 
-電話やタブレットの USB-C もケーブルです。けれども仕事は、計測や無線の同軸アッセンブリとは別です。速いから同軸が要らなくなる、ではありません。断面と、運んでいるものの違いは [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }}) に、会話では [学習マンガの第1話]({{ '/manga/01-usb-c/' | relative_url }}) に置いています。
+電話やタブレットの USB-C もケーブルです。けれども仕事は、計測や無線の同軸アッセンブリとは別です。速いから同軸が要らなくなる、ではありません。断面と、運んでいるものの違いは [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }}) に、会話では [学習マンガの第1話]({{ '/manga/01-usb-c/' | relative_url }}) に置いています。光で運ぶ線との違いは [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) に、会話では [第2話]({{ '/manga/02-coax-fiber/' | relative_url }}) に置いています。

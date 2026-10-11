@@ -14,8 +14,9 @@ permalink: /manga/
 ## このサイトの話
 
 - [第1話 USB-Cがあれば同軸はいらない？]({{ '/manga/01-usb-c/' | relative_url }}) — 両方ともケーブルなのに、仕事が違う、という話です。
+- [第2話 光の方が新しいから、同軸はいらない？]({{ '/manga/02-coax-fiber/' | relative_url }}) — 同軸の「同」、テレビ、充電、LAN、光ファイバーの話です。
 
-説明を先に読むなら、[同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }}) です。
+説明を先に読むなら、[同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }}) と [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。
 
 ## ほかの学習マンガを読む
 
