@@ -58,8 +58,9 @@ description: 高周波コネクタと同軸ケーブルアッセンブリを、�
   <h2>ページ一覧</h2>
   <ul class="page-list">
     <li><a href="{{ '/industry/' | relative_url }}">業界を知る</a> — 用途、バリューチェーン、多品種・小ロット</li>
-    <li><a href="{{ '/learn/' | relative_url }}">学び</a> — 入門、現場の見方、深掘り、<a href="{{ '/learn/study/' | relative_url }}">学び方</a></li>
-    <li><a href="{{ '/glossary/' | relative_url }}">用語集</a> — 最初の15語</li>
+    <li><a href="{{ '/learn/' | relative_url }}">学び</a> — 入門、現場の見方、深掘り、<a href="{{ '/learn/study/' | relative_url }}">学び方</a>、<a href="{{ '/learn/compare/coax-vs-usbc/' | relative_url }}">同軸と USB-C</a></li>
+    <li><a href="{{ '/manga/' | relative_url }}">学習マンガ</a> — 自作の会話。第1話は USB-C と同軸</li>
+    <li><a href="{{ '/glossary/' | relative_url }}">用語集</a> — 主な語</li>
     <li><a href="{{ '/spectrum/' | relative_url }}">規格・周波数</a> — 帯域と呼称の対応</li>
     <li><a href="{{ '/work/' | relative_url }}">現場の仕事</a> — 役割をタグでたどる</li>
     <li><a href="{{ '/reading/' | relative_url }}">読む</a> — 本と無料の資料</li>

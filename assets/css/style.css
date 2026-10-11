@@ -529,6 +529,93 @@ th {
   align-items: center;
 }
 
+.figure-pair {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: 0.9rem;
+  margin: 1rem 0 1.4rem;
+}
+
+.figure-card {
+  margin: 0;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 0.85rem 0.9rem 1rem;
+}
+
+.figure-card svg {
+  width: min(100%, 13.5rem);
+  height: auto;
+  display: block;
+  margin: 0 auto 0.6rem;
+}
+
+.figure-card p,
+.figure-card figcaption {
+  max-width: none;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.talk {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 1rem 0 1.6rem;
+}
+
+.say {
+  display: grid;
+  grid-template-columns: 4.2rem minmax(0, 1fr);
+  gap: 0.55rem;
+  align-items: start;
+  max-width: 40rem;
+}
+
+.say .name {
+  margin: 0;
+  padding-top: 0.65rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  max-width: none;
+}
+
+.say .bubble {
+  margin: 0;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 0.7rem 0.9rem;
+  max-width: none;
+}
+
+.say-mina .bubble {
+  background: #f3f7f4;
+}
+
+.say-ken .bubble {
+  background: #fbf6ee;
+}
+
+.adult-box {
+  margin-top: 1.6rem;
+  padding: 0.95rem 1rem 1.05rem;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 12px;
+}
+
+.adult-box h2 {
+  margin-top: 0;
+}
+
+.adult-box p,
+.adult-box li {
+  max-width: none;
+}
+
 @media (max-width: 959px) {
   .nav-toggle-label {
     display: inline-flex;

@@ -31,4 +31,4 @@ permalink: /about/
 
 - [業界を知る]({{ '/industry/' | relative_url }}) — どこで使われ、なぜ多品種・小ロットになるか
 - [入門]({{ '/learn/beginner/' | relative_url }}) — 断面と、一本の見方
-- [用語集]({{ '/glossary/' | relative_url }}) — 最初の15語
+- [用語集]({{ '/glossary/' | relative_url }}) — 主な語

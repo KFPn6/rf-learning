@@ -35,3 +35,18 @@ permalink: /learn/
 </div>
 
 業界の文脈を先に置くなら、[業界を知る]({{ '/industry/' | relative_url }}) から入ってください。言葉だけ先に揃えるなら [用語集]({{ '/glossary/' | relative_url }}) です。
+
+## 比べる・会話で読む
+
+<div class="card-grid">
+  <article class="card">
+    <h2>同軸と USB-C</h2>
+    <p>どちらが上かではなく、運ぶものと断面が違う、という比較です。</p>
+    <p><a href="{{ '/learn/compare/coax-vs-usbc/' | relative_url }}">比較を読む</a></p>
+  </article>
+  <article class="card">
+    <h2>学習マンガ</h2>
+    <p>このサイトの自作の会話です。第1話は「USB-Cがあれば同軸はいらない？」です。</p>
+    <p><a href="{{ '/manga/' | relative_url }}">マンガの一覧へ</a></p>
+  </article>
+</div>

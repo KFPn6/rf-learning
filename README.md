@@ -40,7 +40,8 @@ Settings → Pages で、Source が **Deploy from a branch**、Branch が `main`
 | --- | --- |
 | トップ | `index.md` |
 | 業界を知る | `industry/index.md` |
-| 学び | `learn/index.md` と `learn/beginner/` `learn/field/` `learn/master/` `learn/study/` |
+| 学び | `learn/index.md` と `learn/beginner/` `learn/field/` `learn/master/` `learn/study/` `learn/compare/coax-vs-usbc/` |
+| 学習マンガ | `manga/index.md` と `manga/01-usb-c/`（自作の会話。他社マンガはリンクのみ） |
 | 用語集 | `glossary/index.md` |
 | 規格・周波数 | `spectrum/index.md` |
 | 現場の仕事 | `work/index.md` |

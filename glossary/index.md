@@ -1,13 +1,13 @@
 ---
 layout: default
 title: 用語集
-description: 高周波コネクタと同軸ケーブルアッセンブリを読むための、最初の15語です。
+description: 高周波コネクタと同軸ケーブルアッセンブリを読むための主な語です。
 permalink: /glossary/
 ---
 
 # 用語集
 
-高周波コネクタ＋同軸ケーブルアッセンブリを読むための、最初の15語です。短い定義であり、製品の保証値ではありません。業界の文脈は [業界を知る]({{ '/industry/' | relative_url }})、帯域の対応は [規格・周波数]({{ '/spectrum/' | relative_url }}) にあります。
+高周波コネクタ＋同軸ケーブルアッセンブリを読むための主な語です。短い定義であり、製品の保証値ではありません。比べるために、差動伝送と USB Type-C を足しています。業界の文脈は [業界を知る]({{ '/industry/' | relative_url }})、帯域の対応は [規格・周波数]({{ '/spectrum/' | relative_url }}) にあります。
 
 <nav class="tag-row" aria-label="用語">
   <a class="tag" href="#assembly">アッセンブリ</a>
@@ -25,6 +25,8 @@ permalink: /glossary/
   <a class="tag" href="#dielectric">誘電体</a>
   <a class="tag" href="#shield">シールド</a>
   <a class="tag" href="#torque">嵌合トルク</a>
+  <a class="tag" href="#differential">差動伝送</a>
+  <a class="tag" href="#usb-c">USB Type-C</a>
 </nav>
 
 ## ケーブルアッセンブリ {#assembly}
@@ -116,3 +118,15 @@ permalink: /glossary/
 <p class="term-en">mating torque</p>
 
 コネクタを締める回転力です。手加減ではなく、トルクレンチで管理する系列があります。締め不足は接触の不安定や PIM、締めすぎは界面の変形につながります。数値は系列と手順で違うので、この用語集にはトルク表を置きません。図面か、相手機器の指示を見ます。
+
+## 差動伝送 {#differential}
+
+<p class="term-en">differential signaling</p>
+
+対になった二本の線で、向きが逆の信号を運ぶやり方です。受け側は二本の差を読むので、両方に同じように乗った雑音を消しやすいです。USB のデータ線に使われます。同軸は、中心導体と外部導体の一本の伝送路で、差動の対とは構造が違います。
+
+## USB Type-C {#usb-c}
+
+<p class="term-en">USB Type-C</p>
+
+USB のコネクタの形の一つで、上下を気にせず差せることが多いプラグです。ケーブルの中は、電源や、対になったデータ線などが束になっています。見た目が同じでも、中の線の数や、通せる速度は製品と規格で違います。高周波の同軸アッセンブリの代わり、ではありません。比較は [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }}) です。
