@@ -63,7 +63,6 @@ description: 高周波コネクタと同軸ケーブルアッセンブリを、�
     <li><a href="{{ '/spectrum/' | relative_url }}">規格・周波数</a> — 帯域と呼称の対応</li>
     <li><a href="{{ '/work/' | relative_url }}">現場の仕事</a> — 役割をタグでたどる</li>
     <li><a href="{{ '/reading/' | relative_url }}">読む</a> — 公開ノートへのリンク置き場</li>
-    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-    <li><a href="{{ '/contact/' | relative_url }}">問い合わせ</a></li>
+    <li><a href="{{ '/about/' | relative_url }}">このサイトについて</a></li>
   </ul>
 </section>

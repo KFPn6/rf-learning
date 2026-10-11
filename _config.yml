@@ -59,8 +59,6 @@ nav:
     url: /reading/
   - title: About
     url: /about/
-  - title: 問い合わせ
-    url: /contact/
 
 exclude:
   - README.md

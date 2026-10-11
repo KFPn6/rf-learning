@@ -46,7 +46,7 @@ Settings → Pages で、Source が **Deploy from a branch**、Branch が `main`
 | 現場の仕事 | `work/index.md` |
 | 読む | `reading/index.md` |
 | About | `about/index.md` |
-| 問い合わせ | `contact/index.md` |
+| 問い合わせ | `contact/index.md`（公開ナビには出さない。ページ自体は残す） |
 
 用語を足すときは `glossary/index.md` に見出しを追加し、ページ上部のタグからもリンクします。公開ノートのリンクは `reading/index.md` のリストへ足します。
 
