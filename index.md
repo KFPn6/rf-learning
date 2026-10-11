@@ -58,11 +58,11 @@ description: 高周波コネクタと同軸ケーブルアッセンブリを、�
   <h2>ページ一覧</h2>
   <ul class="page-list">
     <li><a href="{{ '/industry/' | relative_url }}">業界を知る</a> — 用途、バリューチェーン、多品種・小ロット</li>
-    <li><a href="{{ '/learn/' | relative_url }}">学び</a> — 入門、現場の見方、深掘り</li>
+    <li><a href="{{ '/learn/' | relative_url }}">学び</a> — 入門、現場の見方、深掘り、<a href="{{ '/learn/study/' | relative_url }}">学び方</a></li>
     <li><a href="{{ '/glossary/' | relative_url }}">用語集</a> — 最初の15語</li>
     <li><a href="{{ '/spectrum/' | relative_url }}">規格・周波数</a> — 帯域と呼称の対応</li>
     <li><a href="{{ '/work/' | relative_url }}">現場の仕事</a> — 役割をタグでたどる</li>
-    <li><a href="{{ '/reading/' | relative_url }}">読む</a> — 公開ノートへのリンク置き場</li>
+    <li><a href="{{ '/reading/' | relative_url }}">読む</a> — 本と無料の資料</li>
     <li><a href="{{ '/about/' | relative_url }}">このサイトについて</a></li>
   </ul>
 </section>

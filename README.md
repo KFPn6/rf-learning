@@ -40,7 +40,7 @@ Settings → Pages で、Source が **Deploy from a branch**、Branch が `main`
 | --- | --- |
 | トップ | `index.md` |
 | 業界を知る | `industry/index.md` |
-| 学び | `learn/index.md` と `learn/beginner/` `learn/field/` `learn/master/` |
+| 学び | `learn/index.md` と `learn/beginner/` `learn/field/` `learn/master/` `learn/study/` |
 | 用語集 | `glossary/index.md` |
 | 規格・周波数 | `spectrum/index.md` |
 | 現場の仕事 | `work/index.md` |
@@ -48,7 +48,22 @@ Settings → Pages で、Source が **Deploy from a branch**、Branch が `main`
 | About | `about/index.md` |
 | 問い合わせ | `contact/index.md`（公開ナビには出さない。ページ自体は残す） |
 
-用語を足すときは `glossary/index.md` に見出しを追加し、ページ上部のタグからもリンクします。公開ノートのリンクは `reading/index.md` のリストへ足します。
+用語を足すときは `glossary/index.md` に見出しを追加し、ページ上部のタグからもリンクします。
+
+### 本棚（読む）に本を足すとき
+
+公開ページの `reading/index.md` は、訪れる人向けの書誌です。運営向けの手順はここだけに置きます。
+
+1. 書名、著者、出版社、年を、既存の見出し（RFの基礎、計測、はんだ・接合、洋書・達人、無料の資料）のどれかに一行足す
+2. 品切れや古い版は、その行に注記する
+3. 公式や出版社のページがあるときだけ URL を付ける。在庫や価格は書かない
+4. `main` へ push する
+
+記入例です。`example.com` はダミーです。
+
+```markdown
+- 『書名』（著者／出版社・年） — 何が読めるかを一文で。[出版社のページ](https://example.com/book)
+```
 
 ナビゲーションのラベルと並びは `_config.yml` の `nav` です。見た目は `assets/css/style.css` です。
 
