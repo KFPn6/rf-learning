@@ -123,5 +123,5 @@ LAN ケーブル（イーサネットでよく使う、より対線）が運ぶ�
 - [入門]({{ '/learn/beginner/' | relative_url }}) — 同軸の断面と、50 Ω の話
 - [用語集]({{ '/glossary/' | relative_url }}) — [同軸]({{ '/glossary/' | relative_url }}#coax)、[光ファイバー]({{ '/glossary/' | relative_url }}#fiber)、インピーダンス
 - [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }}) — 電気の高周波と、データと電力の比較
-- [学習マンガ第2話]({{ '/manga/02-coax-fiber/' | relative_url }}) — 同じ話を会話で
+- 会話は一話につき一つのテーマです。[第2話]({{ '/manga/02-coax-fiber/' | relative_url }}) は電気の波と光、[第3話]({{ '/manga/03-same-axis/' | relative_url }}) は「同」の意味、[第4話]({{ '/manga/04-tv-coax/' | relative_url }}) はテレビと同軸、[第5話]({{ '/manga/05-typec-shell/' | relative_url }}) は充電、[第6話]({{ '/manga/06-lan-tv/' | relative_url }}) は LAN とテレビです。一覧は [学習マンガ]({{ '/manga/' | relative_url }}) です。
 - [読む]({{ '/reading/' | relative_url }}) — 本と無料の資料

@@ -51,7 +51,7 @@ permalink: /learn/
   </article>
   <article class="card">
     <h2>学習マンガ</h2>
-    <p>このサイトの自作の会話です。第1話は USB-C、第2話は同軸と光ファイバーです。</p>
+    <p>このサイトの自作の会話です。第1話から第6話まで、一話につき一つのテーマです。</p>
     <p><a href="{{ '/manga/' | relative_url }}">マンガの一覧へ</a></p>
   </article>
 </div>

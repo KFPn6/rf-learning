@@ -112,5 +112,5 @@ USB-C が得意なのは、たくさんの機器を、同じ形のプラグで�
 - [用語集]({{ '/glossary/' | relative_url }}) — インピーダンス、シールド、USB Type-C
 - [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) — 電気の高周波の波と、光の比較
 - [学習マンガ第1話]({{ '/manga/01-usb-c/' | relative_url }}) — 同じ話を会話で
-- [学習マンガ第2話]({{ '/manga/02-coax-fiber/' | relative_url }}) — 同軸の「同」と、光の線
+- [学習マンガ第5話]({{ '/manga/05-typec-shell/' | relative_url }}) — Type-C の殻と、充電の仕事
 - [読む]({{ '/reading/' | relative_url }}) — 本と無料の資料

@@ -101,6 +101,6 @@ permalink: /manga/01-usb-c/
 
 <aside class="adult-box">
   <h2>大人の深掘り</h2>
-  <p>この会話は、比較の入口です。断面、表、よくある誤解は <a href="{{ '/learn/compare/coax-vs-usbc/' | relative_url }}">同軸と USB-C</a> に分けてあります。同軸そのものの見方は <a href="{{ '/learn/beginner/' | relative_url }}">入門</a>、言葉は <a href="{{ '/glossary/' | relative_url }}">用語集</a> です。続きは <a href="{{ '/manga/02-coax-fiber/' | relative_url }}">第2話</a> で、同軸の「同」と光ファイバーを話します。</p>
+  <p>この会話は、比較の入口です。断面、表、よくある誤解は <a href="{{ '/learn/compare/coax-vs-usbc/' | relative_url }}">同軸と USB-C</a> に分けてあります。同軸そのものの見方は <a href="{{ '/learn/beginner/' | relative_url }}">入門</a>、言葉は <a href="{{ '/glossary/' | relative_url }}">用語集</a> です。続きは <a href="{{ '/manga/02-coax-fiber/' | relative_url }}">第2話</a> で、同軸と光ファイバーを話します。話の一覧は <a href="{{ '/manga/' | relative_url }}">学習マンガ</a> です。</p>
   <p>トルクの数値や、USB の世代ごとの正確な上限は、ここでは断定していません。系列と規格の文書を見てください。</p>
 </aside>

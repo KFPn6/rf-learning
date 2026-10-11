@@ -13,10 +13,16 @@ permalink: /manga/
 
 ## このサイトの話
 
-- [第1話 USB-Cがあれば同軸はいらない？]({{ '/manga/01-usb-c/' | relative_url }}) — 両方ともケーブルなのに、仕事が違う、という話です。
-- [第2話 光の方が新しいから、同軸はいらない？]({{ '/manga/02-coax-fiber/' | relative_url }}) — 同軸の「同」、テレビ、充電、LAN、光ファイバーの話です。
+一話につき、一つのテーマです。どの話から読んでもかまいません。
 
-説明を先に読むなら、[同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }}) と [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。
+- [第1話 USB-Cがあれば同軸はいらない？]({{ '/manga/01-usb-c/' | relative_url }}) — 両方ともケーブルなのに、仕事が違う、という話です。
+- [第2話 光の方が新しいから、同軸はいらない？]({{ '/manga/02-coax-fiber/' | relative_url }}) — 電気の波と光は、運ぶものが違う、という話です。
+- [第3話 「同」は、同じ線？]({{ '/manga/03-same-axis/' | relative_url }}) — 「同」は同じ軸で、断面の中心が一つ、という話です。
+- [第4話 テレビは、なんで同軸なの？]({{ '/manga/04-tv-coax/' | relative_url }}) — 放送の波を電気のまま運ぶので、テレビは同軸、という話です。
+- [第5話 Type-Cの殻なら、充電できる？]({{ '/manga/05-typec-shell/' | relative_url }}) — 殻の形を似せても、充電の仕事にはならない、という話です。
+- [第6話 LANケーブルで、テレビは見られる？]({{ '/manga/06-lan-tv/' | relative_url }}) — アンテナの波と、ネット配信は別の経路、という話です。
+
+説明を先に読むなら、第1話は [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }})、第2話から第6話は [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。
 
 ## ほかの学習マンガを読む
 
