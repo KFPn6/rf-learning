@@ -1,0 +1,30 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="1.5"></circle>
+        <circle cx="16" cy="16" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"></circle>
+        <circle cx="16" cy="16" r="2.2" fill="#e2b15a"></circle>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">{{ site.brand }}</span>
+        <span class="brand-sub">高周波コネクタ＋同軸ケーブルアッセンブリ</span>
+      </span>
+    </a>
+    <input class="nav-toggle" type="checkbox" id="nav-toggle">
+    <label class="nav-toggle-label" for="nav-toggle">メニュー</label>
+    <nav class="site-nav" aria-label="主要">
+      {% for item in site.nav %}
+        {% assign active = false %}
+        {% if item.url == "/" %}
+          {% if page.url == "/" %}
+            {% assign active = true %}
+          {% endif %}
+        {% elsif page.url == item.url or page.url contains item.url %}
+          {% assign active = true %}
+        {% endif %}
+        <a href="{{ item.url | relative_url }}"{% if active %} aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

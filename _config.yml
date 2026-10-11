@@ -1,0 +1,76 @@
+# 屋号（仮）。ブランド名を変えるときは brand を書き換える。
+# ヘッダー、フッター、ブラウザのタイトルに反映される。
+# 本文の説明まで自動では置き換わらないので、必要なら about/index.md も確認する。
+lang: ja
+brand: "学習ハブ"
+brand_note: "屋号は仮置きです。brand を書き換えると表示名が変わります。"
+title: "学習ハブ"
+tagline: "高周波コネクタと同軸ケーブルアッセンブリを、業界の文脈から学ぶ"
+description: "高周波コネクタと同軸ケーブルアッセンブリについて、公開情報の範囲で学ぶための静的サイトです。多品種・小ロットのニッチを、コネクタ単体ではなくアッセンブリとして整理します。"
+
+# プロジェクトサイト（ユーザーサイトに移すときは baseurl を "" にする）
+url: "https://kfpn6.github.io"
+baseurl: "/rf-learning"
+repository_url: "https://github.com/KFPn6/rf-learning"
+
+markdown: kramdown
+kramdown:
+  input: Kramdown
+  # 日本語の見出しを section という id にしない。必要な id は見出し側に書く。
+  auto_ids: false
+  hard_wrap: false
+
+# Google フォームの埋め込み URL。空のあいだは手順だけを表示する。
+# https://docs.google.com/forms/ で始まる URL だけを iframe にする。
+# 例: "https://docs.google.com/forms/d/e/xxxx/viewform?embedded=true"
+contact_form_embed_url: ""
+
+# アクセス計測。provider を none のまま、トークンが空ならスクリプトは出さない。
+# 公開後の手順は docs/METRICS.md。有料プランは MVP の前提にしない。
+# provider: none | cloudflare | plausible | ga4
+analytics:
+  provider: "none"
+  # Cloudflare Web Analytics（無料・推奨）。ビーコンの token だけを貼る。
+  # アカウントの API トークンや Global API Key は貼らない。
+  cloudflare_token: ""
+  # Plausible。クラウド版は有料。未契約なら使わず、cloudflare を選ぶ。
+  # 自己ホストしている場合だけ plausible_src をその配信 URL に変える。
+  plausible_domain: ""
+  plausible_src: "https://plausible.io/js/script.js"
+  # 代替。GA4 の測定 ID（G- で始まる公開 ID）。
+  ga4_id: ""
+
+nav:
+  - title: トップ
+    url: /
+  - title: 業界を知る
+    url: /industry/
+  - title: 学び
+    url: /learn/
+  - title: 用語集
+    url: /glossary/
+  - title: 規格・周波数
+    url: /spectrum/
+  - title: 現場の仕事
+    url: /work/
+  - title: 読む
+    url: /reading/
+  - title: About
+    url: /about/
+  - title: 問い合わせ
+    url: /contact/
+
+exclude:
+  - README.md
+  - docs
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .gitignore
+  - .github
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

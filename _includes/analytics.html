@@ -1,0 +1,67 @@
+{% comment %}
+  provider が none、またはトークンが空なら何も出さない。
+  空文字の判定に blank は使わない（この Liquid では空文字が blank 扱いにならない）。
+{% endcomment %}
+{% assign analytics = site.analytics %}
+{% if analytics.provider == "cloudflare" %}
+  {% assign token = analytics.cloudflare_token | strip %}
+  {% assign token_missing = false %}
+  {% assign token_unsafe = false %}
+  {% if token == empty or token == nil %}
+    {% assign token_missing = true %}
+  {% endif %}
+  {% if token contains '"' or token contains "'" or token contains "<" or token contains ">" or token contains " " %}
+    {% assign token_unsafe = true %}
+  {% endif %}
+  {% if token_missing == false and token_unsafe == false %}
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"{{ token }}"}'></script>
+  {% elsif token_missing == false %}
+<!-- analytics: cloudflare_token に空白や引用符が含まれるためビーコンを出していません -->
+  {% else %}
+<!-- analytics: provider は cloudflare ですが token が空です -->
+  {% endif %}
+{% elsif analytics.provider == "plausible" %}
+  {% assign domain = analytics.plausible_domain | strip %}
+  {% assign src = analytics.plausible_src | strip %}
+  {% assign plausible_unsafe = false %}
+  {% if domain == empty or domain == nil %}
+    {% assign plausible_unsafe = true %}
+  {% endif %}
+  {% if domain contains '"' or domain contains "'" or domain contains "<" or domain contains ">" or domain contains " " %}
+    {% assign plausible_unsafe = true %}
+  {% endif %}
+  {% if src contains '"' or src contains "'" or src contains "<" or src contains ">" or src contains " " %}
+    {% assign plausible_unsafe = true %}
+  {% endif %}
+  {% unless src contains "https://" %}
+    {% assign plausible_unsafe = true %}
+  {% endunless %}
+  {% if plausible_unsafe == false %}
+<script defer data-domain="{{ domain }}" src="{{ src }}"></script>
+  {% else %}
+<!-- analytics: plausible の domain または src が未設定か、形式が違うためスクリプトを出していません -->
+  {% endif %}
+{% elsif analytics.provider == "ga4" %}
+  {% assign ga = analytics.ga4_id | strip %}
+  {% assign ga_missing = false %}
+  {% assign ga_unsafe = false %}
+  {% if ga == empty or ga == nil %}
+    {% assign ga_missing = true %}
+  {% endif %}
+  {% if ga contains '"' or ga contains "'" or ga contains "<" or ga contains ">" or ga contains ";" or ga contains " " %}
+    {% assign ga_unsafe = true %}
+  {% endif %}
+  {% if ga_missing == false and ga_unsafe == false %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ ga }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ ga }}');
+</script>
+  {% elsif ga_missing == false %}
+<!-- analytics: ga4_id の形式が測定 ID ではないためスクリプトを出していません -->
+  {% else %}
+<!-- analytics: provider は ga4 ですが ga4_id が空です -->
+  {% endif %}
+{% endif %}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14242c">
+  <title>{% if page.url == "/" %}{{ site.brand }} — {{ site.tagline }}{% else %}{{ page.title }} — {{ site.brand }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.url == '/' %}{{ site.brand }}{% else %}{{ page.title }} — {{ site.brand }}{% endif %}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へスキップ</a>
+  {% include header.html %}
+  <main id="main" class="site-main">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  {% include analytics.html %}
+</body>
+</html>
