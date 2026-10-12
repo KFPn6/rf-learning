@@ -1,5 +1,5 @@
 ---
-# 公開ページのみ。404、この XML、運営用 docs/ は出さない。
+# 公開ページのみ。404、この XML、運営用 docs/、アセットは出さない。
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
@@ -8,7 +8,7 @@ layout: null
 {%- for page in pages -%}
 {%- assign path = page.path | default: "" -%}
 {%- assign loc = page.url | default: "" -%}
-{%- if loc contains ".xml" or path contains ".xml" or loc == "/404.html" or path == "404.html" or path contains "docs/" or loc contains "/docs/" -%}
+{%- if loc contains ".xml" or loc contains ".css" or loc contains ".js" or loc contains ".svg" or loc contains ".html" or loc contains ".scss" or loc contains ".png" or loc contains ".jpg" or loc contains ".gif" or loc contains ".webp" or loc contains ".pdf" or loc contains ".ico" or loc contains ".txt" or loc contains ".json" or path contains "docs/" or loc contains "/docs/" or path contains "assets/" or loc contains "/assets/" -%}
 {%- else %}
   <url>
     <loc>{{ loc | absolute_url | xml_escape }}</loc>
