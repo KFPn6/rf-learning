@@ -1,0 +1,18 @@
+---
+# 公開ページのみ。404、この XML、運営用 docs/ は出さない。
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- assign pages = site.pages | sort: "url" -%}
+{%- for page in pages -%}
+{%- assign path = page.path | default: "" -%}
+{%- assign loc = page.url | default: "" -%}
+{%- if loc contains ".xml" or path contains ".xml" or loc == "/404.html" or path == "404.html" or path contains "docs/" or loc contains "/docs/" -%}
+{%- else %}
+  <url>
+    <loc>{{ loc | absolute_url | xml_escape }}</loc>
+  </url>
+{% endif -%}
+{%- endfor %}
+</urlset>
