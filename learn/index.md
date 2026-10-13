@@ -28,6 +28,11 @@ permalink: /learn/
     <p><a href="{{ '/learn/master/' | relative_url }}">深掘りへ</a></p>
   </article>
   <article class="card">
+    <h2>コネクタの種類</h2>
+    <p>SMA、N、BNC、TNC、7/16、2.92 mm など。結合、周波数の目安、用途と、確認できた嵌合トルクの例です。</p>
+    <p><a href="{{ '/learn/connector-types/' | relative_url }}">コネクタの種類へ</a></p>
+  </article>
+  <article class="card">
     <h2>学び方</h2>
     <p>電気・機械・接合・品質の重なり、段階ごとの本、資格は道具であること。法律上の必須免許がある、とは書いていません。</p>
     <p><a href="{{ '/learn/study/' | relative_url }}">本・学問・資格へ</a></p>
@@ -51,7 +56,7 @@ permalink: /learn/
   </article>
   <article class="card">
     <h2>学習マンガ</h2>
-    <p>このサイトの自作の会話です。第1話から第6話まで、一話につき一つのテーマです。</p>
-    <p><a href="{{ '/manga/' | relative_url }}">マンガの一覧へ</a></p>
+    <p>このサイトの自作の会話です。第1話から第7話まで、一話につき一つのテーマです。第7話は偉人シリーズの第1話です。</p>
+    <p><a href="{{ '/manga/' | relative_url }}">マンガの一覧へ</a> · <a href="{{ '/manga/07-espenschied-affel/' | relative_url }}">第7話</a></p>
   </article>
 </div>

@@ -21,8 +21,9 @@ permalink: /manga/
 - [第4話 テレビは、なんで同軸なの？]({{ '/manga/04-tv-coax/' | relative_url }}) — 放送の波を電気のまま運ぶので、テレビは同軸、という話です。
 - [第5話 Type-Cの殻なら、充電できる？]({{ '/manga/05-typec-shell/' | relative_url }}) — 殻の形を似せても、充電の仕事にはならない、という話です。
 - [第6話 LANケーブルで、テレビは見られる？]({{ '/manga/06-lan-tv/' | relative_url }}) — アンテナの波と、ネット配信は別の経路、という話です。
+- [第7話 偉人シリーズ1 同軸を「広い道」にした二人]({{ '/manga/07-espenschied-affel/' | relative_url }}) — 同軸を、広帯域の実用システムとしてまとめた二人の話です。会話はフィクション演出で、史実は特許と当時の技術誌の範囲です。
 
-説明を先に読むなら、第1話は [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }})、第2話から第6話は [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。
+説明を先に読むなら、第1話は [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }})、第2話から第6話は [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。第7話の出典は、その話のページに置いています。コネクタの系列は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。
 
 ## ほかの学習マンガを読む
 
