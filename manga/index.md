@@ -22,8 +22,9 @@ permalink: /manga/
 - [第5話 Type-Cの殻なら、充電できる？]({{ '/manga/05-typec-shell/' | relative_url }}) — 殻の形を似せても、充電の仕事にはならない、という話です。
 - [第6話 LANケーブルで、テレビは見られる？]({{ '/manga/06-lan-tv/' | relative_url }}) — アンテナの波と、ネット配信は別の経路、という話です。
 - [第7話 偉人シリーズ1 同軸を「広い道」にした二人]({{ '/manga/07-espenschied-affel/' | relative_url }}) — 同軸を、広帯域の実用システムとしてまとめた二人の話です。会話はフィクション演出で、史実は特許と当時の技術誌の範囲です。
+- [第8話 偉人シリーズ2 N型の名前]({{ '/manga/08-paul-neill/' | relative_url }}) — N 型の名前と Paul Neill の話です。会話はフィクション演出で、開発が一人の仕事だったかは資料が分かれます。
 
-説明を先に読むなら、第1話は [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }})、第2話から第6話は [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。第7話の出典は、その話のページに置いています。コネクタの系列は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。
+説明を先に読むなら、第1話は [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }})、第2話から第6話は [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。第7話と第8話の出典は、それぞれの話のページに置いています。コネクタの系列は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。
 
 ## ほかの学習マンガを読む
 

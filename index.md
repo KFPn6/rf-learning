@@ -59,7 +59,7 @@ description: 高周波コネクタと同軸ケーブルアッセンブリを、�
   <ul class="page-list">
     <li><a href="{{ '/industry/' | relative_url }}">業界を知る</a> — 用途、バリューチェーン、多品種・小ロット</li>
     <li><a href="{{ '/learn/' | relative_url }}">学び</a> — 入門、現場の見方、深掘り、<a href="{{ '/learn/connector-types/' | relative_url }}">コネクタの種類</a>、<a href="{{ '/learn/cable-types/' | relative_url }}">ケーブルの種類</a>、<a href="{{ '/learn/quick-reference/' | relative_url }}">数値早見</a>、<a href="{{ '/learn/study/' | relative_url }}">学び方</a>、<a href="{{ '/learn/compare/coax-vs-usbc/' | relative_url }}">同軸と USB-C</a>、<a href="{{ '/learn/compare/coax-vs-fiber/' | relative_url }}">同軸と光ファイバー</a></li>
-    <li><a href="{{ '/manga/' | relative_url }}">学習マンガ</a> — 自作の会話。第1話から第7話まで、一話につき一つのテーマ。<a href="{{ '/manga/07-espenschied-affel/' | relative_url }}">第7話</a></li>
+    <li><a href="{{ '/manga/' | relative_url }}">学習マンガ</a> — 自作の会話。第1話から第8話まで、一話につき一つのテーマ。<a href="{{ '/manga/07-espenschied-affel/' | relative_url }}">第7話</a> · <a href="{{ '/manga/08-paul-neill/' | relative_url }}">第8話</a></li>
     <li><a href="{{ '/glossary/' | relative_url }}">用語集</a> — 主な語</li>
     <li><a href="{{ '/spectrum/' | relative_url }}">規格・周波数</a> — 帯域と呼称の対応</li>
     <li><a href="{{ '/work/' | relative_url }}">現場の仕事</a> — 役割をタグでたどる</li>
