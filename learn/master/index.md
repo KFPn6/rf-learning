@@ -39,7 +39,7 @@ permalink: /learn/master/
 
 </div>
 
-帯域名の K と、コネクタの K（2.92 mm）は別の言葉です。[規格・周波数]({{ '/spectrum/' | relative_url }}) に、その混同を書きました。結合、用途、確認できた嵌合トルクの例は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。
+帯域名の K と、コネクタの K（2.92 mm）は別の言葉です。[規格・周波数]({{ '/spectrum/' | relative_url }}) に、その混同を書きました。名前の経緯は [第11話]({{ '/manga/11-oldfield-k/' | relative_url }}) です。会話はフィクション演出で、発明者とは断定しません。結合、用途、確認できた嵌合トルクの例は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。
 
 ## 嵌合できることと、してよいことは違う
 

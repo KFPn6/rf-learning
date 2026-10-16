@@ -66,7 +66,7 @@ permalink: /learn/
   </article>
   <article class="card">
     <h2>学習マンガ</h2>
-    <p>このサイトの自作の会話です。第1話から第10話まで、一話につき一つのテーマです。第7話から第10話は偉人シリーズです。</p>
-    <p><a href="{{ '/manga/' | relative_url }}">マンガの一覧へ</a> · <a href="{{ '/manga/07-espenschied-affel/' | relative_url }}">第7話</a> · <a href="{{ '/manga/08-paul-neill/' | relative_url }}">第8話</a> · <a href="{{ '/manga/09-heaviside/' | relative_url }}">第9話</a> · <a href="{{ '/manga/10-bnc-name/' | relative_url }}">第10話</a></p>
+    <p>このサイトの自作の会話です。第1話から第11話まで、一話につき一つのテーマです。第7話から第11話は偉人シリーズです。</p>
+    <p><a href="{{ '/manga/' | relative_url }}">マンガの一覧へ</a> · <a href="{{ '/manga/07-espenschied-affel/' | relative_url }}">第7話</a> · <a href="{{ '/manga/08-paul-neill/' | relative_url }}">第8話</a> · <a href="{{ '/manga/09-heaviside/' | relative_url }}">第9話</a> · <a href="{{ '/manga/10-bnc-name/' | relative_url }}">第10話</a> · <a href="{{ '/manga/11-oldfield-k/' | relative_url }}">第11話</a></p>
   </article>
 </div>

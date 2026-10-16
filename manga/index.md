@@ -25,8 +25,9 @@ permalink: /manga/
 - [第8話 偉人シリーズ2 N型の名前]({{ '/manga/08-paul-neill/' | relative_url }}) — N 型の名前と Paul Neill の話です。会話はフィクション演出で、開発が一人の仕事だったかは資料が分かれます。
 - [第9話 偉人シリーズ3 ヘヴィサイドと同軸線路]({{ '/manga/09-heaviside/' | relative_url }}) — 英国特許第1407号（1880年）の同心の配置と、電信方程式・表皮効果の話です。会話はフィクション演出で、同軸ケーブルの発明者とは断定しません。
 - [第10話 偉人シリーズ4 BNCの名前]({{ '/manga/10-bnc-name/' | relative_url }}) — BNC の名前の展開を、メーカー資料と裁判の書面の範囲で扱う話です。会話はフィクション演出で、発明者とは断定しません。
+- [第11話 偉人シリーズ5 ビル・オールドフィールドとKコネクタ]({{ '/manga/11-oldfield-k/' | relative_url }}) — 2.92 mm（K）を、MPC3 からの最適化・再発表・標準化の範囲で扱う話です。会話はフィクション演出で、発明者とは断定しません。
 
-説明を先に読むなら、第1話は [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }})、第2話から第6話は [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。第7話から第10話の出典は、それぞれの話のページに置いています。コネクタの系列は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。
+説明を先に読むなら、第1話は [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }})、第2話から第6話は [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。第7話から第11話の出典は、それぞれの話のページに置いています。コネクタの系列は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。
 
 ## ほかの学習マンガを読む
 
