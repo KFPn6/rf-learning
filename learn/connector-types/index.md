@@ -45,6 +45,8 @@ permalink: /learn/connector-types/
 
 IEC 61169-15:2021 は、SMA が 3.5 mm および 2.92 mm と機械的に嵌合しうると書いています。精密側の界面を守る話は [深掘り]({{ '/learn/master/' | relative_url }}) です。
 
+名前の移り変わりは [第13話]({{ '/manga/13-sma-origin/' | relative_url }}) です。会話はフィクション演出で、BRM、OSM、SMA の展開と年は資料で一つに揃わず、発明者とは断定しません。
+
 ## N
 
 ねじ結合です。広く使うのは 50 Ω です。Amphenol RF は、標準を DC–11 GHz、拡張を DC–18 GHz としています。IEC 61169-16 は、汎用（grade 2）をおよそ 12 GHz まで、反射の目安を 11 GHz までとしています。高精度（grade 1）の一部と、標準試験（grade 0）は、18 GHz までの使用を見込んでいます。用途の例は、無線インフラ、アンテナ、屋外、計測です。
