@@ -28,8 +28,9 @@ permalink: /manga/
 - [第11話 偉人シリーズ5 ビル・オールドフィールドとKコネクタ]({{ '/manga/11-oldfield-k/' | relative_url }}) — 2.92 mm（K）を、MPC3 からの最適化・再発表・標準化の範囲で扱う話です。会話はフィクション演出で、発明者とは断定しません。
 - [第12話 偉人シリーズ6 フィリップ・スミスとスミスチャート]({{ '/manga/12-smith-chart/' | relative_url }}) — 同軸を含む伝送線路の反射を円の上で見る図表の話です。会話はフィクション演出で、発明者とは断定しません。
 - [第13話 偉人シリーズ7 SMAの名前]({{ '/manga/13-sma-origin/' | relative_url }}) — BRM、OSM、SMA という呼び名の移り変わりです。会話はフィクション演出で、展開と役割は資料で一つに揃わず、発明者とは断定しません。
+- [第14話 偉人シリーズ8 ラリー・レニハンと3.5 mm]({{ '/manga/14-renihan-35mm/' | relative_url }}) — SMA と機械的に嵌合しうる 3.5 mm を、空気誘電体の計測向けとして扱う流れです。会話はフィクション演出で、発明者とは断定しません。
 
-説明を先に読むなら、第1話は [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }})、第2話から第6話は [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。第7話から第13話の出典は、それぞれの話のページに置いています。コネクタの系列は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。
+説明を先に読むなら、第1話は [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }})、第2話から第6話は [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。第7話から第14話の出典は、それぞれの話のページに置いています。コネクタの系列は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。
 
 ## ほかの学習マンガを読む
 
