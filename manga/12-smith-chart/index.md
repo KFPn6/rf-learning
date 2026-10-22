@@ -9,6 +9,8 @@ permalink: /manga/12-smith-chart/
 
 偉人シリーズの第6話です。ミナとケンの会話は**フィクション演出**です。人物の台詞や場面は創作していません。史実は、IEEE の解説と論文、Electronics 誌の書誌、電気通信学会雑誌の書誌に書かれている範囲だけを扱います。主題は、同軸を含む伝送線路の反射を、円の上の点として見る図表です。
 
+年代順の一覧は [偉人シリーズの年表]({{ '/manga/great-people/' | relative_url }}) です。
+
 <div class="talk">
   <div class="say say-mina">
     <p class="name">ミナ</p>
@@ -129,7 +131,7 @@ permalink: /manga/12-smith-chart/
   <p>円の読み方は、Microwaves101 の Smith Chart Basics の範囲です。複素の反射係数、正規化、左の短絡（−1）、右の開放（+1）、実軸の上が誘導で下が容量、一様な線路では半径が変わらないこと、電源側へは時計回り、半波長で一周、特性インピーダンスが変わる境目では正規化の基準も変わること、を採っています。VSWR と絶対値の対応は、このサイトの <a href="{{ '/learn/master/' | relative_url }}">深掘り</a> と <a href="{{ '/learn/quick-reference/' | relative_url }}">数値早見</a> が、Keysight の関係式から置いている式です。記号 Γ を、複素の側に使うか絶対値の側に使うかは、ページごとに違います。取り違えないでください。同軸の断面と、コネクタが界面であることは <a href="{{ '/learn/beginner/' | relative_url }}">入門</a>、言葉は <a href="{{ '/glossary/' | relative_url }}#vswr">用語集の VSWR</a> です。スタブの長さを決める手順は、この話では書きません。</p>
   <p>同軸の直径比は、図表とは別の特許です。米国特許 2,298,428（Phillip H. Smith、ベル電話研究所へ譲渡。1939年8月19日出願、1942年10月13日登録）は、外導体の内径と内導体の外径の比がおよそ 1.65 のとき、所定の電力に対して電力容量の側が有利になる、と書きます。本文は、その比 1.648 が特性インピーダンス 30.0 Ω に対応する、とも書きます。別の条件（所定の電圧）では、比を e = 2.718 とし、60.0 Ω に対応する、とも書きます。請求項は四つあり、Inan が「請求項は 1.65 という一つの数だけ」と書く整理とは合いません。このページは特許の文を採ります。50 Ω を定めた特許ではありません。同心の線路自体は、本文がエスペンシードらの米国特許 1,835,031 を引いています。その話は <a href="{{ '/manga/07-espenschied-affel/' | relative_url }}">第7話</a> です。30 Ω や 60 Ω は、特許が置く条件付きの数字であり、製品の保証ではありません。</p>
   <p>退職後の会社は、資料で順番が揃いません。Inan は、42年勤めたあと1970年に退職し、ニュージャージー州ニュープロビデンスの Analog Instruments Company を起こし、初めに図表と関連品を売り、のちに軽飛行機の航法計器を足した、と書きます。ETHW は、1970年代に Analog Instruments を起こし、軽飛行機の航法計器を扱い、のちに図表を供給した、と書きます。どちらを先とは決めません。部数も、ETHW が1975年までに約900万部、Inan が死去の時点で900万部を超えると報じられた、と分かれます。一つにはしません。死去は、Inan が1987年8月29日、ニュージャージー州バークリーハイツ、82歳、と書きます。1969年の著書 Electronic Applications of the Smith Chart in Waveguide, Circuit, and Component Analysis（McGraw-Hill）は書誌だけで、本文は未見です。米国特許21件、論文は35編を超える、という数は Inan の数で、ここでの再集計ではありません。IEEE History Center の口述は1973年1月19日、聞き手は Frank A. Polkinghorn です。紹介文は、高校時代にアマチュア無線の局 1ANB を組んだ、と書きます。原稿の引用には同センターの許可が要るので、口述の文はこのページへ写しません。Microwaves101 は、2015年4月に図表の著作権が IEEE MTT Society へ渡った、と書きます。このページの図は、その図表の複製ではありません。</p>
-  <p>反射と VSWR の式は <a href="{{ '/learn/master/' | relative_url }}">深掘り</a>、読み替えの表は <a href="{{ '/learn/quick-reference/' | relative_url }}">数値早見</a>、前の話は <a href="{{ '/manga/11-oldfield-k/' | relative_url }}">第11話</a>、次の話は <a href="{{ '/manga/13-sma-origin/' | relative_url }}">第13話</a>、一覧は <a href="{{ '/manga/' | relative_url }}">学習マンガ</a> です。</p>
+  <p>反射と VSWR の式は <a href="{{ '/learn/master/' | relative_url }}">深掘り</a>、読み替えの表は <a href="{{ '/learn/quick-reference/' | relative_url }}">数値早見</a>、前の話は <a href="{{ '/manga/11-oldfield-k/' | relative_url }}">第11話</a>、次の話は <a href="{{ '/manga/13-sma-origin/' | relative_url }}">第13話</a>、一覧は <a href="{{ '/manga/' | relative_url }}">学習マンガ</a>、年代順は <a href="{{ '/manga/great-people/' | relative_url }}">偉人シリーズの年表</a> です。</p>
 </aside>
 
 ## 出典

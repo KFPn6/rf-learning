@@ -13,7 +13,7 @@ permalink: /manga/
 
 ## このサイトの話
 
-一話につき、一つのテーマです。どの話から読んでもかまいません。
+一話につき、一つのテーマです。どの話から読んでもかまいません。偉人シリーズ（第7話から第15話。シリーズの中では第1話から第9話）を年代順に見るなら、[偉人シリーズの年表]({{ '/manga/great-people/' | relative_url }}) です。
 
 - [第1話 USB-Cがあれば同軸はいらない？]({{ '/manga/01-usb-c/' | relative_url }}) — 両方ともケーブルなのに、仕事が違う、という話です。
 - [第2話 光の方が新しいから、同軸はいらない？]({{ '/manga/02-coax-fiber/' | relative_url }}) — 電気の波と光は、運ぶものが違う、という話です。
@@ -31,7 +31,7 @@ permalink: /manga/
 - [第14話 偉人シリーズ8 ラリー・レニハンと3.5 mm]({{ '/manga/14-renihan-35mm/' | relative_url }}) — SMA と機械的に嵌合しうる 3.5 mm を、空気誘電体の計測向けとして扱う流れです。会話はフィクション演出で、発明者とは断定しません。
 - [第15話 偉人シリーズ9 ジュリアス・ボトカと2.4 mm]({{ '/manga/15-botka-24mm/' | relative_url }}) — 約 50 GHz 帯の 2.4 mm を、1980年代の開発と1986年の論文の範囲で扱う話です。会話はフィクション演出で、発明者とは断定しません。
 
-説明を先に読むなら、第1話は [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }})、第2話から第6話は [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。第7話から第15話の出典は、それぞれの話のページに置いています。コネクタの系列は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。
+説明を先に読むなら、第1話は [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }})、第2話から第6話は [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。第7話から第15話の出典は、それぞれの話のページに置いています。年代順は [偉人シリーズの年表]({{ '/manga/great-people/' | relative_url }}) です。コネクタの系列は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。
 
 ## ほかの学習マンガを読む
 

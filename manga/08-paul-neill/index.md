@@ -9,6 +9,8 @@ permalink: /manga/08-paul-neill/
 
 偉人シリーズの第2話です。ミナとケンの会話は**フィクション演出**です。人物の台詞や場面は創作していません。史実は、メーカーのカタログ、IEEE の記事、ベル研究所の技術誌に書かれている範囲だけを扱います。
 
+年代順の一覧は [偉人シリーズの年表]({{ '/manga/great-people/' | relative_url }}) です。
+
 <div class="talk">
   <div class="say say-mina">
     <p class="name">ミナ</p>
@@ -70,7 +72,7 @@ permalink: /manga/08-paul-neill/
 
 <aside class="adult-box">
   <h2>大人の深掘り</h2>
-  <p>名前が Paul Neill に因む、という点は、Amphenol のカタログと、IEEE が Bryant 論文を紹介した記述で共通です。開発を一人の仕事と言えるかは、カタログが断定せず、IEEE 側は委員会としています。1927年の技術誌は、彼がベル研究所の装置開発部門にいた資料であり、N 型の図面ではありません。BNC の名前は <a href="{{ '/manga/10-bnc-name/' | relative_url }}">第10話</a> です。展開は資料で一つに揃いません。周波数やトルクは <a href="{{ '/learn/connector-types/' | relative_url }}">コネクタの種類</a>、前の話は <a href="{{ '/manga/07-espenschied-affel/' | relative_url }}">第7話</a>、次の話は <a href="{{ '/manga/09-heaviside/' | relative_url }}">第9話</a>、一覧は <a href="{{ '/manga/' | relative_url }}">学習マンガ</a> です。</p>
+  <p>名前が Paul Neill に因む、という点は、Amphenol のカタログと、IEEE が Bryant 論文を紹介した記述で共通です。開発を一人の仕事と言えるかは、カタログが断定せず、IEEE 側は委員会としています。1927年の技術誌は、彼がベル研究所の装置開発部門にいた資料であり、N 型の図面ではありません。BNC の名前は <a href="{{ '/manga/10-bnc-name/' | relative_url }}">第10話</a> です。展開は資料で一つに揃いません。周波数やトルクは <a href="{{ '/learn/connector-types/' | relative_url }}">コネクタの種類</a>、前の話は <a href="{{ '/manga/07-espenschied-affel/' | relative_url }}">第7話</a>、次の話は <a href="{{ '/manga/09-heaviside/' | relative_url }}">第9話</a>、一覧は <a href="{{ '/manga/' | relative_url }}">学習マンガ</a>、年代順は <a href="{{ '/manga/great-people/' | relative_url }}">偉人シリーズの年表</a> です。</p>
 </aside>
 
 ## 出典

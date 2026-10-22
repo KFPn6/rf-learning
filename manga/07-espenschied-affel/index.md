@@ -9,6 +9,8 @@ permalink: /manga/07-espenschied-affel/
 
 偉人シリーズの第1話です。ミナとケンの会話は**フィクション演出**です。人物の台詞や場面は創作しておらず、史実は特許と当時の技術誌に書かれている範囲だけを扱います。
 
+年代順の一覧は [偉人シリーズの年表]({{ '/manga/great-people/' | relative_url }}) です。
+
 <div class="talk">
   <div class="say say-mina">
     <p class="name">ミナ</p>
@@ -54,7 +56,7 @@ permalink: /manga/07-espenschied-affel/
 
 <aside class="adult-box">
   <h2>大人の深掘り</h2>
-  <p>同軸の形には先行例があり、1880年にはヘヴィサイドが同心構造の英国特許を出しています。特許の中身と、発明者と呼ばない理由は <a href="{{ '/manga/09-heaviside/' | relative_url }}">第9話</a> です。エスペンシードとアッフェルの特許の要点は、空気を主とする絶縁とスペーサーにより、多重電話やテレビ向けの広い帯域を扱うシステムとしてまとめた点です。名前の話は <a href="{{ '/manga/03-same-axis/' | relative_url }}">第3話</a>、話の一覧は <a href="{{ '/manga/' | relative_url }}">学習マンガ</a> です。</p>
+  <p>同軸の形には先行例があり、1880年にはヘヴィサイドが同心構造の英国特許を出しています。特許の中身と、発明者と呼ばない理由は <a href="{{ '/manga/09-heaviside/' | relative_url }}">第9話</a> です。エスペンシードとアッフェルの特許の要点は、空気を主とする絶縁とスペーサーにより、多重電話やテレビ向けの広い帯域を扱うシステムとしてまとめた点です。名前の話は <a href="{{ '/manga/03-same-axis/' | relative_url }}">第3話</a>、話の一覧は <a href="{{ '/manga/' | relative_url }}">学習マンガ</a>、年代順は <a href="{{ '/manga/great-people/' | relative_url }}">偉人シリーズの年表</a> です。</p>
 </aside>
 
 ## 出典
