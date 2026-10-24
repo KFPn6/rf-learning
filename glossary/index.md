@@ -26,6 +26,9 @@ permalink: /glossary/
   <a class="tag" href="#dielectric">誘電体</a>
   <a class="tag" href="#shield">シールド</a>
   <a class="tag" href="#torque">嵌合トルク</a>
+  <a class="tag" href="#pin-depth">ピン深さ</a>
+  <a class="tag" href="#mating-cycles">嵌合寿命</a>
+  <a class="tag" href="#connector-saver">コネクタセーバー</a>
   <a class="tag" href="#differential">差動伝送</a>
   <a class="tag" href="#usb-c">USB Type-C</a>
 </nav>
@@ -124,7 +127,25 @@ permalink: /glossary/
 
 <p class="term-en">mating torque</p>
 
-コネクタを締める回転力です。手加減ではなく、トルクレンチで管理する系列があります。締め不足は接触の不安定や PIM、締めすぎは界面の変形につながります。確認できた例は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) と [数値早見]({{ '/learn/quick-reference/' | relative_url }}) にあります。この用語集には表を置きません。実際の値は各メーカーの仕様です。図面か、相手機器の指示を見ます。
+コネクタを締める回転力です。手加減ではなく、トルクレンチで管理する系列があります。締め不足は接触の不安定や PIM、締めすぎは界面の変形につながります。確認できた例は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) と [数値早見]({{ '/learn/quick-reference/' | relative_url }}) にあります。資料で値が違うときの読み分けは [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。この用語集には表を置きません。実際の値は各メーカーの仕様です。最終的には、図面とメーカー指定に従います。
+
+## ピン深さ {#pin-depth}
+
+<p class="term-en">pin depth</p>
+
+中心導体が、相手と当たる合わせ面に対して、どれだけ引っ込み、または突き出しているかです。突き出しは相手を傷つけ、引っ込みすぎは接触の隙間になります。ダイヤルゲージとマスタで見ます。ミリメートルの許容は系列と製品で違うので、この用語集には置きません。見方は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
+
+## 嵌合寿命 {#mating-cycles}
+
+<p class="term-en">mating cycles</p>
+
+コネクタを、差し込んで外すことを繰り返せる回数の目安です。資料が書くのは、耐久の下限や、特定のポートの例であることが多いです。傷んだあともその回数まで使える、という意味ではありません。確認できた例は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
+
+## コネクタセーバー {#connector-saver}
+
+<p class="term-en">connector saver</p>
+
+計測器のテストポートを守るために、ポートとケーブルのあいだへ挟む短いアダプタです。ポートの代わりに摩耗する側であり、アッセンブリそのものではありません。傷んだセーバーは、次に差すコネクタを傷めます。位置づけは [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
 
 ## 差動伝送 {#differential}
 

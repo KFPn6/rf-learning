@@ -28,6 +28,11 @@ permalink: /learn/
     <p><a href="{{ '/learn/master/' | relative_url }}">深掘りへ</a></p>
   </article>
   <article class="card">
+    <h2>コネクタの取り扱い</h2>
+    <p>締付トルクの目安、トルクレンチの回し方、清掃と点検、ピン深さ、嵌合寿命、コネクタセーバーです。値は資料で異なり、最終的には図面とメーカー指定に従います。</p>
+    <p><a href="{{ '/learn/connector-care/' | relative_url }}">コネクタの取り扱いへ</a></p>
+  </article>
+  <article class="card">
     <h2>コネクタの種類</h2>
     <p>SMA、N、BNC、TNC、7/16、2.92 mm など。結合、周波数の目安、用途と、確認できた嵌合トルクの例です。</p>
     <p><a href="{{ '/learn/connector-types/' | relative_url }}">コネクタの種類へ</a></p>
