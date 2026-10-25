@@ -28,6 +28,11 @@ permalink: /learn/
     <p><a href="{{ '/learn/master/' | relative_url }}">深掘りへ</a></p>
   </article>
   <article class="card">
+    <h2>アッセンブリの構造と製作工程</h2>
+    <p>ケーブル、コネクタ、ブーツや熱収縮、ラベル。仕様、切断、端末、はんだ・圧着・クランプ、検査です。値は資料で異なり、最終的には図面とメーカー指定に従います。</p>
+    <p><a href="{{ '/learn/assembly-basics/' | relative_url }}">構造と製作工程へ</a></p>
+  </article>
+  <article class="card">
     <h2>コネクタの取り扱い</h2>
     <p>締付トルクの目安、トルクレンチの回し方、清掃と点検、ピン深さ、嵌合寿命、コネクタセーバーです。値は資料で異なり、最終的には図面とメーカー指定に従います。</p>
     <p><a href="{{ '/learn/connector-care/' | relative_url }}">コネクタの取り扱いへ</a></p>

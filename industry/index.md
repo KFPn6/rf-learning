@@ -126,5 +126,6 @@ permalink: /industry/
 
 - [入門]({{ '/learn/beginner/' | relative_url }}) — 断面、50 Ω、アッセンブリの見方
 - [現場の見方]({{ '/learn/field/' | relative_url }}) — 図面から試験までの視線
+- [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }}) — 構成、端末の方式、検査と仕様
 - [深掘り]({{ '/learn/master/' | relative_url }}) — 反射、位相、PIM、嵌合の注意
 - [現場の仕事]({{ '/work/' | relative_url }}) — 役割をタグでたどる

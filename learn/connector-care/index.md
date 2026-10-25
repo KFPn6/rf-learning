@@ -108,7 +108,7 @@ Anritsu は、PIM 測定器の 7/16 DIN メスの出力に、7/16 DIN のメス�
 
 ## この先
 
-図面から電気試験までの地図は [現場の見方]({{ '/learn/field/' | relative_url }}) です。差さることと、差してよいことの違いは [深掘り]({{ '/learn/master/' | relative_url }}) です。言葉の短さは [用語集]({{ '/glossary/' | relative_url }}) です。
+図面から電気試験までの地図は [現場の見方]({{ '/learn/field/' | relative_url }}) です。ケーブルとコネクタを組む構成と製作の流れは [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }}) です。差さることと、差してよいことの違いは [深掘り]({{ '/learn/master/' | relative_url }}) です。言葉の短さは [用語集]({{ '/glossary/' | relative_url }}) です。
 
 ## 出典
 

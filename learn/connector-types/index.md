@@ -13,7 +13,7 @@ permalink: /learn/connector-types/
 
 嵌合トルクを数字にした行は、公開資料でその幅を確認できたものだけです。実際の値は、各メーカーの仕様に従ってください。材質やグレードが違うと、同じ系列でも指定が変わります。
 
-コネクタの名前だけでは、中のケーブルも長さも決まりません。断面からの見方は [入門]({{ '/learn/beginner/' | relative_url }}) です。成績表の VSWR とリターンロスの読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。締め方、清掃、ピン深さ、嵌合寿命は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
+コネクタの名前だけでは、中のケーブルも長さも決まりません。断面からの見方は [入門]({{ '/learn/beginner/' | relative_url }}) です。ケーブルと組んだ一本の構成と、はんだ・圧着・クランプの違いは [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }}) です。成績表の VSWR とリターンロスの読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。締め方、清掃、ピン深さ、嵌合寿命は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
 
 ## 一覧
 

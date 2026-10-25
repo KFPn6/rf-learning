@@ -126,7 +126,7 @@ permalink: /learn/study/
 
 一次資料は、本の要約より先にあります。
 
-- IPC/WHMA-A-620 の同軸の章。クラス（1、2、3）は、図面が指定したものを使います。
+- IPC/WHMA-A-620 の同軸の章。クラス（1、2、3）は、図面が指定したものを使います。構成と工程の学習用の整理は [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }}) です。規格本文の代わりではありません。
 - IEC 61169 系。高周波コネクタの個別規格の集まりです。系列ごとに文書が分かれます。
 - 計測器メーカーの Connector Care。キーサイトの公開資料には、[点検、清掃、ゲージ、トルクレンチの考え方](https://helpfiles.keysight.com/csg/e5080a/tutorials/connector_care.htm) があります。そこに出るトルクの例は、その文書が対象とするコネクタの例です。ほかの系列へ転記しません。資料ごとの差を並べた学習用の整理は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
 
