@@ -54,6 +54,6 @@ permalink: /manga/04-tv-coax/
 
 <aside class="adult-box">
   <h2>大人の深掘り</h2>
-  <p>この会話は、受信の入口です。テレビが同軸である理由と、75 Ω と 50 Ω の違いは <a href="{{ '/learn/compare/coax-vs-fiber/' | relative_url }}#tv">同軸と光ファイバー</a> にあります。50 Ω の見方は <a href="{{ '/learn/beginner/' | relative_url }}">入門</a>、言葉は <a href="{{ '/glossary/' | relative_url }}#impedance">用語集の特性インピーダンス</a> です。話の一覧は <a href="{{ '/manga/' | relative_url }}">学習マンガ</a> です。</p>
+  <p>この会話は、受信の入口です。テレビが同軸である理由は <a href="{{ '/learn/compare/coax-vs-fiber/' | relative_url }}#tv">同軸と光ファイバー</a> にあります。50 Ω と 75 Ω の式と、混ぜたときの反射は <a href="{{ '/learn/impedance/' | relative_url }}">特性インピーダンス</a> です。断面の見方は <a href="{{ '/learn/beginner/' | relative_url }}">入門</a>、言葉は <a href="{{ '/glossary/' | relative_url }}#impedance">用語集の特性インピーダンス</a> です。話の一覧は <a href="{{ '/manga/' | relative_url }}">学習マンガ</a> です。</p>
   <p>どの製品も 75 Ω、という保証は、ここでは断定していません。系統と規格の文書を見てください。</p>
 </aside>

@@ -11,7 +11,7 @@ permalink: /learn/quick-reference/
 
 高周波コネクタと同軸ケーブルのアッセンブリを見るときに、名前の出やすい工具と、公開資料で幅を確認できた数字の早見です。作業手順の社内標準ではありません。嵌合トルクも二面幅も、材質とグレードと相手ポートで変わります。ここに無い系列は、空欄のままにしてあります。実際の値は、各メーカーの仕様が定めます。
 
-系列ごとの周波数と、トルクの出典の読み分けは [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。ケーブル側の損失は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。
+系列ごとの周波数と、トルクの出典の読み分けは [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。ケーブル側の損失は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }})、特性インピーダンスの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
 
 ## 工具
 

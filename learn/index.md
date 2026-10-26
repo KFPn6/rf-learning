@@ -48,6 +48,11 @@ permalink: /learn/
     <p><a href="{{ '/learn/cable-types/' | relative_url }}">ケーブルの種類へ</a></p>
   </article>
   <article class="card">
+    <h2>特性インピーダンス</h2>
+    <p>内導体の外径、外導体の内径、誘電体の比誘電率で決まること。50 Ω と 75 Ω の使い分けと、混ぜたときの反射です。値は学習用の概数で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/impedance/' | relative_url }}">特性インピーダンスへ</a></p>
+  </article>
+  <article class="card">
     <h2>ツールと数値の早見</h2>
     <p>トルクレンチ、ゲージ、VNA、ストリップ、かしめ。嵌合トルク、確認できた二面幅、VSWR とリターンロスの対応です。</p>
     <p><a href="{{ '/learn/quick-reference/' | relative_url }}">早見を開く</a></p>
