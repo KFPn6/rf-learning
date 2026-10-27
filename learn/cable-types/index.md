@@ -13,7 +13,7 @@ permalink: /learn/cable-types/
 
 RG の番号は、同じ呼びでも中心導体や外被が分かれることがあります。このページの RG-58、RG-316、RG-142、RG-402、RG-405 は、Times Microwave Systems が MIL-C-17（現在の仕様書の呼びは MIL-DTL-17）を整理した表の、M17/28、M17/113、M17/60、M17/130、M17/133 の行です。LMR-400 は、同社の低損失フレキシブルの製品系列であり、軍用の RG 番号ではありません。ハンドフォーマブルと位相安定は、一つの呼びに固定せず、データシートのある一例で中身を見ます。
 
-コネクタの系列は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、断面の見方は [入門]({{ '/learn/beginner/' | relative_url }}) です。特性インピーダンスが径と比誘電率でどう決まるか、50 Ω と 75 Ω の読み分けは [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。ケーブルをコネクタ、ブーツ、ラベルと組んだときの構成、長さ、曲げは [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }}) です。減衰が長さと周波数で増える考え方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。
+コネクタの系列は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、断面の見方は [入門]({{ '/learn/beginner/' | relative_url }}) です。特性インピーダンスが径と比誘電率でどう決まるか、50 Ω と 75 Ω の読み分けは [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。ケーブルをコネクタ、ブーツ、ラベルと組んだときの構成、長さ、曲げは [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }}) です。減衰の単位と、長さ・周波数の計算は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }}) です。反射との切り分けは [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。
 
 ## 一覧
 
@@ -96,7 +96,7 @@ Times Microwave Systems の、Flexible Low Loss Communications Coax です。デ
 
 HUBER+SUHNER の SUCOFLEX 526V の資料は、従来の VNA 用ケーブルでは PTFE の phase knee が +19 °C 付近に出る、と書いています。位相が温度で段をつけるのは、充実 PTFE の性質として知られている、という説明です。位相安定をうたうケーブルの誘電体を、このページでは一つの材料名に固定しません。
 
-低損失の給電線と、位相が落ちにくい試験ケーブルは、外径も誘電体も、図面の要求も違います。呼びを混ぜて代用しません。
+低損失の給電線と、位相が落ちにくい試験ケーブルは、外径も誘電体も、図面の要求も違います。呼びを混ぜて代用しません。損失の dB を長さと周波数で読む手順は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }}) です。
 
 ## 出典
 

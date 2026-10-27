@@ -180,7 +180,7 @@ LMR-400 のデータシートは、設置時の曲げ半径を 1.00 インチ（
 
 ## この先
 
-系列と周波数は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、ケーブルの呼びと損失の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }})、特性インピーダンスの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。反射と挿入損失の式は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }})、締め方と清掃は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }})、工具の早見は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。
+系列と周波数は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、ケーブルの呼びと損失の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }})、特性インピーダンスの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。反射の式は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }})、減衰の dB を長さと周波数で読む手順は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }}) です。締め方と清掃は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }})、工具の早見は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。
 
 ## 出典
 

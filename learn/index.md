@@ -48,6 +48,11 @@ permalink: /learn/
     <p><a href="{{ '/learn/cable-types/' | relative_url }}">ケーブルの種類へ</a></p>
   </article>
   <article class="card">
+    <h2>同軸ケーブルの損失</h2>
+    <p>減衰量と挿入損失、dB/m と dB/100 m の読み方、長さと周波数の計算例です。表皮効果と誘電損失、コネクタ損失の足し方にも触れます。値は学習用の例で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/cable-loss/' | relative_url }}">同軸ケーブルの損失へ</a></p>
+  </article>
+  <article class="card">
     <h2>特性インピーダンス</h2>
     <p>内導体の外径、外導体の内径、誘電体の比誘電率で決まること。50 Ω と 75 Ω の使い分けと、混ぜたときの反射です。値は学習用の概数で、製品の保証値ではありません。</p>
     <p><a href="{{ '/learn/impedance/' | relative_url }}">特性インピーダンスへ</a></p>
