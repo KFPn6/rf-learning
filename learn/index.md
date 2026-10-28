@@ -53,6 +53,11 @@ permalink: /learn/
     <p><a href="{{ '/learn/cable-loss/' | relative_url }}">同軸ケーブルの損失へ</a></p>
   </article>
   <article class="card">
+    <h2>同軸ケーブルの位相安定性</h2>
+    <p>位相と電気長、温度による PTFE の相転移、曲げと振動、位相を揃える組です。ppm と度の読み方にも触れます。値は学習用の例で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/phase-stability/' | relative_url }}">同軸ケーブルの位相安定性へ</a></p>
+  </article>
+  <article class="card">
     <h2>特性インピーダンス</h2>
     <p>内導体の外径、外導体の内径、誘電体の比誘電率で決まること。50 Ω と 75 Ω の使い分けと、混ぜたときの反射です。値は学習用の概数で、製品の保証値ではありません。</p>
     <p><a href="{{ '/learn/impedance/' | relative_url }}">特性インピーダンスへ</a></p>

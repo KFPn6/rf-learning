@@ -96,7 +96,7 @@ Times Microwave Systems の、Flexible Low Loss Communications Coax です。デ
 
 HUBER+SUHNER の SUCOFLEX 526V の資料は、従来の VNA 用ケーブルでは PTFE の phase knee が +19 °C 付近に出る、と書いています。位相が温度で段をつけるのは、充実 PTFE の性質として知られている、という説明です。位相安定をうたうケーブルの誘電体を、このページでは一つの材料名に固定しません。
 
-低損失の給電線と、位相が落ちにくい試験ケーブルは、外径も誘電体も、図面の要求も違います。呼びを混ぜて代用しません。損失の dB を長さと周波数で読む手順は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }}) です。
+低損失の給電線と、位相が落ちにくい試験ケーブルは、外径も誘電体も、図面の要求も違います。呼びを混ぜて代用しません。損失の dB を長さと周波数で読む手順は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }}) です。温度の段、曲げの度、ppm の読み方は [同軸ケーブルの位相安定性]({{ '/learn/phase-stability/' | relative_url }}) です。
 
 ## 出典
 
