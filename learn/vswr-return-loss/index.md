@@ -11,7 +11,7 @@ permalink: /learn/vswr-return-loss/
 
 同軸ケーブルアッセンブリの成績表で、先に名前が出る指標を、一ページにまとめます。反射の側が、反射係数、VSWR、リターンロスです。先へ届く信号がどれだけ減るかが、挿入損失です。公開資料の式から組み立てた学習用の読み方であり、個別製品の保証値ではありません。
 
-短い定義は [用語集]({{ '/glossary/' | relative_url }}) です。特性インピーダンスそのものの式と、50 Ω と 75 Ω を直接つないだときの 0.2 は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。数字の行だけを引くなら [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。呼びごとの減衰の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。dB/m の読み方と、長さ・周波数の計算例は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }}) です。大きさと位相を円の上で見る入口は [第12話]({{ '/manga/12-smith-chart/' | relative_url }}) です。会話はフィクション演出です。
+短い定義は [用語集]({{ '/glossary/' | relative_url }}) です。特性インピーダンスそのものの式と、50 Ω と 75 Ω を直接つないだときの 0.2 は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。数字の行だけを引くなら [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。呼びごとの減衰の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。dB/m の読み方と、長さ・周波数の計算例は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }}) です。高い周波数で別のモードが立つと、反射の読みも乱れます。その上限の入口は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。大きさと位相を円の上で見る入口は [第12話]({{ '/manga/12-smith-chart/' | relative_url }}) です。会話はフィクション演出です。
 
 ## 反射係数
 

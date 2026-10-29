@@ -13,7 +13,7 @@ permalink: /learn/connector-types/
 
 嵌合トルクを数字にした行は、公開資料でその幅を確認できたものだけです。実際の値は、各メーカーの仕様に従ってください。材質やグレードが違うと、同じ系列でも指定が変わります。
 
-コネクタの名前だけでは、中のケーブルも長さも決まりません。断面からの見方は [入門]({{ '/learn/beginner/' | relative_url }}) です。ケーブルと組んだ一本の構成と、はんだ・圧着・クランプの違いは [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }}) です。成績表の VSWR とリターンロスの読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。締め方、清掃、ピン深さ、嵌合寿命は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
+コネクタの名前だけでは、中のケーブルも長さも決まりません。使用周波数の上限が寸法と誘電体から来る読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。断面からの見方は [入門]({{ '/learn/beginner/' | relative_url }}) です。ケーブルと組んだ一本の構成と、はんだ・圧着・クランプの違いは [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }}) です。成績表の VSWR とリターンロスの読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。締め方、清掃、ピン深さ、嵌合寿命は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
 
 ## 一覧
 
@@ -99,7 +99,7 @@ Rosenberger の RPC-2.40 は、IEC 60169-40、DC–50 GHz、ねじ結合です�
 
 ## 嵌合できることと、してよいことは違う
 
-SMA、3.5 mm、2.92 mm は、機械的には互いに差さることがあります。2.4 mm と 1.85 mm は、別の組み合わせです。差さることを、その周波数まで保証された、とは読みません。反射と、傷めやすい組み合わせは [深掘り]({{ '/learn/master/' | relative_url }}) に整理してあります。
+SMA、3.5 mm、2.92 mm は、機械的には互いに差さることがあります。2.4 mm と 1.85 mm は、別の組み合わせです。差さることを、その周波数まで保証された、とは読みません。カットオフと、資料によって分かれる上限の数字は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。反射と、傷めやすい組み合わせは [深掘り]({{ '/learn/master/' | relative_url }}) に整理してあります。
 
 50 Ω と 75 Ω も、プラグの形が近くても別の指定です。径と比誘電率、混ぜたときの反射は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。テレビの同軸を会話にしたのは [第4話]({{ '/manga/04-tv-coax/' | relative_url }}) です。
 

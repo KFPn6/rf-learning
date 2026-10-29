@@ -43,6 +43,11 @@ permalink: /learn/
     <p><a href="{{ '/learn/connector-types/' | relative_url }}">コネクタの種類へ</a></p>
   </article>
   <article class="card">
+    <h2>使用周波数の上限</h2>
+    <p>TEM と TE11 のカットオフ、主要コネクタの上限の早見、ケーブルとアダプタと嵌合で定格まで使えないことがある点です。値は学習用の例で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/frequency-limit/' | relative_url }}">使用周波数の上限へ</a></p>
+  </article>
+  <article class="card">
     <h2>ケーブルの種類</h2>
     <p>RG-58、RG-316、RG-142、セミリジッド、LMR-400、ハンドフォーマブル、位相安定。インピーダンスと損失は学習用の概数です。</p>
     <p><a href="{{ '/learn/cable-types/' | relative_url }}">ケーブルの種類へ</a></p>
