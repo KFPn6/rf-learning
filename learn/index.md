@@ -33,6 +33,11 @@ permalink: /learn/
     <p><a href="{{ '/learn/assembly-basics/' | relative_url }}">構造と製作工程へ</a></p>
   </article>
   <article class="card">
+    <h2>アッセンブリの検査と測定</h2>
+    <p>外観と寸法、導通、絶縁抵抗と耐電圧、VSWR とリターンロス、挿入損失、必要なときの位相、TDR です。値は学習用の概略で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/assembly-testing/' | relative_url }}">検査と測定へ</a></p>
+  </article>
+  <article class="card">
     <h2>コネクタの取り扱い</h2>
     <p>締付トルクの目安、トルクレンチの回し方、清掃と点検、ピン深さ、嵌合寿命、コネクタセーバーです。値は資料で異なり、最終的には図面とメーカー指定に従います。</p>
     <p><a href="{{ '/learn/connector-care/' | relative_url }}">コネクタの取り扱いへ</a></p>

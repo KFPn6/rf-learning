@@ -11,7 +11,7 @@ permalink: /learn/cable-loss/
 
 同軸ケーブルの減衰量が、周波数、長さ、太さ、誘電体、導体でどう変わるかを、一ページにまとめます。dB/m と dB/100 m の読み方、dB の足し算、長さと周波数を変えた計算例、高い周波数で損失が増える理由の入口です。公開資料の式と、データシートの行から組み立てた学習用の読み方であり、個別の製品が保証する値ではありません。条件と、使う周波数の行は、各メーカーのデータシートが定めます。
 
-短い定義は [用語集]({{ '/glossary/' | relative_url }}#insertion-loss) です。反射係数、VSWR、リターンロスとの切り分けは [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。呼びごとの減衰の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。特性インピーダンスが径と比誘電率で決まることは [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。組み上がった一本の検査の置き場所は [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }}) です。計測器の入口は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。
+短い定義は [用語集]({{ '/glossary/' | relative_url }}#insertion-loss) です。反射係数、VSWR、リターンロスとの切り分けは [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。呼びごとの減衰の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。特性インピーダンスが径と比誘電率で決まることは [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。組み上がった一本の検査の置き場所は [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }})、挿入損失をどう測るかの概略は [検査と測定]({{ '/learn/assembly-testing/' | relative_url }}) です。計測器の入口は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。
 
 ## 減衰量と挿入損失
 

@@ -105,7 +105,7 @@ Amphenol RF の組立資料の分けは、次です。クランプ型は、少�
 
 ## 検査
 
-導通があることと、高周波で使えることは別です。反射と挿入損失の読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。
+導通があることと、高周波で使えることは別です。反射と挿入損失の読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。各項目で何を確かめ、なぜ要り、どう測るかの概略は [検査と測定]({{ '/learn/assembly-testing/' | relative_url }}) です。
 
 <div class="table-scroll" markdown="1">
 
@@ -180,7 +180,7 @@ LMR-400 のデータシートは、設置時の曲げ半径を 1.00 インチ（
 
 ## この先
 
-系列と周波数は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、使用周波数の上限の読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }})、ケーブルの呼びと損失の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }})、特性インピーダンスの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。反射の式は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }})、減衰の dB を長さと周波数で読む手順は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }}) です。締め方と清掃は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }})、工具の早見は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。
+系列と周波数は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、使用周波数の上限の読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }})、ケーブルの呼びと損失の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }})、特性インピーダンスの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。反射の式は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }})、減衰の dB を長さと周波数で読む手順は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }}) です。検査の各項目の概略は [検査と測定]({{ '/learn/assembly-testing/' | relative_url }}) です。締め方と清掃は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }})、工具の早見は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。
 
 ## 出典
 
