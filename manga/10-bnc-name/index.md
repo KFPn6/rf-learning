@@ -1,11 +1,12 @@
 ---
 layout: default
-title: 第10話 偉人シリーズ4 BNCの名前
-description: 偉人シリーズ第4話。BNC の名前を、Amphenol の資料にある Bayonet Neill Concelman、1958年の裁判認定にある Baby Neil Constant、別の用語集に出る British Naval Connector の範囲で、ミナとケンの会話にします。発明者とは断定しません。
+title: "第10話　BNCコネクタの名前の由来"
+description: "偉人シリーズ第4話。BNCの名前を、Amphenolの資料にあるBayonet Neill Concelman、1958年の裁判認定にあるBaby Neil Constant、別の用語集に出るBritish Naval Connectorの範囲で、ミナとケンの会話にします。発明者とは断定しません。"
+lastmod: 2026-10-31
 permalink: /manga/10-bnc-name/
 ---
 
-# 第10話　偉人シリーズ4　BNCの名前
+# 第10話　BNCコネクタの名前の由来
 
 偉人シリーズの第4話です。ミナとケンの会話は**フィクション演出**です。人物の台詞や場面は創作していません。史実は、メーカーの用語集とカタログ、米国の裁判の書面、特許の書誌に書かれている範囲だけを扱います。
 

@@ -1,113 +1,67 @@
-# 学習ハブ（rf-learning）
+# 高周波コネクタ・同軸ケーブル学習ハブ
 
-高周波コネクタ＋同軸ケーブルアッセンブリについて、公開情報の範囲で学ぶ日本語の静的サイトです。多品種・小ロットのニッチを、コネクタ単体ではなくアッセンブリとして整理します。GitHub Pages と Jekyll で配信します。
+高周波コネクタと同軸ケーブルアッセンブリについて、公開情報の範囲で学ぶ日本語の静的サイトです。GitHub Pages と Jekyll で配信します。
 
-屋号は仮置きで、初期値は「学習ハブ」です。
+公開 URL: https://kfpn6.github.io/rf-learning/
 
-## 公開 URL
+運営手順は [docs/OPERATIONS.md](docs/OPERATIONS.md) にあります。
 
-https://kfpn6.github.io/rf-learning/
+## ページ一覧
 
-プロジェクトサイトなので、ページのパスの前に `/rf-learning` が付きます。設定の `baseurl` がこの接頭辞です。
+### トップ
 
-## GitHub Pages の有効化
+- [高周波(RF)コネクタと同軸ケーブルの基礎](https://kfpn6.github.io/rf-learning/)
 
-公開元はリポジトリ直下（`/`）です。`docs/` は運営メモ専用なので、Pages のフォルダに選ばないでください。選ぶとサイトの代わりにメモだけが公開されます。
+### 業界を知る
 
-### すでに有効な場合
+- [高周波コネクタと同軸ケーブルの用途（通信・車載レーダー・衛星・計測）](https://kfpn6.github.io/rf-learning/industry/)
 
-Settings → Pages で、Source が **Deploy from a branch**、Branch が `main`、フォルダが `/ (root)` になっていれば、追加の操作はありません。反映には数分かかることがあります。
+### 学び
 
-### 画面で有効にする場合
+- [高周波コネクタと同軸ケーブルの学習ガイド](https://kfpn6.github.io/rf-learning/learn/)
+- [同軸ケーブルとは（構造・50Ω・高周波コネクタの見方）](https://kfpn6.github.io/rf-learning/learn/beginner/)
+- [同軸ケーブルアッセンブリの現場検査（図面・トルク・外観・電気試験）](https://kfpn6.github.io/rf-learning/learn/field/)
+- [高周波の反射・位相整合・PIM（VSWRと挿入損失）](https://kfpn6.github.io/rf-learning/learn/master/)
+- [同軸ケーブルアッセンブリの作り方（構造・はんだ・圧着・クランプ）](https://kfpn6.github.io/rf-learning/learn/assembly-basics/)
+- [同軸ケーブルの測定方法（VSWR・挿入損失・導通・TDR）](https://kfpn6.github.io/rf-learning/learn/assembly-testing/)
+- [高周波コネクタの締め付けトルクと取り扱い（SMA・N型・ピン深さ）](https://kfpn6.github.io/rf-learning/learn/connector-care/)
+- [高周波(RF)同軸コネクタの種類と周波数一覧（SMA・N型・BNC・3.5mm・2.92mm）](https://kfpn6.github.io/rf-learning/learn/connector-types/)
+- [同軸コネクタの使用周波数の上限（カットオフ・SMA・3.5mm・2.92mm）](https://kfpn6.github.io/rf-learning/learn/frequency-limit/)
+- [同軸ケーブルの種類一覧（RG-58・RG-316・セミリジッド・LMR-400）](https://kfpn6.github.io/rf-learning/learn/cable-types/)
+- [同軸ケーブルの損失と減衰量の計算（dB/m・挿入損失）](https://kfpn6.github.io/rf-learning/learn/cable-loss/)
+- [同軸ケーブルの位相安定性と電気長（温度・曲げ・PTFE）](https://kfpn6.github.io/rf-learning/learn/phase-stability/)
+- [特性インピーダンスの計算式（50Ωと75Ω・同軸ケーブル）](https://kfpn6.github.io/rf-learning/learn/impedance/)
+- [高周波コネクタのトルク・VSWR・リターンロス早見表](https://kfpn6.github.io/rf-learning/learn/quick-reference/)
+- [VSWR・リターンロス・反射係数の変換表と計算式](https://kfpn6.github.io/rf-learning/learn/vswr-return-loss/)
+- [高周波・RF技術の学び方（本・学問・資格）](https://kfpn6.github.io/rf-learning/learn/study/)
+- [同軸ケーブルとUSB-Cの違い（高周波信号と充電・データ）](https://kfpn6.github.io/rf-learning/learn/compare/coax-vs-usbc/)
+- [同軸ケーブルと光ファイバーの違い（電気信号と光）](https://kfpn6.github.io/rf-learning/learn/compare/coax-vs-fiber/)
 
-次のクリックが必要です。
+### 学習マンガ
 
-1. GitHub でこのリポジトリを開く
-2. **Settings** → 左の **Pages**
-3. Build and deployment の Source を **Deploy from a branch** にする
-4. Branch を `main`、フォルダを **/ (root)** にして Save
-5. 表示された URL が `https://kfpn6.github.io/rf-learning/` であることを確認する
+- [同軸ケーブルと高周波コネクタの学習マンガ（全15話）](https://kfpn6.github.io/rf-learning/manga/)
+- [同軸ケーブルとRFコネクタの歴史年表（N型・BNC・SMA・スミスチャート）](https://kfpn6.github.io/rf-learning/manga/great-people/)
+- [第1話　同軸ケーブルとUSB-Cの違い（充電・データと高周波信号）](https://kfpn6.github.io/rf-learning/manga/01-usb-c/)
+- [第2話　同軸ケーブルと光ファイバーの違い（電気の波と光）](https://kfpn6.github.io/rf-learning/manga/02-coax-fiber/)
+- [第3話　同軸ケーブルとは（「同軸」は同じ軸の意味）](https://kfpn6.github.io/rf-learning/manga/03-same-axis/)
+- [第4話　テレビのアンテナ線が同軸ケーブルである理由](https://kfpn6.github.io/rf-learning/manga/04-tv-coax/)
+- [第5話　Type-Cの形をした同軸では充電できない理由](https://kfpn6.github.io/rf-learning/manga/05-typec-shell/)
+- [第6話　LANケーブルとテレビ用同軸ケーブルの違い](https://kfpn6.github.io/rf-learning/manga/06-lan-tv/)
+- [第7話　同軸ケーブルの歴史（エスペンシードとアッフェル）](https://kfpn6.github.io/rf-learning/manga/07-espenschied-affel/)
+- [第8話　N型コネクタの名前の由来（Paul Neill）](https://kfpn6.github.io/rf-learning/manga/08-paul-neill/)
+- [第9話　ヘヴィサイドと同軸線路（1880年の英国特許）](https://kfpn6.github.io/rf-learning/manga/09-heaviside/)
+- [第10話　BNCコネクタの名前の由来](https://kfpn6.github.io/rf-learning/manga/10-bnc-name/)
+- [第11話　Kコネクタ（2.92mm）とビル・オールドフィールド](https://kfpn6.github.io/rf-learning/manga/11-oldfield-k/)
+- [第12話　スミスチャートとは（フィリップ・スミスと反射係数）](https://kfpn6.github.io/rf-learning/manga/12-smith-chart/)
+- [第13話　SMAコネクタの名前の由来（BRM・OSM）](https://kfpn6.github.io/rf-learning/manga/13-sma-origin/)
+- [第14話　3.5mmコネクタとラリー・レニハン（SMAとの嵌合）](https://kfpn6.github.io/rf-learning/manga/14-renihan-35mm/)
+- [第15話　2.4mmコネクタとジュリアス・ボトカ（50GHz帯）](https://kfpn6.github.io/rf-learning/manga/15-botka-24mm/)
 
-ユーザーサイト（`https://kfpn6.github.io/` 直下）に変えるときは、`_config.yml` の `baseurl` を `""` にします。いまのリポジトリ名のままでは `"/rf-learning"` のままにしてください。
+### 用語・規格・仕事・資料
 
-## 文章の直し方
-
-1. 該当ページの `index.md` を編集する
-2. `main` ブランチへ commit して push する
-3. 数分後に公開 URL を再読み込みする
-
-| ページ | ファイル |
-| --- | --- |
-| トップ | `index.md` |
-| 業界を知る | `industry/index.md` |
-| 学び | `learn/index.md` と `learn/beginner/` `learn/field/` `learn/master/` `learn/connector-types/` `learn/study/` `learn/compare/coax-vs-usbc/` `learn/compare/coax-vs-fiber/` |
-| 学習マンガ | `manga/index.md` と `manga/01-usb-c/` から `manga/15-botka-24mm/`（自作の会話。一話につき一つのテーマ。他社マンガはリンクのみ）。偉人シリーズの年表は `manga/great-people/` |
-| 用語集 | `glossary/index.md` |
-| 規格・周波数 | `spectrum/index.md` |
-| 現場の仕事 | `work/index.md` |
-| 読む | `reading/index.md` |
-| About | `about/index.md` |
-| 問い合わせ | `contact/index.md`（公開ナビには出さない。ページ自体は残す） |
-
-用語を足すときは `glossary/index.md` に見出しを追加し、ページ上部のタグからもリンクします。
-
-### 本棚（読む）に本を足すとき
-
-公開ページの `reading/index.md` は、訪れる人向けの書誌です。運営向けの手順はここだけに置きます。
-
-1. 書名、著者、出版社、年を、既存の見出し（RFの基礎、計測、はんだ・接合、洋書・達人、無料の資料）のどれかに一行足す
-2. 品切れや古い版は、その行に注記する
-3. 公式や出版社のページがあるときだけ URL を付ける。在庫や価格は書かない
-4. `main` へ push する
-
-記入例です。`example.com` はダミーです。
-
-```markdown
-- 『書名』（著者／出版社・年） — 何が読めるかを一文で。[出版社のページ](https://example.com/book)
-```
-
-ナビゲーションのラベルと並びは `_config.yml` の `nav` です。見た目は `assets/css/style.css` です。
-
-## 屋号を変える
-
-`_config.yml` の `brand` を書き換えます。ヘッダー、フッター、ブラウザのタイトルに反映されます。`tagline` と `description` と `brand_note` も同じファイルです。本文の地の文は自動では置き換わらないので、必要なら `about/index.md` を読み返します。
-
-## 問い合わせフォーム
-
-いまは作りません。問い合わせページはプレースホルダのままです。Google フォームの設置は、英語版とモバイルの追加の磨き込みと同じで、月間 PV が 500 を超えてからです。`contact_form_embed_url` は空のままにします。手順は [docs/METRICS.md](docs/METRICS.md) にあります。
-
-## アクセス計測（公開後）
-
-MVP は有料プランを前提にしません。推奨は無料の Cloudflare Web Analytics です。トークンを貼るまでスクリプトは出ません。
-
-1. サイトが本番 URL で開くことを確認する
-2. Cloudflare の Web Analytics でホスト名 `kfpn6.github.io` を追加する。DNS の移管はしない
-3. スニペットの `token` だけをコピーする。アカウントの API トークンは貼らない
-4. `_config.yml` の `analytics.provider` を `cloudflare` にし、`cloudflare_token` に貼る
-5. `main` へ push する
-
-週次の PV、ユニーク訪問者、ページ別上位の読み方と、暫定目標は [docs/METRICS.md](docs/METRICS.md) にあります。
-
-Plausible のクラウド版は有料です。必須ではありません。すでに使えるインスタンスがあるときだけ `provider: plausible` にします。GA4 は代替で、`provider: ga4` と測定 ID です。三つは同時に出ません。
-
-## 目標を超えるまで着手しないこと
-
-英語版、モバイル表示の追加の磨き込み、Google フォームの設置は、トラフィックの暫定目標（月間 PV 500）を上回ったあとの作業です。手順と判定は [docs/METRICS.md](docs/METRICS.md) に書いてあります。
-
-スマートフォンで読めるレスポンシブ CSS（はみ出さない、メニューから全ページへ行ける、表は横スクロール）は、そのゲートの外です。MVP の公開時点で満たします。読めない不具合の修正は、目標の達成を待ちません。
-
-暫定目標の初期値も同じ文書にあります。1ヶ月目は月間 100 PV、3ヶ月目は月間 500 PV です。問い合わせ件数は、フォームを接続したあとにはじめて数えます。いずれも暫定です。
-
-## 手元で見る
-
-Ruby と Jekyll がある環境で、リポジトリ直下から次を実行します。
-
-```bash
-jekyll serve
-```
-
-ブラウザでは http://127.0.0.1:4000/rf-learning/ を開きます。`baseurl` が付いているため、ホスト直下ではありません。
-
-## 範囲
-
-掲載は日本語です。特定のメーカー名や、非公開の社内事情、職の募集は置きません。周波数やコネクタ系列の上限は学習用の目安であり、製品の保証値ではありません。
+- [高周波・RF用語集（VSWR・特性インピーダンス・PIM・SMA）](https://kfpn6.github.io/rf-learning/glossary/)
+- [周波数帯の一覧（HF・VHF・UHF・ミリ波とレーダバンド）](https://kfpn6.github.io/rf-learning/spectrum/)
+- [同軸ケーブルアッセンブリの仕事内容（図面・組立・トルク・測定）](https://kfpn6.github.io/rf-learning/work/)
+- [高周波・マイクロ波の参考書と無料資料](https://kfpn6.github.io/rf-learning/reading/)
+- [高周波コネクタ・同軸ケーブル学習サイトについて](https://kfpn6.github.io/rf-learning/about/)
+- [高周波コネクタ学習サイトへの問い合わせ](https://kfpn6.github.io/rf-learning/contact/)

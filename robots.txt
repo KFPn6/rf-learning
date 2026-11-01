@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kfpn6.github.io/rf-learning/sitemap.xml

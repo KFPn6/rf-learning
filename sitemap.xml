@@ -12,6 +12,7 @@ layout: null
 {%- else %}
   <url>
     <loc>{{ loc | absolute_url | xml_escape }}</loc>
+    <lastmod>{{ page.lastmod | date: "%Y-%m-%d" }}</lastmod>
   </url>
 {% endif -%}
 {%- endfor %}
