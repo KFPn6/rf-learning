@@ -11,7 +11,7 @@ permalink: /learn/assembly-testing/
 
 一本の高周波コネクタ＋同軸ケーブルアッセンブリを出荷する前に、何を確かめるかの地図です。外観と寸法、導通、絶縁抵抗と耐電圧、反射、挿入損失、図面が求めるときの位相、反射が悪いときの場所の切り分け、を分けて読みます。作業手順の社内標準ではなく、個別の製品が保証する値でもありません。試験電圧、周波数の範囲、合格の数字は、その図面と個別仕様です。最終的には、図面とメーカー指定に従います。
 
-構成と、切断から検査までの流れは [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }}) です。反射の式は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }})、減衰の dB は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }})、径と比誘電率が反射の元になることは [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。位相が温度と曲げで動く読み方は [同軸ケーブルの位相安定性]({{ '/learn/phase-stability/' | relative_url }})、測る周波数の上限は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。短い定義は [用語集]({{ '/glossary/' | relative_url }}#assembly) です。
+構成と、切断から検査までの流れは [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }}) です。反射の式は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }})、減衰の dB は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }})、径と比誘電率が反射の元になることは [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。位相が温度と曲げで動く読み方は [同軸ケーブルの位相安定性]({{ '/learn/phase-stability/' | relative_url }})、測る周波数の上限は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }})、遮蔽の構造と dB の読み方は [同軸ケーブルのシールド]({{ '/learn/shielding/' | relative_url }}) です。短い定義は [用語集]({{ '/glossary/' | relative_url }}#assembly) です。
 
 ## 一つの数字では終わらない
 
@@ -125,7 +125,7 @@ NASA の公開の説明は、耐電圧を、比較的高い電圧をごく短い
 
 ## 図面が足すことがあるもの
 
-上の表は、出荷前によく名前が出る項目です。全部を毎回行う、という意味ではありません。IEC 60966-1 の目次には、このほかに、遮蔽、電力、相互変調、引張、屈曲、温度や湿度の試験もあります。受動相互変調は、導通や小さな信号の VSWR だけでは見つかりません。言葉は [用語集の PIM]({{ '/glossary/' | relative_url }}#pim)、位置づけは [深掘り]({{ '/learn/master/' | relative_url }}) です。図面が名前を挙げたものだけを、その条件で足します。
+上の表は、出荷前によく名前が出る項目です。全部を毎回行う、という意味ではありません。IEC 60966-1 の目次には、このほかに、遮蔽、電力、相互変調、引張、屈曲、温度や湿度の試験もあります。遮蔽の構造と、dB と伝達インピーダンスの向きは [同軸ケーブルのシールド]({{ '/learn/shielding/' | relative_url }}) です。受動相互変調は、導通や小さな信号の VSWR だけでは見つかりません。言葉は [用語集の PIM]({{ '/glossary/' | relative_url }}#pim)、位置づけは [深掘り]({{ '/learn/master/' | relative_url }}) です。図面が名前を挙げたものだけを、その条件で足します。
 
 ## この先
 

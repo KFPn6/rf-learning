@@ -25,6 +25,8 @@ permalink: /glossary/
   <a class="tag" href="#semi-rigid">セミリジッド</a>
   <a class="tag" href="#dielectric">誘電体</a>
   <a class="tag" href="#shield">シールド</a>
+  <a class="tag" href="#transfer-impedance">伝達インピーダンス</a>
+  <a class="tag" href="#screening-attenuation">遮蔽減衰量</a>
   <a class="tag" href="#torque">嵌合トルク</a>
   <a class="tag" href="#pin-depth">ピン深さ</a>
   <a class="tag" href="#mating-cycles">嵌合寿命</a>
@@ -109,7 +111,7 @@ permalink: /glossary/
 
 <p class="term-en">semi-rigid cable</p>
 
-外部導体が金属管で、手で容易には曲がらない同軸です。形が決まり、遮蔽に優れます。所定の形へ一度フォーミングすることが多く、繰り返しの曲げには向きません。対して、編組を使って曲がるフレキシブルと、その中間のセミフレキがあります。同じコネクタでも、このどれかで別のアッセンブリです。呼びごとのインピーダンスと損失の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。
+外部導体が金属管で、手で容易には曲がらない同軸です。形が決まり、編組の開口がありません。所定の形へ一度フォーミングすることが多く、繰り返しの曲げには向きません。対して、編組を使って曲がるフレキシブルと、その中間のセミフレキがあります。同じコネクタでも、このどれかで別のアッセンブリです。呼びごとのインピーダンスと損失の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }})、遮蔽の読み方は [同軸ケーブルのシールド]({{ '/learn/shielding/' | relative_url }}) です。
 
 ## 誘電体 {#dielectric}
 
@@ -121,7 +123,19 @@ permalink: /glossary/
 
 <p class="term-en">shield／外部導体</p>
 
-外部導体のうち、外へ漏らさず、外から入れないはたらきを指してシールドと呼ぶことが多いです。編組の密度、箔、金属管で段が違います。同時に信号の戻り経路でもあるので、途中で切れたり乱れたりすると、反射と不要な放射の両方になります。
+外部導体のうち、外へ漏らさず、外から入れないはたらきを指してシールドと呼ぶことが多いです。編組、横巻、金属箔、それらの重ね、金属管で構造が違います。同時に信号の戻り経路でもあるので、途中で切れたり乱れたりすると、反射と不要な放射の両方になります。構造と、dB の読み方は [同軸ケーブルのシールド]({{ '/learn/shielding/' | relative_url }}) です。
+
+## 伝達インピーダンス {#transfer-impedance}
+
+<p class="term-en">transfer impedance</p>
+
+シールドのこちら側の電流が、向こう側に、単位長さあたりどれだけの長手方向の電圧を誘起するかです。単位は Ω/m で、資料は mΩ/m で書くことが多いです。小さいほど、同じ電流に対する漏れと入りは小さい側です。遮蔽効果の dB とは、良い側の向きが逆です。定義と、編組と金属管で周波数の向きが分かれることは [同軸ケーブルのシールド]({{ '/learn/shielding/' | relative_url }}) です。
+
+## 遮蔽減衰量 {#screening-attenuation}
+
+<p class="term-en">screening attenuation／シールディング効果</p>
+
+入った電力に対して、外へ出うる電力がどれだけ小さいかを、デシベルで表した量です。大きいほど、漏れは小さい側です。挿入損失の dB とは向きが逆で、伝達インピーダンスとも単位が違います。電気的に短い試料の dB を、長いケーブルの dB とそのまま比べません。読み分けは [同軸ケーブルのシールド]({{ '/learn/shielding/' | relative_url }}) です。
 
 ## 嵌合トルク {#torque}
 

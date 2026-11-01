@@ -63,6 +63,11 @@ permalink: /learn/
     <p><a href="{{ '/learn/cable-loss/' | relative_url }}">同軸ケーブルの損失へ</a></p>
   </article>
   <article class="card">
+    <h2>同軸ケーブルのシールド</h2>
+    <p>編組、横巻、金属箔、二重とそれ以上の層、セミリジッドとセミフレキの外導体です。遮蔽効果の dB と伝達インピーダンス、コネクタ部の注意にも触れます。値は学習用の例で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/shielding/' | relative_url }}">同軸ケーブルのシールドへ</a></p>
+  </article>
+  <article class="card">
     <h2>同軸ケーブルの位相安定性</h2>
     <p>位相と電気長、温度による PTFE の相転移、曲げと振動、位相を揃える組です。ppm と度の読み方にも触れます。値は学習用の例で、製品の保証値ではありません。</p>
     <p><a href="{{ '/learn/phase-stability/' | relative_url }}">同軸ケーブルの位相安定性へ</a></p>
