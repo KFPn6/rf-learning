@@ -29,6 +29,7 @@
 - [同軸コネクタの使用周波数の上限（カットオフ・SMA・3.5mm・2.92mm）](https://kfpn6.github.io/rf-learning/learn/frequency-limit/)
 - [同軸ケーブルの種類一覧（RG-58・RG-316・セミリジッド・LMR-400）](https://kfpn6.github.io/rf-learning/learn/cable-types/)
 - [同軸ケーブルの損失と減衰量の計算（dB/m・挿入損失）](https://kfpn6.github.io/rf-learning/learn/cable-loss/)
+- [同軸ケーブルのシールド構造と遮蔽効果（編組・箔・伝達インピーダンス）](https://kfpn6.github.io/rf-learning/learn/shielding/)
 - [同軸ケーブルの位相安定性と電気長（温度・曲げ・PTFE）](https://kfpn6.github.io/rf-learning/learn/phase-stability/)
 - [特性インピーダンスの計算式（50Ωと75Ω・同軸ケーブル）](https://kfpn6.github.io/rf-learning/learn/impedance/)
 - [高周波コネクタのトルク・VSWR・リターンロス早見表](https://kfpn6.github.io/rf-learning/learn/quick-reference/)
@@ -59,7 +60,7 @@
 
 ### 用語・規格・仕事・資料
 
-- [高周波・RF用語集（VSWR・特性インピーダンス・PIM・SMA）](https://kfpn6.github.io/rf-learning/glossary/)
+- [高周波・RF用語集（VSWR・特性インピーダンス・シールド・PIM）](https://kfpn6.github.io/rf-learning/glossary/)
 - [周波数帯の一覧（HF・VHF・UHF・ミリ波とレーダバンド）](https://kfpn6.github.io/rf-learning/spectrum/)
 - [同軸ケーブルアッセンブリの仕事内容（図面・組立・トルク・測定）](https://kfpn6.github.io/rf-learning/work/)
 - [高周波・マイクロ波の参考書と無料資料](https://kfpn6.github.io/rf-learning/reading/)
