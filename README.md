@@ -34,6 +34,7 @@
 - [特性インピーダンスの計算式（50Ωと75Ω・同軸ケーブル）](https://kfpn6.github.io/rf-learning/learn/impedance/)
 - [高周波コネクタのトルク・VSWR・リターンロス早見表](https://kfpn6.github.io/rf-learning/learn/quick-reference/)
 - [VSWR・リターンロス・反射係数の変換表と計算式](https://kfpn6.github.io/rf-learning/learn/vswr-return-loss/)
+- [VSWR・リターンロス変換と反射係数・同軸ケーブル損失の計算](https://kfpn6.github.io/rf-learning/learn/calculator/)
 - [高周波・RF技術の学び方（本・学問・資格）](https://kfpn6.github.io/rf-learning/learn/study/)
 - [同軸ケーブルとUSB-Cの違い（高周波信号と充電・データ）](https://kfpn6.github.io/rf-learning/learn/compare/coax-vs-usbc/)
 - [同軸ケーブルと光ファイバーの違い（電気信号と光）](https://kfpn6.github.io/rf-learning/learn/compare/coax-vs-fiber/)

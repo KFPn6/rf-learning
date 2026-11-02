@@ -2,7 +2,7 @@
 layout: default
 title: "高周波・RF用語集（VSWR・特性インピーダンス・シールド・PIM）"
 description: "VSWR、リターンロス、特性インピーダンス、挿入損失、PIM、表皮効果、シールド、セミリジッドなど、高周波コネクタと同軸ケーブルの用語集です。短い定義であり、製品の保証値ではありません。"
-lastmod: 2026-10-31
+lastmod: 2026-11-01
 permalink: /glossary/
 ---
 
@@ -70,7 +70,7 @@ permalink: /glossary/
 
 <p class="term-en">voltage standing wave ratio／電圧定在波比</p>
 
-入射した波と、反射して戻った波が干渉してできる、電圧の山と谷の比です。1.0 が無反射に相当し、大きいほど反射が多い、と読みます。成績表の定番ですが、リターンロスとは数字の向きが違います。式と換算表は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。大きさと位相を円の上で見る話は [第12話]({{ '/manga/12-smith-chart/' | relative_url }}) です。会話はフィクション演出です。
+入射した波と、反射して戻った波が干渉してできる、電圧の山と谷の比です。1.0 が無反射に相当し、大きいほど反射が多い、と読みます。成績表の定番ですが、リターンロスとは数字の向きが違います。式と換算表は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。数値を入れて換算する電卓は [VSWR・リターンロス変換と反射係数・同軸ケーブル損失の計算]({{ '/learn/calculator/#reflect' | relative_url }}) です。大きさと位相を円の上で見る話は [第12話]({{ '/manga/12-smith-chart/' | relative_url }}) です。会話はフィクション演出です。
 
 ## リターンロス {#return-loss}
 
@@ -82,7 +82,7 @@ permalink: /glossary/
 
 <p class="term-en">insertion loss</p>
 
-アッセンブリを経路に入れたことで、先へ届く信号がどれだけ減るかです。長さ、周波数、誘電体、導体の表面に左右されます。反射とは別の項目です。反射が良くても、長ければ挿入損失は増えます。ケーブル単体の長さあたりは減衰量で、dB/m や dB/100 m で読みます。単位と計算例は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }}) です。反射との切り分けは [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。具体的な dB は、各メーカーのデータシートを見てください。
+アッセンブリを経路に入れたことで、先へ届く信号がどれだけ減るかです。長さ、周波数、誘電体、導体の表面に左右されます。反射とは別の項目です。反射が良くても、長ければ挿入損失は増えます。ケーブル単体の長さあたりは減衰量で、dB/m や dB/100 m で読みます。単位と計算例は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }}) です。周波数と長さの概算は [電卓]({{ '/learn/calculator/#cable' | relative_url }}) です。反射との切り分けは [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。具体的な dB は、各メーカーのデータシートを見てください。
 
 ## 遮断周波数 {#cutoff}
 

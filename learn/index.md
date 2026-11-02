@@ -2,7 +2,7 @@
 layout: default
 title: "高周波コネクタと同軸ケーブルの学習ガイド"
 description: "SMA・N型・BNC、VSWR、特性インピーダンス、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
-lastmod: 2026-10-31
+lastmod: 2026-11-01
 permalink: /learn/
 ---
 
@@ -87,6 +87,11 @@ permalink: /learn/
     <h2>VSWR とリターンロス</h2>
     <p>反射係数、VSWR、リターンロスの関係と換算表です。挿入損失は、長さと周波数で増える考え方にとどめ、具体値はデータシートを見ます。</p>
     <p><a href="{{ '/learn/vswr-return-loss/' | relative_url }}">VSWR とリターンロスへ</a></p>
+  </article>
+  <article class="card">
+    <h2>電卓</h2>
+    <p>VSWR、リターンロス、反射係数、ミスマッチ損失、反射電力の変換です。同軸ケーブルは、周波数と長さから減衰の概算を出します。値は学習用の概算で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/calculator/' | relative_url }}">電卓を開く</a></p>
   </article>
   <article class="card">
     <h2>学び方</h2>
