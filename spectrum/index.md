@@ -2,7 +2,7 @@
 layout: default
 title: "周波数帯の一覧（HF・VHF・UHF・ミリ波とレーダバンド）"
 description: "高周波コネクタと同軸ケーブルを読むための、IEEEレーダバンド（L・S・C・X・Ku・K・Ka・V・W）と、移動通信のFR1・FR2、車載レーダーの周波数の見取り図です。製品の保証値ではありません。"
-lastmod: 2026-10-31
+lastmod: 2026-11-03
 permalink: /spectrum/
 ---
 
@@ -58,7 +58,7 @@ FR2 では、損失と界面の小ささが一度に効きます。サブ6用の
 
 ## 系列の上限と、帯域の関係
 
-断面が小さい系列ほど、基本モードで使える周波数は伸びます。カタログで広く見る上限の目安だけ再掲します。保証値ではありません。カットオフの概算と、資料ごとの数字の分かれは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。結合、用途、確認できた嵌合トルクの例は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、嵌合の注意は [深掘り]({{ '/learn/master/' | relative_url }}) にあります。
+断面が小さい系列ほど、基本モードで使える周波数は伸びます。カタログで広く見る上限の目安だけ再掲します。保証値ではありません。カットオフの概算と、資料ごとの数字の分かれは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。結合、用途、確認できた嵌合トルクの例は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、SMA・3.5 mm・2.92 mm の嵌合と誘電体は [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }})、嵌合の注意は [深掘り]({{ '/learn/master/' | relative_url }}) にあります。
 
 <div class="table-scroll" markdown="1">
 

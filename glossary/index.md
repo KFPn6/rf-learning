@@ -2,7 +2,7 @@
 layout: default
 title: "高周波・RF用語集（VSWR・特性インピーダンス・シールド・PIM）"
 description: "VSWR、リターンロス、特性インピーダンス、挿入損失、PIM、表皮効果、シールド、セミリジッドなど、高周波コネクタと同軸ケーブルの用語集です。短い定義であり、製品の保証値ではありません。"
-lastmod: 2026-11-01
+lastmod: 2026-11-03
 permalink: /glossary/
 ---
 
@@ -28,6 +28,7 @@ permalink: /glossary/
   <a class="tag" href="#shield">シールド</a>
   <a class="tag" href="#transfer-impedance">伝達インピーダンス</a>
   <a class="tag" href="#screening-attenuation">遮蔽減衰量</a>
+  <a class="tag" href="#k-connector">Kコネクタ</a>
   <a class="tag" href="#torque">嵌合トルク</a>
   <a class="tag" href="#pin-depth">ピン深さ</a>
   <a class="tag" href="#mating-cycles">嵌合寿命</a>
@@ -46,7 +47,7 @@ permalink: /glossary/
 
 <p class="term-en">RF connector</p>
 
-同軸の構造を、機器のポートや相手のコネクタへ受け渡す界面です。系列（N、SMA、2.92 mm など）ごとに寸法と、使える周波数の目安が違います。単体では、伝送路の長さも損失も決まりません。相手と嵌合してはいけない組み合わせがあります。
+同軸の構造を、機器のポートや相手のコネクタへ受け渡す界面です。系列（N、SMA、2.92 mm など）ごとに寸法と、使える周波数の目安が違います。単体では、伝送路の長さも損失も決まりません。相手と嵌合してはいけない組み合わせがあります。SMA、3.5 mm、2.92 mm が機械的に差さることと、精密側を傷めないことは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。
 
 ## 同軸ケーブル {#coax}
 
@@ -118,7 +119,7 @@ permalink: /glossary/
 
 <p class="term-en">dielectric</p>
 
-中心導体と外部導体のあいだの絶縁体です。PTFE の充実、発泡、空気に近い構造があります。損失、耐電力、温度による位相の変化、信号の速度に効きます。コネクタの内部が空気誘電体か PTFE かも、系列の違いとして出てきます。
+中心導体と外部導体のあいだの絶縁体です。PTFE の充実、発泡、空気に近い構造があります。損失、耐電力、温度による位相の変化、信号の速度に効きます。コネクタの内部が空気誘電体か PTFE かも、系列の違いとして出てきます。SMA と、3.5 mm・2.92 mm の分かれは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。
 
 ## シールド {#shield}
 
@@ -138,6 +139,12 @@ permalink: /glossary/
 
 入った電力に対して、外へ出うる電力がどれだけ小さいかを、デシベルで表した量です。大きいほど、漏れは小さい側です。挿入損失の dB とは向きが逆で、伝達インピーダンスとも単位が違います。電気的に短い試料の dB を、長いケーブルの dB とそのまま比べません。読み分けは [同軸ケーブルのシールド]({{ '/learn/shielding/' | relative_url }}) です。
 
+## Kコネクタ {#k-connector}
+
+<p class="term-en">K connector／2.92 mm</p>
+
+2.92 mm の精密同軸コネクタの呼びです。帯域名の K（おおよそ 18–27 GHz）とは別の言葉です。空気を誘電体にする系列で、SMA および 3.5 mm と機械的に嵌合しうることがあります。差さること、相手の周波数まで使えること、精密側の界面を傷めないことは、別です。整理は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。帯域との違いは [規格・周波数]({{ '/spectrum/' | relative_url }})、名前の経緯は [第11話]({{ '/manga/11-oldfield-k/' | relative_url }}) です。会話はフィクション演出です。
+
 ## 嵌合トルク {#torque}
 
 <p class="term-en">mating torque</p>
@@ -148,7 +155,7 @@ permalink: /glossary/
 
 <p class="term-en">pin depth</p>
 
-中心導体が、相手と当たる合わせ面に対して、どれだけ引っ込み、または突き出しているかです。突き出しは相手を傷つけ、引っ込みすぎは接触の隙間になります。ダイヤルゲージとマスタで見ます。ミリメートルの許容は系列と製品で違うので、この用語集には置きません。見方は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
+中心導体が、相手と当たる合わせ面に対して、どれだけ引っ込み、または突き出しているかです。突き出しは相手を傷つけ、引っ込みすぎは接触の隙間になります。ダイヤルゲージとマスタで見ます。ミリメートルの許容は系列と製品で違うので、この用語集には置きません。見方は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。SMA を 3.5 mm や 2.92 mm へ差すときのピン径とピン位置は [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。
 
 ## 嵌合寿命 {#mating-cycles}
 

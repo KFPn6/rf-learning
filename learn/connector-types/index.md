@@ -2,7 +2,7 @@
 layout: default
 title: "高周波(RF)同軸コネクタの種類と周波数一覧（SMA・N型・BNC・3.5mm・2.92mm）"
 description: "SMA、N型、BNC、TNC、7/16、3.5mm、2.92mm（K）、2.4mm、F型の結合、使用周波数の目安、用途、嵌合トルクを一覧にします。値は学習用の目安で、製品の保証値ではありません。"
-lastmod: 2026-10-31
+lastmod: 2026-11-03
 permalink: /learn/connector-types/
 ---
 
@@ -44,7 +44,7 @@ permalink: /learn/connector-types/
 
 推奨トルクは、材料で分かれます。Rosenberger は、ステンレス鋼または CuBe で 0.8–1.1 N·m、真鍮（CuZn）で 0.5 N·m と書いています。Cinch のトルクレンチ資料は、ステンレスを 8 inch-pounds（0.90 N·m）、真鍮を 5 inch-pounds（0.57 N·m）とし、IEEE P287 を参照しています。0.90 N·m は、ステンレス向けのレンチ設定の例です。真鍮の指定は、それより低い側にあります。
 
-IEC 61169-15:2021 は、SMA が 3.5 mm および 2.92 mm と機械的に嵌合しうると書いています。精密側の界面を守る話は [深掘り]({{ '/learn/master/' | relative_url }}) です。
+IEC 61169-15:2021 は、SMA が 3.5 mm および 2.92 mm と機械的に嵌合しうると書いています。誘電体、ピン径、ピン位置、ゲージの注意は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。精密側の界面を守る話は [深掘り]({{ '/learn/master/' | relative_url }}) です。
 
 名前の移り変わりは [第13話]({{ '/manga/13-sma-origin/' | relative_url }}) です。会話はフィクション演出で、BRM、OSM、SMA の展開と年は資料で一つに揃わず、発明者とは断定しません。
 
@@ -100,7 +100,7 @@ Rosenberger の RPC-2.40 は、IEC 60169-40、DC–50 GHz、ねじ結合です�
 
 ## 嵌合できることと、してよいことは違う
 
-SMA、3.5 mm、2.92 mm は、機械的には互いに差さることがあります。2.4 mm と 1.85 mm は、別の組み合わせです。差さることを、その周波数まで保証された、とは読みません。カットオフと、資料によって分かれる上限の数字は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。反射と、傷めやすい組み合わせは [深掘り]({{ '/learn/master/' | relative_url }}) に整理してあります。
+SMA、3.5 mm、2.92 mm は、機械的には互いに差さることがあります。2.4 mm と 1.85 mm は、別の組み合わせです。差さることを、その周波数まで保証された、とは読みません。誘電体の違い、ピン径、見分け方は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。カットオフと、資料によって分かれる上限の数字は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。反射と、傷めやすい組み合わせは [深掘り]({{ '/learn/master/' | relative_url }}) に整理してあります。
 
 50 Ω と 75 Ω も、プラグの形が近くても別の指定です。径と比誘電率、混ぜたときの反射は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。テレビの同軸を会話にしたのは [第4話]({{ '/manga/04-tv-coax/' | relative_url }}) です。
 
