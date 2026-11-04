@@ -2,7 +2,7 @@
 layout: default
 title: "VSWR・リターンロス変換と反射係数・同軸ケーブル損失の計算"
 description: "VSWR、リターンロス（dB）、反射係数、ミスマッチ損失、反射電力をブラウザ内で相互に変換します。RG-58、RG-316、RG-174、RG-402、3D-2V、5D-2V などの同軸ケーブル損失も、周波数と長さから概算します。"
-lastmod: 2026-11-01
+lastmod: 2026-11-04
 permalink: /learn/calculator/
 ---
 
@@ -12,7 +12,7 @@ permalink: /learn/calculator/
 
 VSWR、リターンロス、反射係数を入れ替えて読む電卓と、同軸ケーブルの減衰を周波数と長さから概算する電卓です。計算はブラウザの中だけで行い、入力した数値は送り出しません。公開資料の式と、データシートに書かれた係数・掲載点だけを使います。確認できない係数は置いていません。結果は学習用の概算であり、個別製品の保証値ではありません。使う周波数の行と条件は、各メーカーのデータシートで確認してください。
 
-式の読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }})、dB/m と長さの読み方は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }}) です。呼びごとの概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }})、行だけの早見は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。
+式の読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }})、dB/m と長さの読み方は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }}) です。呼びごとの概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }})、行だけの早見は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。50 Ω と 75 Ω の境目は反射係数 0.2 です。BNC でその数字をどう読むかは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。
 
 ## VSWR・リターンロス・反射係数の変換 {#reflect}
 

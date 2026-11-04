@@ -2,7 +2,7 @@
 layout: default
 title: "VSWR・リターンロス・反射係数の変換表と計算式"
 description: "同軸ケーブルのVSWR、リターンロス（dB）、反射係数の変換表と計算式です。挿入損失との違いも整理します。値は学習用で、個別製品の保証値ではありません。"
-lastmod: 2026-11-03
+lastmod: 2026-11-04
 permalink: /learn/vswr-return-loss/
 ---
 
@@ -109,7 +109,7 @@ Microwaves101 は、正しい形のリターンロスは正の数になる、と
 - 挿入損失を正の dB で「損失」と書いてあるとき、数字が小さいほど、先へ届く信号の減りが小さいです。S21 を負の dB で書いてあるときは、0 dB に近いほど減りが小さいです。
 - VSWR が良くても、挿入損失が小さいとは限りません。
 
-系列ごとの周波数の目安は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。SMA 同士の誘電体の隙間と、SMA・3.5 mm・2.92 mm を混ぜた界面の反射は [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。
+系列ごとの周波数の目安は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。SMA 同士の誘電体の隙間と、SMA・3.5 mm・2.92 mm を混ぜた界面の反射は [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。50 Ω と 75 Ω の BNC を混ぜた境目は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。
 
 ## 出典
 

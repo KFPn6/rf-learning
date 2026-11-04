@@ -27,6 +27,7 @@
 - [高周波コネクタの締め付けトルクと取り扱い（SMA・N型・ピン深さ）](https://kfpn6.github.io/rf-learning/learn/connector-care/)
 - [高周波(RF)同軸コネクタの種類と周波数一覧（SMA・N型・BNC・3.5mm・2.92mm）](https://kfpn6.github.io/rf-learning/learn/connector-types/)
 - [SMA・3.5mm・2.92mm（Kコネクタ）の互換性と違い](https://kfpn6.github.io/rf-learning/learn/sma-35-292-compat/)
+- [BNCコネクタの50Ωと75Ωの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/bnc-50-75/)
 - [同軸コネクタの使用周波数の上限（カットオフ・SMA・3.5mm・2.92mm）](https://kfpn6.github.io/rf-learning/learn/frequency-limit/)
 - [同軸ケーブルの種類一覧（RG-58・RG-316・セミリジッド・LMR-400）](https://kfpn6.github.io/rf-learning/learn/cable-types/)
 - [同軸ケーブルの損失と減衰量の計算（dB/m・挿入損失）](https://kfpn6.github.io/rf-learning/learn/cable-loss/)
