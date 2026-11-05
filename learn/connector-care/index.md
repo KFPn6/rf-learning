@@ -2,7 +2,7 @@
 layout: default
 title: "高周波コネクタの締め付けトルクと取り扱い（SMA・N型・ピン深さ）"
 description: "SMAやN型など高周波コネクタの締付トルクの目安、トルクレンチ、清掃、外観点検、ピン深さゲージ、嵌合寿命、コネクタセーバーを整理します。値は資料で異なり、最終的には図面とメーカー指定に従います。"
-lastmod: 2026-11-03
+lastmod: 2026-11-04
 permalink: /learn/connector-care/
 ---
 
@@ -34,7 +34,7 @@ permalink: /learn/connector-care/
 
 SMA は、一つの数字に揃いません。Keysight は、SMA 用 8710-1582 を 56 N·cm（5 in-lb）、3.5 mm 用 8710-1765 を 90 N·cm（8 in-lb）とし、開口はどちらも 5/16 インチでも結合トルクは別、と書いています。オスの SMA を 3.5 mm または 2.92 mm のメスへ締めるときは 56 N·cm、オスの 3.5 mm またはオスの 2.92 mm をメスへ締めるときは 90 N·cm、と同社は分けています。Maury の製品表も、SMA 用を 5 in-lb、3.5 mm・2.92 mm・2.4 mm・1.85 mm 用を 8 in-lb とし、六角はいずれも 0.312 インチです。同社の ColorConnect 冊子は、PTFE が合わせ面に当たり、真鍮とステンレスで材料が分かれ、従来型 SMA は外壁が薄いことがあるため、損傷を限るには一般に 5 in-lb、と書きます。空気誘電体の系列は壁がより厚く、オスでは 0.021 インチの例を挙げ、8 in-lb を推奨する、とも書きます。
 
-同じ SMA でも、Rosenberger は材料で分け、ステンレス鋼または CuBe を 0.8–1.1 N·m、真鍮を 0.5 N·m とします。Cinch のステンレス 0.90 N·m と真鍮 0.57 N·m は、この幅と完全には一致しません。真鍮側は、0.5 N·m と 0.57 N·m の資料がある、と [数値早見]({{ '/learn/quick-reference/' | relative_url }}) と同じ読み方にします。Anritsu のケア資料は、SMA を 0.9 N·m（8 lbf·in）とします。注では、WSMA・3.5 mm・2.92 mm・K は SMA と電気的に互換で、ナット寸法（8 mm）もトルク要求も同じ、と書きます。別の注は、2.4 mm・1.85 mm・V もナット寸法とトルク要求は同じだが、SMA とは機械的に互換ではない、と書きます。開口と設定が同じでも、嵌合してよい相手は別です。機械的に差さることと、その周波数まで保証されることの違いは [深掘り]({{ '/learn/master/' | relative_url }}) です。SMA、3.5 mm、2.92 mm の誘電体、ピン径、ピン位置は [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。精密系列に SMA 用の 5 in-lb レンチを流用しない、は Keysight と Maury の工具の分け方です。Anritsu のその表は、SMA と精密系列を同じ 8 lbf·in に置きます。すべてのメーカーの共通指示ではありません。使うレンチは、相手の機器と、コネクタの指定です。
+同じ SMA でも、Rosenberger は材料で分け、ステンレス鋼または CuBe を 0.8–1.1 N·m、真鍮を 0.5 N·m とします。Cinch のステンレス 0.90 N·m と真鍮 0.57 N·m は、この幅と完全には一致しません。真鍮側は、0.5 N·m と 0.57 N·m の資料がある、と [数値早見]({{ '/learn/quick-reference/' | relative_url }}) と同じ読み方にします。Anritsu のケア資料は、SMA を 0.9 N·m（8 lbf·in）とします。注では、WSMA・3.5 mm・2.92 mm・K は SMA と電気的に互換で、ナット寸法（8 mm）もトルク要求も同じ、と書きます。別の注は、2.4 mm・1.85 mm・V もナット寸法とトルク要求は同じだが、SMA とは機械的に互換ではない、と書きます。開口と設定が同じでも、嵌合してよい相手は別です。機械的に差さることと、その周波数まで保証されることの違いは [深掘り]({{ '/learn/master/' | relative_url }}) です。SMA、3.5 mm、2.92 mm の誘電体、ピン径、ピン位置は [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。精密系列に SMA 用の 5 in-lb レンチを流用しない、は Keysight と Maury の工具の分け方です。Anritsu のその表は、SMA と精密系列を同じ 8 lbf·in に置きます。すべてのメーカーの共通指示ではありません。使うレンチは、相手の機器と、コネクタの指定です。Rosenberger の SMA Reverse は、推奨を 0.5 N·m、試験の上限を 0.6 N·m と書きます。ステンレスの 0.8–1.1 N·m を、この系列へ写しません。中心コンタクトの違いと、左ねじの部品図は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。
 
 3.5 mm、2.92 mm、2.4 mm は、計測器メーカーの標準ナットでは 8 in-lb（0.9 N·m）付近に寄ります。Rosenberger の精密系列は、推奨を 0.80–1.10 N·m の幅で書きます。0.90 N·m はその幅の中にあります。結合の試験トルクは別の数字です。RPC-3.50 と RPC-2.92 は 1.70 N·m、RPC-2.40 のシリーズ資料は 1.6 N·m です。SMA の資料は、試験トルクの上限をステンレス鋼または CuBe で 1.7 N·m 以下、真鍮で 0.6 N·m 以下と書きます。試験トルクを、毎日のレンチ設定としては読みません。
 
@@ -125,6 +125,7 @@ Anritsu は、PIM 測定器の 7/16 DIN メスの出力に、7/16 DIN のメス�
 - Anritsu、コネクタの清掃手順（90% より高いイソプロピルアルコール、空気は 40 PSI まで）: https://dl.cdn-anritsu.com/en-us/test-measurement/ohs/10450-00040AE/Calibration_and_Measurement/MG_Ch01_Cal_Overview.06.10.html
 - Anritsu、PIM 測定器のコネクタケア（7/16 DIN のセーバー、寿命の例は 500 回、セーバー取付は 25 N·m）: https://dl.cdn-anritsu.com/en-us/test-measurement/ohs/10450-00050N/User_Guide/Ch1_General.02.3.html
 - Rosenberger、SMA シリーズ技術資料（推奨 0.8–1.1 N·m / CuZn 0.5 N·m、嵌合回数 500 以上 / 真鍮 100 以上、試験トルクの上限）: https://www.rosenberger.com/fileadmin/content/headquarter/Products_Services/COM/SMA/32-000-000_TD_01.pdf
+- Rosenberger、SMA Reverse 技術資料（推奨トルク 0.5 N·m、試験の上限 0.6 N·m）: https://www.rosenberger.com/fileadmin/content/headquarter/Products_Services/COM/Reverse_SMA_BNC_TNC/32R-000-000_TD_01.pdf
 - Rosenberger、RPC-3.50 技術資料（推奨 0.80–1.10 N·m、試験 1.70 N·m、嵌合回数 500 以上）: https://www.rosenberger.com/fileadmin/content/headquarter/Products_Services/TM/RPC-3.50/03-000-000_TD.pdf
 - Rosenberger、RPC-2.92 技術資料（推奨 0.80–1.10 N·m、試験 1.70 N·m、嵌合回数 500 以上）: https://www.rosenberger.com/fileadmin/content/headquarter/Products_Services/TM/RPC-2.92/02-000-000_TD.pdf
 - Rosenberger、RPC-2.40 技術資料（推奨 0.80–1.10 N·m、試験 1.6 N·m、嵌合回数 500 以上）: https://www.rosenberger.com/fileadmin/content/headquarter/Products_Services/TM/RPC-2.40/09-000-000_TD.pdf

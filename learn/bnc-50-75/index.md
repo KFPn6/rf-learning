@@ -151,6 +151,7 @@ RG の番号は、同じ呼びでも中心導体や外被が分かれること�
 - 結合と周波数の早見、N 型の 75 Ω の警告は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。
 - 4、10、11 を一つの上限にしない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
 - 同じ 50 Ω でピン径が資料ごとに違う例は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。
+- ねじが同じで中心コンタクトが逆の例は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。
 - RG-58 の構造と損失の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。
 - 名前の展開は [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。短い定義は [用語集の BNC]({{ '/glossary/' | relative_url }}#bnc) です。
 

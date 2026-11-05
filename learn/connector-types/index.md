@@ -46,6 +46,8 @@ permalink: /learn/connector-types/
 
 IEC 61169-15:2021 は、SMA が 3.5 mm および 2.92 mm と機械的に嵌合しうると書いています。誘電体、ピン径、ピン位置、ゲージの注意は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。精密側の界面を守る話は [深掘り]({{ '/learn/master/' | relative_url }}) です。
 
+ねじの呼びが同じ 1/4-36 でも、中心のピンとソケットを入れ替えた RP-SMA は、標準の SMA と対になりません。部品図によっては左ねじです。オス・メスの呼び方、規制の経緯、誤って嵌合したときの読み分けは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。
+
 名前の移り変わりは [第13話]({{ '/manga/13-sma-origin/' | relative_url }}) です。会話はフィクション演出で、BRM、OSM、SMA の展開と年は資料で一つに揃わず、発明者とは断定しません。
 
 ## N

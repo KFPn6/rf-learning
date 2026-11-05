@@ -128,6 +128,7 @@ permalink: /industry/
 - [入門]({{ '/learn/beginner/' | relative_url }}) — 断面、50 Ω、アッセンブリの見方
 - [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) — 径と比誘電率、50 Ω と 75 Ω
 - [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) — 見分け、嵌合、反射、RG-58 と RG-59
+- [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) — 中心コンタクト、呼び方、誤嵌合、アンテナ側の結合
 - [現場の見方]({{ '/learn/field/' | relative_url }}) — 図面から試験までの視線
 - [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }}) — 構成、端末の方式、検査と仕様
 - [深掘り]({{ '/learn/master/' | relative_url }}) — 反射、位相、PIM、嵌合の注意

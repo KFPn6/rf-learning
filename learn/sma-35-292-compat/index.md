@@ -2,7 +2,7 @@
 layout: default
 title: "SMA・3.5mm・2.92mm（Kコネクタ）の互換性と違い"
 description: "SMA、3.5mm、2.92mm（Kコネクタ）の機械的な嵌合、PTFEと空気誘電体、50Ω、使用周波数の目安、SMAを精密側へ挿すときのピン径・ピン位置とゲージの注意を整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-03
+lastmod: 2026-11-04
 permalink: /learn/sma-35-292-compat/
 ---
 
@@ -14,7 +14,7 @@ SMA、3.5 mm、2.92 mm（K コネクタ）は、ねじが同じ 1/4-36 で、機
 
 ここにある数字は、公開の技術資料と製品案内から取った学習用の目安です。個別の製品が保証する値ではありません。同じ系列でも、資料が複数の周波数を置きます。平均して一つの上限にはしません。
 
-系列の結合と用途は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。カットオフと、26.5 GHz 以外の数字の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。締付、清掃、ピン深さの窓の例は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。径と比誘電率の式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }})、境目の反射の読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。短い定義は [用語集]({{ '/glossary/' | relative_url }}#k-connector) です。
+系列の結合と用途は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。ねじの呼びが同じ 1/4-36 でも、中心コンタクトを入れ替えた RP-SMA は別の界面です。[SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。カットオフと、26.5 GHz 以外の数字の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。締付、清掃、ピン深さの窓の例は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。径と比誘電率の式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }})、境目の反射の読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。短い定義は [用語集]({{ '/glossary/' | relative_url }}#k-connector) です。
 
 ## 先に、三つの違い
 
@@ -185,6 +185,7 @@ SMA を精密側へ嵌合したあとの周波数は、低い側です。Rosenbe
 - ゲージ、締付、セーバーは [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
 - 反射の読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }})、50 Ω の式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
 - 名前の経緯は [第13話]({{ '/manga/13-sma-origin/' | relative_url }})、[第14話]({{ '/manga/14-renihan-35mm/' | relative_url }})、[第11話]({{ '/manga/11-oldfield-k/' | relative_url }}) です。
+- 中心のピンとソケットを入れ替えた界面は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。
 - 帯域名の K との違いは [規格・周波数]({{ '/spectrum/' | relative_url }})、短い定義は [用語集の K コネクタ]({{ '/glossary/' | relative_url }}#k-connector) です。
 
 ## 出典

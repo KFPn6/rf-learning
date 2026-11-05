@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "高周波コネクタと同軸ケーブルの学習ガイド"
-description: "SMA・N型・BNC、BNCの50Ωと75Ω、SMAと3.5mm・2.92mmの互換、VSWR、特性インピーダンス、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
+description: "SMA・N型・BNC、BNCの50Ωと75Ω、SMAと3.5mm・2.92mmの互換、SMAとRP-SMA、VSWR、特性インピーダンス、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
 lastmod: 2026-11-04
 permalink: /learn/
 ---
@@ -52,6 +52,11 @@ permalink: /learn/
     <h2>SMA・3.5 mm・2.92 mm の互換</h2>
     <p>機械的に嵌合しうること、PTFE と空気誘電体、50 Ω、使用周波数の目安、SMA を精密側へ挿すときのピン径とゲージです。値は学習用の目安で、製品の保証値ではありません。</p>
     <p><a href="{{ '/learn/sma-35-292-compat/' | relative_url }}">互換と見分け方へ</a></p>
+  </article>
+  <article class="card">
+    <h2>SMA と RP-SMA</h2>
+    <p>外ねじと内ねじ、中心のピンとソケット、オス・メスの呼び方、無線LANで使われてきた規制の経緯、誤って嵌合したときの問題です。値は学習用の目安で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/sma-rp-sma/' | relative_url }}">違いと見分け方へ</a></p>
   </article>
   <article class="card">
     <h2>BNC の 50 Ω と 75 Ω</h2>

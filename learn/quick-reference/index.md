@@ -2,7 +2,7 @@
 layout: default
 title: "高周波コネクタのトルク・VSWR・リターンロス早見表"
 description: "高周波アッセンブリで使うトルクレンチ、ピン深さゲージ、VNA、ストリップ工具、かしめ工具と、嵌合トルク、二面幅、VSWRとリターンロスの対応です。"
-lastmod: 2026-11-01
+lastmod: 2026-11-04
 permalink: /learn/quick-reference/
 ---
 
@@ -61,6 +61,8 @@ permalink: /learn/quick-reference/
 </div>
 
 SMA の 0.90 N·m は、Cinch がステンレス向けに書く 8 inch-pounds です。同じ資料は真鍮を 5 inch-pounds（0.57 N·m）とし、IEEE P287 を参照しています。Rosenberger の真鍮は 0.5 N·m で、Cinch の 0.57 N·m と完全には一致しません。真鍮側は、0.5 N·m から 0.57 N·m の資料がある、と覚え、使う製品の仕様を見ます。
+
+Rosenberger の SMA Reverse は、推奨の締付を 0.5 N·m、試験トルクの上限を 0.6 N·m と書きます。上のステンレスの 0.8–1.1 N·m を、この系列へ写しません。中心コンタクトの入れ替えと、左ねじの部品図は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。
 
 Keysight は、SMA 用トルクレンチ 8710-1582 を 56 N·cm（5 inch-pounds、0.56 N·m）、3.5 mm 用 8710-1765 を 90 N·cm（8 inch-pounds、0.90 N·m）としています。開口はどちらも 5/16 インチです。開口が同じでも、設定トルクは別の工具です。SMA のオスを 3.5 mm のメスへ締めるときは SMA 用、3.5 mm のオスを SMA のメスへ締めるときは 3.5 mm 用、と同社は書いています。
 
@@ -134,6 +136,7 @@ VSWR が 1 のとき Γ は 0 で、リターンロスは無限大に相当し�
 トルク、二面幅、工具の役割、式は、次の公開資料で確認しました。インチポンドから N·m への換算係数は、ポンド力とインチの SI 定義によるものです。VSWR の表は、Keysight が書いている関係式から計算しました。
 
 - Rosenberger、SMA シリーズ技術資料（ステンレスまたは CuBe で 0.8–1.1 N·m、CuZn で 0.5 N·m）: https://www.rosenberger.com/fileadmin/content/headquarter/Products_Services/COM/SMA/32-000-000_TD_01.pdf
+- Rosenberger、SMA Reverse 技術資料（推奨トルク 0.5 N·m、試験の上限 0.6 N·m）: https://www.rosenberger.com/fileadmin/content/headquarter/Products_Services/COM/Reverse_SMA_BNC_TNC/32R-000-000_TD_01.pdf
 - Cinch、トルクレンチ資料（ステンレス 0.90 N·m、真鍮 0.57 N·m、IEEE P287）: https://media.digikey.com/pdf/Data%20Sheets/Cinch%20PDFs/141-0000-9xx_Ds.pdf
 - Keysight、SMA 用と 3.5 mm 用のトルクレンチは別（8710-1582 は 56 N·cm、8710-1765 は 90 N·cm、開口はいずれも 5/16 インチ）: https://docs.keysight.com/kkbopen/is-an-sma-torque-wrench-equivalent-to-a-3-5-mm-torque-wrench-589746928.html
 - Rosenberger、SMA 用トルクレンチ 32W100-016（metric size 8、90 N·cm）: https://products.rosenberger.com/_ocassets/db/32w100-016_DB.pdf
