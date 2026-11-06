@@ -2,7 +2,7 @@
 layout: default
 title: "高周波コネクタのトルク・VSWR・リターンロス早見表"
 description: "高周波アッセンブリで使うトルクレンチ、ピン深さゲージ、VNA、ストリップ工具、かしめ工具と、嵌合トルク、二面幅、VSWRとリターンロスの対応です。"
-lastmod: 2026-11-04
+lastmod: 2026-11-06
 permalink: /learn/quick-reference/
 ---
 
@@ -12,7 +12,7 @@ permalink: /learn/quick-reference/
 
 高周波コネクタと同軸ケーブルのアッセンブリを見るときに、名前の出やすい工具と、公開資料で幅を確認できた数字の早見です。作業手順の社内標準ではありません。嵌合トルクも二面幅も、材質とグレードと相手ポートで変わります。ここに無い系列は、空欄のままにしてあります。実際の値は、各メーカーの仕様が定めます。
 
-系列ごとの周波数と、トルクの出典の読み分けは [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。上限が寸法とモードでどう決まるかは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。ケーブル側の呼びと損失の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }})、dB/m の読み方は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }})、特性インピーダンスの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
+系列ごとの周波数と、トルクの出典の読み分けは [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。スナップオンの MCX、MMCX と、基板へ押し込む U.FL、SMP には、このページの N·m を割り当てていません。力の行は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。上限が寸法とモードでどう決まるかは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。ケーブル側の呼びと損失の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }})、dB/m の読み方は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }})、特性インピーダンスの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
 
 ## 工具
 

@@ -2,7 +2,7 @@
 layout: default
 title: "高周波(RF)同軸コネクタの種類と周波数一覧（SMA・N型・BNC・3.5mm・2.92mm）"
 description: "SMA、N型、BNC、TNC、7/16、3.5mm、2.92mm（K）、2.4mm、F型の結合、使用周波数の目安、用途、嵌合トルクを一覧にします。値は学習用の目安で、製品の保証値ではありません。"
-lastmod: 2026-11-04
+lastmod: 2026-11-06
 permalink: /learn/connector-types/
 ---
 
@@ -34,7 +34,7 @@ permalink: /learn/connector-types/
 
 </div>
 
-帯域名の K と、コネクタの K（2.92 mm）は別の言葉です。帯域との対応は [規格・周波数]({{ '/spectrum/' | relative_url }}) にあります。
+帯域名の K と、コネクタの K（2.92 mm）は別の言葉です。帯域との対応は [規格・周波数]({{ '/spectrum/' | relative_url }}) にあります。スナップオンの MCX、MMCX と、基板へ押し込む U.FL、MHF、SMP は、この表のねじ系列とは別です。寸法、中心コンタクト、周波数の分かれは [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
 
 トルクの列が「各メーカーの仕様」の行は、推奨の幅を一つに固定していません。BNC の結合はバヨネットです。ねじ系列の推奨トルクは、その下の各節に書いた資料の範囲です。実際に締める値は、各メーカーの仕様に従ってください。
 
@@ -104,7 +104,7 @@ Rosenberger の RPC-2.40 は、IEC 60169-40、DC–50 GHz、ねじ結合です�
 
 SMA、3.5 mm、2.92 mm は、機械的には互いに差さることがあります。2.4 mm と 1.85 mm は、別の組み合わせです。差さることを、その周波数まで保証された、とは読みません。誘電体の違い、ピン径、見分け方は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。カットオフと、資料によって分かれる上限の数字は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。反射と、傷めやすい組み合わせは [深掘り]({{ '/learn/master/' | relative_url }}) に整理してあります。
 
-50 Ω と 75 Ω も、プラグの形が近くても別の指定です。径と比誘電率、混ぜたときの反射は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。BNC でその二つをどう見分けるかは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。テレビの同軸を会話にしたのは [第4話]({{ '/manga/04-tv-coax/' | relative_url }}) です。
+50 Ω と 75 Ω も、プラグの形が近くても別の指定です。径と比誘電率、混ぜたときの反射は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。BNC でその二つをどう見分けるかは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。MCX にも 50 Ω と 75 Ω の列があり、U.FL と SMP はさらに別の界面です。[小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。テレビの同軸を会話にしたのは [第4話]({{ '/manga/04-tv-coax/' | relative_url }}) です。
 
 ## 出典
 

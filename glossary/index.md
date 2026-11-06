@@ -2,7 +2,7 @@
 layout: default
 title: "高周波・RF用語集（VSWR・特性インピーダンス・シールド・PIM）"
 description: "VSWR、リターンロス、特性インピーダンス、挿入損失、PIM、表皮効果、シールド、セミリジッドなど、高周波コネクタと同軸ケーブルの用語集です。短い定義であり、製品の保証値ではありません。"
-lastmod: 2026-11-04
+lastmod: 2026-11-06
 permalink: /glossary/
 ---
 
@@ -15,6 +15,7 @@ permalink: /glossary/
   <a class="tag" href="#connector">コネクタ</a>
   <a class="tag" href="#bnc">BNC</a>
   <a class="tag" href="#rp-sma">RP-SMA</a>
+  <a class="tag" href="#small-rf">小型RF</a>
   <a class="tag" href="#coax">同軸</a>
   <a class="tag" href="#fiber">光ファイバー</a>
   <a class="tag" href="#impedance">インピーダンス</a>
@@ -49,7 +50,7 @@ permalink: /glossary/
 
 <p class="term-en">RF connector</p>
 
-同軸の構造を、機器のポートや相手のコネクタへ受け渡す界面です。系列（N、SMA、2.92 mm など）ごとに寸法と、使える周波数の目安が違います。単体では、伝送路の長さも損失も決まりません。相手と嵌合してはいけない組み合わせがあります。SMA、3.5 mm、2.92 mm が機械的に差さることと、精密側を傷めないことは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。中心コンタクトを入れ替えた RP-SMA は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。
+同軸の構造を、機器のポートや相手のコネクタへ受け渡す界面です。系列（N、SMA、2.92 mm など）ごとに寸法と、使える周波数の目安が違います。単体では、伝送路の長さも損失も決まりません。相手と嵌合してはいけない組み合わせがあります。SMA、3.5 mm、2.92 mm が機械的に差さることと、精密側を傷めないことは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。中心コンタクトを入れ替えた RP-SMA は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。スナップオンの MCX、MMCX と、基板実装の U.FL、SMP は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
 
 ## BNC {#bnc}
 
@@ -62,6 +63,12 @@ permalink: /glossary/
 <p class="term-en">reverse polarity SMA</p>
 
 SMA のねじ結合を残したまま、中心のピンとソケットを入れ替えた界面を、資料が RP-SMA と呼びます。極性という語は、その資料では正と負の電圧を指しません。標準では内ねじの側にピンがあり、RP として広く書かれるものでは内ねじの側がソケットです。オスという一語では、ピンの有無は決まりません。別の部品図は、同じ題名で左ねじを指定します。右ねじ同士ではナットが掛かりえても、中心はピン同士かソケット同士です。見分けは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。
+
+## 小型RFコネクタ {#small-rf}
+
+<p class="term-en">MCX, MMCX, U.FL, MHF, SMP, Mini-SMP</p>
+
+SMA より小さい同軸の界面です。MCX と MMCX はスナップオンです。U.FL と、流通で IPEX と呼ばれる MHF は、基板へ押し込む系列です。SMP と Mini-SMP は、基板間にも使う押し込みです。嵌合高さ、中心がピンか穴か、50 Ω か 75 Ω か、保持の強さは、図面の行で分かれます。IEC の MCX は動作周波数の範囲を 3 GHz、MMCX は 6 GHz までと書きます。カタログは、それと違う行も置きます。比較は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
 
 ## 同軸ケーブル {#coax}
 

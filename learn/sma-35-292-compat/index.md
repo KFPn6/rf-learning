@@ -2,7 +2,7 @@
 layout: default
 title: "SMA・3.5mm・2.92mm（Kコネクタ）の互換性と違い"
 description: "SMA、3.5mm、2.92mm（Kコネクタ）の機械的な嵌合、PTFEと空気誘電体、50Ω、使用周波数の目安、SMAを精密側へ挿すときのピン径・ピン位置とゲージの注意を整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-04
+lastmod: 2026-11-06
 permalink: /learn/sma-35-292-compat/
 ---
 
@@ -186,6 +186,7 @@ SMA を精密側へ嵌合したあとの周波数は、低い側です。Rosenbe
 - 反射の読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }})、50 Ω の式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
 - 名前の経緯は [第13話]({{ '/manga/13-sma-origin/' | relative_url }})、[第14話]({{ '/manga/14-renihan-35mm/' | relative_url }})、[第11話]({{ '/manga/11-oldfield-k/' | relative_url }}) です。
 - 中心のピンとソケットを入れ替えた界面は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。
+- ねじではなくスナップオンや基板への押し込みで小さい系列は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
 - 帯域名の K との違いは [規格・周波数]({{ '/spectrum/' | relative_url }})、短い定義は [用語集の K コネクタ]({{ '/glossary/' | relative_url }}#k-connector) です。
 
 ## 出典

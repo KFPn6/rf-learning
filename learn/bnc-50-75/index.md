@@ -2,7 +2,7 @@
 layout: default
 title: "BNCコネクタの50Ωと75Ωの違いと見分け方"
 description: "BNCの50Ωと75Ωの違いを、特性インピーダンス、中心コンタクトの径、誘電体の見え方、混在時の反射とVSWR、嵌合と損傷の注意、計測・無線と映像・放送の用途、RG-58とRG-59の例で整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-04
+lastmod: 2026-11-06
 permalink: /learn/bnc-50-75/
 ---
 
@@ -152,6 +152,7 @@ RG の番号は、同じ呼びでも中心導体や外被が分かれること�
 - 4、10、11 を一つの上限にしない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
 - 同じ 50 Ω でピン径が資料ごとに違う例は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。
 - ねじが同じで中心コンタクトが逆の例は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。
+- スナップオンのまま 50 Ω と 75 Ω の列がある MCX は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
 - RG-58 の構造と損失の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。
 - 名前の展開は [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。短い定義は [用語集の BNC]({{ '/glossary/' | relative_url }}#bnc) です。
 

@@ -2,7 +2,7 @@
 layout: default
 title: "同軸コネクタの使用周波数の上限（カットオフ・SMA・3.5mm・2.92mm）"
 description: "同軸のTEMとTE11のカットオフ周波数の概算、SMA・3.5mm・2.92mm・2.4mmなど主要コネクタの使用周波数の早見、ケーブルとアダプタと嵌合で定格の上限まで使えないことがある点を整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-04
+lastmod: 2026-11-06
 permalink: /learn/frequency-limit/
 ---
 
@@ -193,7 +193,7 @@ Rosenberger の RPC-1.85 ストレートプラグ 08S141-270L5 は、周波数�
   </figcaption>
 </figure>
 
-50 Ω と 75 Ω も、形が近くても別の指定です。N 型の注意は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) にあります。
+50 Ω と 75 Ω も、形が近くても別の指定です。N 型の注意は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) にあります。MCX、MMCX、U.FL、SMP のカタログが置く上限は、このページのカットオフ表には入れていません。[小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
 
 ## 仕様の欄の読み方
 
