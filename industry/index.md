@@ -2,7 +2,7 @@
 layout: default
 title: "高周波コネクタと同軸ケーブルの用途（通信・車載レーダー・衛星・計測）"
 description: "高周波コネクタと同軸ケーブルアッセンブリが、通信・車載レーダー・衛星・半導体試験・計測器でどう使われ、なぜ多品種・小ロットになるのかを整理します。"
-lastmod: 2026-11-06
+lastmod: 2026-11-07
 permalink: /industry/
 ---
 
@@ -129,6 +129,7 @@ permalink: /industry/
 - [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) — 径と比誘電率、50 Ω と 75 Ω
 - [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) — 見分け、嵌合、反射、RG-58 と RG-59
 - [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) — 中心コンタクト、呼び方、誤嵌合、アンテナ側の結合
+- [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) — ねじ、外径、周波数と電力の目安、シール、変換アダプタ
 - [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) — MCX、MMCX、U.FL、MHF、SMP の寸法と嵌合
 - [現場の見方]({{ '/learn/field/' | relative_url }}) — 図面から試験までの視線
 - [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }}) — 構成、端末の方式、検査と仕様

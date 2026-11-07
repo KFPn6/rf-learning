@@ -2,7 +2,7 @@
 layout: default
 title: "SMAとRP-SMAの違いと見分け方"
 description: "SMAとRP-SMA（リバースポラリティSMA）の違いを、外ねじと内ねじ、中心のピンとソケット、オス・メスの呼び方、無線LANで使われてきた規制の経緯、誤って嵌合したときの問題で整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-06
+lastmod: 2026-11-07
 permalink: /learn/sma-rp-sma/
 ---
 
@@ -174,7 +174,7 @@ Amphenol のカタログは、逆極性の SMA は標準の SMA と嵌合しな�
 - 締付、清掃、ピン位置は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }})、トルクの行は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。
 - 形が近くてオームが違う例は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、反射の読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。
 - SMA という名前の経路は [第13話]({{ '/manga/13-sma-origin/' | relative_url }}) です。会話はフィクション演出で、RP-SMA の起源話ではありません。
-- 短い定義は [用語集の RP-SMA]({{ '/glossary/' | relative_url }}#rp-sma) です。スナップオンの MCX、MMCX と、基板実装の U.FL、SMP は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。同じ 2000 年の通知が MCX と MMCX の名を挙げます。
+- 短い定義は [用語集の RP-SMA]({{ '/glossary/' | relative_url }}#rp-sma) です。スナップオンの MCX、MMCX と、基板実装の U.FL、SMP は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。同じ 2000 年の通知が MCX と MMCX の名を挙げます。大きさが違う N 型との見分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。
 
 ## 出典
 

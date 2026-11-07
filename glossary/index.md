@@ -2,7 +2,7 @@
 layout: default
 title: "高周波・RF用語集（VSWR・特性インピーダンス・シールド・PIM）"
 description: "VSWR、リターンロス、特性インピーダンス、挿入損失、PIM、表皮効果、シールド、セミリジッドなど、高周波コネクタと同軸ケーブルの用語集です。短い定義であり、製品の保証値ではありません。"
-lastmod: 2026-11-06
+lastmod: 2026-11-07
 permalink: /glossary/
 ---
 
@@ -13,6 +13,7 @@ permalink: /glossary/
 <nav class="tag-row" aria-label="用語">
   <a class="tag" href="#assembly">アッセンブリ</a>
   <a class="tag" href="#connector">コネクタ</a>
+  <a class="tag" href="#n-type">N型</a>
   <a class="tag" href="#bnc">BNC</a>
   <a class="tag" href="#rp-sma">RP-SMA</a>
   <a class="tag" href="#small-rf">小型RF</a>
@@ -50,7 +51,13 @@ permalink: /glossary/
 
 <p class="term-en">RF connector</p>
 
-同軸の構造を、機器のポートや相手のコネクタへ受け渡す界面です。系列（N、SMA、2.92 mm など）ごとに寸法と、使える周波数の目安が違います。単体では、伝送路の長さも損失も決まりません。相手と嵌合してはいけない組み合わせがあります。SMA、3.5 mm、2.92 mm が機械的に差さることと、精密側を傷めないことは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。中心コンタクトを入れ替えた RP-SMA は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。スナップオンの MCX、MMCX と、基板実装の U.FL、SMP は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
+同軸の構造を、機器のポートや相手のコネクタへ受け渡す界面です。系列（N、SMA、2.92 mm など）ごとに寸法と、使える周波数の目安が違います。単体では、伝送路の長さも損失も決まりません。相手と嵌合してはいけない組み合わせがあります。N 型と SMA はどちらもねじでも、呼びが違って山は掛かり合いません。見分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。SMA、3.5 mm、2.92 mm が機械的に差さることと、精密側を傷めないことは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。中心コンタクトを入れ替えた RP-SMA は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。スナップオンの MCX、MMCX と、基板実装の U.FL、SMP は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
+
+## N型 {#n-type}
+
+<p class="term-en">type N</p>
+
+ねじ結合の同軸コネクタです。IEC 61169-16 の題は、外導体内径 7 mm、50 Ω（75 Ω）、type N です。確認した表の結合ねじは 5/8-24 UNEF です。SMA は、題の外導体内径が 4.13 mm で、技術資料のねじは 1/4-36 です。ナットの大きさが違い、山は掛かり合いません。周波数の行は、標準を DC–11 GHz とする資料と、18 GHz までとする資料に分かれます。75 Ω の N を 50 Ω と嵌合すると、75 Ω 側を壊しうると IEC は書いています。見分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。名前の話は [第8話]({{ '/manga/08-paul-neill/' | relative_url }}) です。
 
 ## BNC {#bnc}
 

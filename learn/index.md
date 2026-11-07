@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "高周波コネクタと同軸ケーブルの学習ガイド"
-description: "SMA・N型・BNC、BNCの50Ωと75Ω、SMAと3.5mm・2.92mmの互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
-lastmod: 2026-11-06
+description: "SMA・N型・BNC、N型とSMAの違い、BNCの50Ωと75Ω、SMAと3.5mm・2.92mmの互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
+lastmod: 2026-11-07
 permalink: /learn/
 ---
 
@@ -57,6 +57,11 @@ permalink: /learn/
     <h2>SMA と RP-SMA</h2>
     <p>外ねじと内ねじ、中心のピンとソケット、オス・メスの呼び方、無線LANで使われてきた規制の経緯、誤って嵌合したときの問題です。値は学習用の目安で、製品の保証値ではありません。</p>
     <p><a href="{{ '/learn/sma-rp-sma/' | relative_url }}">違いと見分け方へ</a></p>
+  </article>
+  <article class="card">
+    <h2>N型とSMA</h2>
+    <p>ねじの呼び、外導体内径、結合ナットの二面幅、周波数と電力の目安、屋外のシール、変換アダプタです。値は学習用の目安で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/n-sma/' | relative_url }}">違いと見分け方へ</a></p>
   </article>
   <article class="card">
     <h2>BNC の 50 Ω と 75 Ω</h2>

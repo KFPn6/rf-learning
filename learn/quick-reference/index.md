@@ -2,7 +2,7 @@
 layout: default
 title: "高周波コネクタのトルク・VSWR・リターンロス早見表"
 description: "高周波アッセンブリで使うトルクレンチ、ピン深さゲージ、VNA、ストリップ工具、かしめ工具と、嵌合トルク、二面幅、VSWRとリターンロスの対応です。"
-lastmod: 2026-11-06
+lastmod: 2026-11-07
 permalink: /learn/quick-reference/
 ---
 
@@ -66,7 +66,7 @@ Rosenberger の SMA Reverse は、推奨の締付を 0.5 N·m、試験トルク�
 
 Keysight は、SMA 用トルクレンチ 8710-1582 を 56 N·cm（5 inch-pounds、0.56 N·m）、3.5 mm 用 8710-1765 を 90 N·cm（8 inch-pounds、0.90 N·m）としています。開口はどちらも 5/16 インチです。開口が同じでも、設定トルクは別の工具です。SMA のオスを 3.5 mm のメスへ締めるときは SMA 用、3.5 mm のオスを SMA のメスへ締めるときは 3.5 mm 用、と同社は書いています。
 
-N 型は、資料が一つに揃いません。Rosenberger の RPC-N は 0.70–1.10 N·m、N と 7-16 のアダプタの N 側は 0.7–1.1 N·m です。Amphenol RF の標準 N は 8–12 inch-pounds と書き、同じ表に N·m を併記していません。インチポンドを、この早見で N·m に換算して推奨値にはしません。
+N 型は、資料が一つに揃いません。Rosenberger の RPC-N は 0.70–1.10 N·m、N と 7-16 のアダプタの N 側は 0.7–1.1 N·m です。Amphenol RF の標準 N は 8–12 inch-pounds と書き、同じ表に N·m を併記していません。インチポンドを、この早見で N·m に換算して推奨値にはしません。開口も、SMA の 8 mm と、RPC-N プラグの hex 19 では違います。系列の読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。
 
 TNC の 0.46–0.69 N·m は RPC-TNC です。Amphenol RF の標準 TNC は 4–6 inch-pounds（0.51–0.67 N·m）です。0.7–1.1 N·m は N 型の資料の幅であり、TNC の推奨ではありません。
 

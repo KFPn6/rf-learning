@@ -2,7 +2,7 @@
 layout: default
 title: "SMA・3.5mm・2.92mm（Kコネクタ）の互換性と違い"
 description: "SMA、3.5mm、2.92mm（Kコネクタ）の機械的な嵌合、PTFEと空気誘電体、50Ω、使用周波数の目安、SMAを精密側へ挿すときのピン径・ピン位置とゲージの注意を整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-06
+lastmod: 2026-11-07
 permalink: /learn/sma-35-292-compat/
 ---
 
@@ -14,7 +14,7 @@ SMA、3.5 mm、2.92 mm（K コネクタ）は、ねじが同じ 1/4-36 で、機
 
 ここにある数字は、公開の技術資料と製品案内から取った学習用の目安です。個別の製品が保証する値ではありません。同じ系列でも、資料が複数の周波数を置きます。平均して一つの上限にはしません。
 
-系列の結合と用途は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。ねじの呼びが同じ 1/4-36 でも、中心コンタクトを入れ替えた RP-SMA は別の界面です。[SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。カットオフと、26.5 GHz 以外の数字の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。締付、清掃、ピン深さの窓の例は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。径と比誘電率の式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }})、境目の反射の読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。短い定義は [用語集]({{ '/glossary/' | relative_url }}#k-connector) です。
+系列の結合と用途は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。ねじの呼びが同じ 1/4-36 でも、中心コンタクトを入れ替えた RP-SMA は別の界面です。[SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。N 型は 5/8-24 で、この三つとは山が掛かり合いません。[N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。カットオフと、26.5 GHz 以外の数字の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。締付、清掃、ピン深さの窓の例は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。径と比誘電率の式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }})、境目の反射の読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。短い定義は [用語集]({{ '/glossary/' | relative_url }}#k-connector) です。
 
 ## 先に、三つの違い
 

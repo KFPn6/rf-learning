@@ -28,6 +28,7 @@
 - [高周波(RF)同軸コネクタの種類と周波数一覧（SMA・N型・BNC・3.5mm・2.92mm）](https://kfpn6.github.io/rf-learning/learn/connector-types/)
 - [SMA・3.5mm・2.92mm（Kコネクタ）の互換性と違い](https://kfpn6.github.io/rf-learning/learn/sma-35-292-compat/)
 - [SMAとRP-SMAの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/sma-rp-sma/)
+- [N型とSMAの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/n-sma/)
 - [BNCコネクタの50Ωと75Ωの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/bnc-50-75/)
 - [小型RFコネクタの比較と見分け方（MCX・MMCX・U.FL・SMP）](https://kfpn6.github.io/rf-learning/learn/small-rf-connectors/)
 - [同軸コネクタの使用周波数の上限（カットオフ・SMA・3.5mm・2.92mm）](https://kfpn6.github.io/rf-learning/learn/frequency-limit/)
