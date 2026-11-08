@@ -2,7 +2,7 @@
 layout: default
 title: "BNCコネクタの50Ωと75Ωの違いと見分け方"
 description: "BNCの50Ωと75Ωの違いを、特性インピーダンス、中心コンタクトの径、誘電体の見え方、混在時の反射とVSWR、嵌合と損傷の注意、計測・無線と映像・放送の用途、RG-58とRG-59の例で整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-06
+lastmod: 2026-11-08
 permalink: /learn/bnc-50-75/
 ---
 
@@ -155,6 +155,7 @@ RG の番号は、同じ呼びでも中心導体や外被が分かれること�
 - スナップオンのまま 50 Ω と 75 Ω の列がある MCX は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
 - RG-58 の構造と損失の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。
 - 名前の展開は [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。短い定義は [用語集の BNC]({{ '/glossary/' | relative_url }}#bnc) です。
+- 75 Ω でもねじ結合の F 型は、バヨネットの BNC とは別の界面です。[F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
 
 ## 出典
 

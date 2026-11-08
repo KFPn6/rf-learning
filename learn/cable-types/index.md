@@ -2,7 +2,7 @@
 layout: default
 title: "同軸ケーブルの種類一覧（RG-58・RG-316・セミリジッド・LMR-400）"
 description: "RG-58、RG-316、RG-142、RG-402/405（セミリジッド）、LMR-400、ハンドフォーマブル、低損失・位相安定の同軸を、インピーダンス、誘電体、損失の傾向、用途で整理します。"
-lastmod: 2026-11-04
+lastmod: 2026-11-08
 permalink: /learn/cable-types/
 ---
 
@@ -14,7 +14,7 @@ permalink: /learn/cable-types/
 
 RG の番号は、同じ呼びでも中心導体や外被が分かれることがあります。このページの RG-58、RG-316、RG-142、RG-402、RG-405 は、Times Microwave Systems が MIL-C-17（現在の仕様書の呼びは MIL-DTL-17）を整理した表の、M17/28、M17/113、M17/60、M17/130、M17/133 の行です。LMR-400 は、同社の低損失フレキシブルの製品系列であり、軍用の RG 番号ではありません。ハンドフォーマブルと位相安定は、一つの呼びに固定せず、データシートのある一例で中身を見ます。
 
-コネクタの系列は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、断面の見方は [入門]({{ '/learn/beginner/' | relative_url }}) です。特性インピーダンスが径と比誘電率でどう決まるか、50 Ω と 75 Ω の読み分けは [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。BNC に付く RG-58 と RG-59 の分けは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。ケーブルをコネクタ、ブーツ、ラベルと組んだときの構成、長さ、曲げは [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }}) です。減衰の単位と、長さ・周波数の計算は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }}) です。周波数と長さを入れる概算は [電卓]({{ '/learn/calculator/#cable' | relative_url }}) です。外部導体の構造と遮蔽の dB の読み方は [同軸ケーブルのシールド]({{ '/learn/shielding/' | relative_url }}) です。反射との切り分けは [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。
+コネクタの系列は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、断面の見方は [入門]({{ '/learn/beginner/' | relative_url }}) です。特性インピーダンスが径と比誘電率でどう決まるか、50 Ω と 75 Ω の読み分けは [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。BNC に付く RG-58 と RG-59 の分けは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。テレビ用の S-5C-FB、S-4C-FB と F 型接栓の関係は [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。ケーブルをコネクタ、ブーツ、ラベルと組んだときの構成、長さ、曲げは [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }}) です。減衰の単位と、長さ・周波数の計算は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }}) です。周波数と長さを入れる概算は [電卓]({{ '/learn/calculator/#cable' | relative_url }}) です。外部導体の構造と遮蔽の dB の読み方は [同軸ケーブルのシールド]({{ '/learn/shielding/' | relative_url }}) です。反射との切り分けは [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。
 
 ## 一覧
 

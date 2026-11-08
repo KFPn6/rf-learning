@@ -2,7 +2,7 @@
 layout: default
 title: "第4話　テレビのアンテナ線が同軸ケーブルである理由"
 description: "自作の会話です。テレビのアンテナ線が同軸ケーブルなのは、放送の波を電気のまま運ぶからです。"
-lastmod: 2026-10-31
+lastmod: 2026-11-08
 permalink: /manga/04-tv-coax/
 ---
 
@@ -55,6 +55,6 @@ permalink: /manga/04-tv-coax/
 
 <aside class="adult-box">
   <h2>大人の深掘り</h2>
-  <p>この会話は、受信の入口です。テレビが同軸である理由は <a href="{{ '/learn/compare/coax-vs-fiber/' | relative_url }}#tv">同軸と光ファイバー</a> にあります。50 Ω と 75 Ω の式と、混ぜたときの反射は <a href="{{ '/learn/impedance/' | relative_url }}">特性インピーダンス</a> です。断面の見方は <a href="{{ '/learn/beginner/' | relative_url }}">入門</a>、言葉は <a href="{{ '/glossary/' | relative_url }}#impedance">用語集の特性インピーダンス</a> です。話の一覧は <a href="{{ '/manga/' | relative_url }}">学習マンガ</a> です。</p>
+  <p>この会話は、受信の入口です。テレビが同軸である理由は <a href="{{ '/learn/compare/coax-vs-fiber/' | relative_url }}#tv">同軸と光ファイバー</a> にあります。50 Ω と 75 Ω の式と、混ぜたときの反射は <a href="{{ '/learn/impedance/' | relative_url }}">特性インピーダンス</a> です。テレビの接栓として名前の出る F 型は <a href="{{ '/learn/f-type/' | relative_url }}">F型コネクタ</a> です。断面の見方は <a href="{{ '/learn/beginner/' | relative_url }}">入門</a>、言葉は <a href="{{ '/glossary/' | relative_url }}#impedance">用語集の特性インピーダンス</a> です。話の一覧は <a href="{{ '/manga/' | relative_url }}">学習マンガ</a> です。</p>
   <p>どの製品も 75 Ω、という保証は、ここでは断定していません。系統と規格の文書を見てください。</p>
 </aside>

@@ -2,7 +2,7 @@
 layout: default
 title: "高周波・RF用語集（VSWR・特性インピーダンス・シールド・PIM）"
 description: "VSWR、リターンロス、特性インピーダンス、挿入損失、PIM、表皮効果、シールド、セミリジッドなど、高周波コネクタと同軸ケーブルの用語集です。短い定義であり、製品の保証値ではありません。"
-lastmod: 2026-11-07
+lastmod: 2026-11-08
 permalink: /glossary/
 ---
 
@@ -15,6 +15,7 @@ permalink: /glossary/
   <a class="tag" href="#connector">コネクタ</a>
   <a class="tag" href="#n-type">N型</a>
   <a class="tag" href="#bnc">BNC</a>
+  <a class="tag" href="#f-type">F型</a>
   <a class="tag" href="#rp-sma">RP-SMA</a>
   <a class="tag" href="#small-rf">小型RF</a>
   <a class="tag" href="#coax">同軸</a>
@@ -64,6 +65,12 @@ permalink: /glossary/
 <p class="term-en">BNC</p>
 
 二本のスタッドで留めるバヨネットの同軸コネクタです。50 Ω と 75 Ω があります。現行の IEC 61169-8 と IEC 61169-63 では、嵌合ピン径の行がどちらも 1.32–1.37 mm です。機械的に嵌合しうることと、反射が残らないこととは別です。見分けと、混ぜたときの読み方は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。名前の展開は [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。
+
+## F型 {#f-type}
+
+<p class="term-en">type F／F型接栓</p>
+
+ねじ結合で、主に 75 Ω のケーブル網に使う同軸コネクタです。IEC 61169-24 の題が、type F です。差し込む側は、別の規格が type F-Quick と呼びます。テレビの案内では、ネジ式、プッシュ式、L 型、中継が分かれます。フィードスルーでは、ケーブルの芯線がオスの接触子になります。周波数の行は、1 GHz、2 GHz、3 GHz、6 GHz に分かれます。一つの上限にはしません。種類、S-5C-FB や S-4C-FB との関係、BNC・SMA・N型との違いは [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
 
 ## RP-SMA {#rp-sma}
 

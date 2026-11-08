@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "高周波コネクタと同軸ケーブルの学習ガイド"
-description: "SMA・N型・BNC、N型とSMAの違い、BNCの50Ωと75Ω、SMAと3.5mm・2.92mmの互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
-lastmod: 2026-11-07
+description: "SMA・N型・BNC、N型とSMAの違い、BNCの50Ωと75Ω、F型コネクタ（F型接栓）、SMAと3.5mm・2.92mmの互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
+lastmod: 2026-11-08
 permalink: /learn/
 ---
 
@@ -67,6 +67,11 @@ permalink: /learn/
     <h2>BNC の 50 Ω と 75 Ω</h2>
     <p>特性インピーダンス、嵌合ピン径、誘電体の見え方、混ぜたときの反射と嵌合、計測・無線と映像・放送、RG-58 と RG-59 の例です。値は学習用の目安で、製品の保証値ではありません。</p>
     <p><a href="{{ '/learn/bnc-50-75/' | relative_url }}">違いと見分け方へ</a></p>
+  </article>
+  <article class="card">
+    <h2>F型コネクタ（F型接栓）</h2>
+    <p>75 Ω のねじ結合、ネジ式・差込式（プッシュオン）・L型・中継、S-5C-FB や S-4C-FB との関係、BNC・SMA・N型との違い、芯線と締め付けと防水です。値は学習用の目安で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/f-type/' | relative_url }}">種類と見分け方へ</a></p>
   </article>
   <article class="card">
     <h2>小型RFコネクタ</h2>

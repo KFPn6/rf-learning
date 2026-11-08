@@ -2,7 +2,7 @@
 layout: default
 title: "N型とSMAの違いと見分け方"
 description: "N型とSMAの違いを、ねじの呼び、外導体内径、結合ナットの二面幅、周波数と電力の目安、屋外のシール、変換アダプタで整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-07
+lastmod: 2026-11-08
 permalink: /learn/n-sma/
 ---
 
@@ -169,7 +169,7 @@ N と SMA は、ねじが掛かり合う相手ではありません。RP-SMA の
 - 結合、用途、トルクの早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
 - SMA と 3.5 mm、2.92 mm のピン径と誘電体は [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }})、中心を入れ替えた呼びは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。
 - 締付の幅は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) と [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
-- 75 Ω の別の例は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、オームの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
+- 75 Ω の別の例は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) と [F型コネクタ]({{ '/learn/f-type/' | relative_url }})、オームの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
 - 短い定義は [用語集の N 型]({{ '/glossary/' | relative_url }}#n-type) です。名前の経緯は [第8話]({{ '/manga/08-paul-neill/' | relative_url }}) と [第13話]({{ '/manga/13-sma-origin/' | relative_url }}) です。
 
 ## 出典

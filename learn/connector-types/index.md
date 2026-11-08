@@ -2,7 +2,7 @@
 layout: default
 title: "高周波(RF)同軸コネクタの種類と周波数一覧（SMA・N型・BNC・3.5mm・2.92mm）"
 description: "SMA、N型、BNC、TNC、7/16、3.5mm、2.92mm（K）、2.4mm、F型の結合、使用周波数の目安、用途、嵌合トルクを一覧にします。値は学習用の目安で、製品の保証値ではありません。"
-lastmod: 2026-11-07
+lastmod: 2026-11-08
 permalink: /learn/connector-types/
 ---
 
@@ -98,13 +98,13 @@ Rosenberger の RPC-2.40 は、IEC 60169-40、DC–50 GHz、ねじ結合です�
 
 ## F
 
-75 Ω のねじ結合です。ケーブルテレビや、宅内の同軸で使われます。Amphenol RF は、標準を DC–1 GHz、拡張を DC–3 GHz、界面を ANSI/SCTE としています。IEC 61169-24 は、75 Ω のケーブル網向けのねじ結合で、図面を直し、3 GHz までを見込んでいます。個別仕様には、用途によって 1 GHz、2 GHz、3 GHz、6 GHz までの区分があります。6 GHz は、衛星放送や精密用途向けの区分です。
+75 Ω のねじ結合です。ケーブルテレビや、宅内の同軸で使われます。Amphenol RF は、標準を DC–1 GHz、拡張を DC–3 GHz、界面を ANSI/SCTE としています。IEC 61169-24 は、75 Ω のケーブル網向けのねじ結合で、図面を直し、3 GHz までを見込んでいます。個別仕様には、用途によって 1 GHz、2 GHz、3 GHz、6 GHz までの区分があります。6 GHz は、衛星放送や精密用途向けの区分です。ネジ式、差込式、L 型、中継、S-5C-FB や S-4C-FB との関係、芯線と締め付けと防水は [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
 
 ## 嵌合できることと、してよいことは違う
 
 SMA、3.5 mm、2.92 mm は、機械的には互いに差さることがあります。2.4 mm と 1.85 mm は、別の組み合わせです。N 型と SMA は、5/8-24 と 1/4-36 で、山が掛かり合う相手ではありません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。差さることを、その周波数まで保証された、とは読みません。誘電体の違い、ピン径、見分け方は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。カットオフと、資料によって分かれる上限の数字は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。反射と、傷めやすい組み合わせは [深掘り]({{ '/learn/master/' | relative_url }}) に整理してあります。
 
-50 Ω と 75 Ω も、プラグの形が近くても別の指定です。径と比誘電率、混ぜたときの反射は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。BNC でその二つをどう見分けるかは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。MCX にも 50 Ω と 75 Ω の列があり、U.FL と SMP はさらに別の界面です。[小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。テレビの同軸を会話にしたのは [第4話]({{ '/manga/04-tv-coax/' | relative_url }}) です。
+50 Ω と 75 Ω も、プラグの形が近くても別の指定です。径と比誘電率、混ぜたときの反射は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。BNC でその二つをどう見分けるかは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、テレビ用の 75 Ω のねじは [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。MCX にも 50 Ω と 75 Ω の列があり、U.FL と SMP はさらに別の界面です。[小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。テレビの同軸を会話にしたのは [第4話]({{ '/manga/04-tv-coax/' | relative_url }}) です。
 
 ## 出典
 
