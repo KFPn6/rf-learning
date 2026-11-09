@@ -2,7 +2,7 @@
 layout: default
 title: "高周波・RF用語集（VSWR・特性インピーダンス・シールド・PIM）"
 description: "VSWR、リターンロス、特性インピーダンス、挿入損失、PIM、表皮効果、シールド、セミリジッドなど、高周波コネクタと同軸ケーブルの用語集です。短い定義であり、製品の保証値ではありません。"
-lastmod: 2026-11-08
+lastmod: 2026-11-09
 permalink: /glossary/
 ---
 
@@ -15,6 +15,7 @@ permalink: /glossary/
   <a class="tag" href="#connector">コネクタ</a>
   <a class="tag" href="#n-type">N型</a>
   <a class="tag" href="#bnc">BNC</a>
+  <a class="tag" href="#tnc">TNC</a>
   <a class="tag" href="#f-type">F型</a>
   <a class="tag" href="#rp-sma">RP-SMA</a>
   <a class="tag" href="#small-rf">小型RF</a>
@@ -64,7 +65,13 @@ permalink: /glossary/
 
 <p class="term-en">BNC</p>
 
-二本のスタッドで留めるバヨネットの同軸コネクタです。50 Ω と 75 Ω があります。現行の IEC 61169-8 と IEC 61169-63 では、嵌合ピン径の行がどちらも 1.32–1.37 mm です。機械的に嵌合しうることと、反射が残らないこととは別です。見分けと、混ぜたときの読み方は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。名前の展開は [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。
+二本のスタッドで留めるバヨネットの同軸コネクタです。50 Ω と 75 Ω があります。現行の IEC 61169-8 と IEC 61169-63 では、嵌合ピン径の行がどちらも 1.32–1.37 mm です。機械的に嵌合しうることと、反射が残らないこととは別です。見分けと、混ぜたときの読み方は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。外導体内径の呼びが同じ 6.5 mm でも、ねじの TNC とはロックの相手ではありません。分けは [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。名前の展開は [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。
+
+## TNC {#tnc}
+
+<p class="term-en">TNC</p>
+
+ねじ結合の同軸コネクタです。IEC 61169-17:2022 の題は、外導体内径 6.5 mm、ねじ、50 Ω、type TNC で、動作周波数は 11 GHz までです。ねじの呼びは、別の資料が 7/16-28 UNEF と書きます。BNC のバヨネットとは、掛かり合う相手ではありません。標準の 11 GHz、拡張や TNCA の 18 GHz、市販系列の 4 GHz と 10 GHz は、一つの上限にしません。50 Ω と 75 Ω、振動試験の条件の文字、見分けは [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。
 
 ## F型 {#f-type}
 

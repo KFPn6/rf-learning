@@ -2,7 +2,7 @@
 layout: default
 title: "小型RFコネクタの比較と見分け方（MCX・MMCX・U.FL・SMP）"
 description: "MCX、MMCX、U.FL、IPEX（MHF）、SMP、Mini-SMP（SMPM）の寸法感、スナップオンと押し込み、基板実装の呼び方、中心のピンと穴、周波数の目安を比べます。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-06
+lastmod: 2026-11-09
 permalink: /learn/small-rf-connectors/
 ---
 
@@ -14,7 +14,7 @@ MCX、MMCX、U.FL、市場で IPEX と呼ばれる MHF、SMP、Mini-SMP は、�
 
 ここにある数字は、公開の規格のプレビューと、メーカーの技術資料から取った学習用の目安です。個別の製品が保証する値ではありません。同じ名前でも、資料が複数の周波数と、複数の高さを置きます。平均して一つの仕様にはしません。
 
-ねじ系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。SMA のねじと中心コンタクトは [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }})、中心を入れ替えた呼びは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。形が近くてオームが違う例は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。カタログの上限を、カットオフの計算へ写す読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
+ねじ系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。SMA のねじと中心コンタクトは [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }})、中心を入れ替えた呼びは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。形が近くてオームが違う例は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。外導体内径の呼びが同じでも、バヨネットとねじで分かれる組は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。カタログの上限を、カットオフの計算へ写す読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
 
 ## 先に、確認できた違い
 
@@ -187,7 +187,7 @@ MCX の 50 Ω と 75 Ω は、スナップの形が近くても、Amphenol の�
 
 - ねじ系列の結合と周波数の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
 - 中心コンタクトの入れ替えは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }})、ピン径と誘電体は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。
-- 50 Ω と 75 Ω で形が近い例は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、オームの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
+- 50 Ω と 75 Ω で形が近い例は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、バヨネットとねじの組は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }})、オームの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
 - 締付トルクの早見に、このスナップオンのニュートンは入れていません。[数値早見]({{ '/learn/quick-reference/' | relative_url }}) と [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
 - 嵌合の注意の並びは [深掘り]({{ '/learn/master/' | relative_url }})、短い定義は [用語集]({{ '/glossary/' | relative_url }}#small-rf) です。
 

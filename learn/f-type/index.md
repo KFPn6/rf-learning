@@ -2,7 +2,7 @@
 layout: default
 title: "F型コネクタ（F型接栓）の種類と見分け方"
 description: "F型コネクタ（F型接栓）が75Ωのねじ結合であること、ネジ式・差込式（プッシュオン）・L型・中継の分かれ、5C-FB・4C-FB・S-5C-FBなどテレビ用同軸との関係、BNC・SMA・N型との違い、芯線の長さと締め付けと防水の注意を整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-08
+lastmod: 2026-11-09
 permalink: /learn/f-type/
 ---
 
@@ -175,7 +175,7 @@ IEC 61169-24 のオスとメスの注は、どちらも、誘電体が基準面�
 ## 関連するページ
 
 - 結合と周波数の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
-- 75 Ω のバヨネットは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、50 Ω のねじの組は [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。
+- 75 Ω のバヨネットは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、同じ呼びの外導体内径でねじの系列は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }})、50 Ω のねじの組は [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。
 - 径と比誘電率、50 Ω と 75 Ω を混ぜたときの反射は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
 - RG の呼びの並びは [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }})、締付の読み方は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
 - 短い定義は [用語集の F 型]({{ '/glossary/' | relative_url }}#f-type) です。受信の入口は [第4話]({{ '/manga/04-tv-coax/' | relative_url }}) です。

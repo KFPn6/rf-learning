@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "高周波コネクタと同軸ケーブルの学習ガイド"
-description: "SMA・N型・BNC、N型とSMAの違い、BNCの50Ωと75Ω、F型コネクタ（F型接栓）、SMAと3.5mm・2.92mmの互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
-lastmod: 2026-11-08
+description: "SMA・N型・BNC、N型とSMAの違い、BNCの50Ωと75Ω、BNCとTNCの違い、F型コネクタ（F型接栓）、SMAと3.5mm・2.92mmの互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
+lastmod: 2026-11-09
 permalink: /learn/
 ---
 
@@ -67,6 +67,11 @@ permalink: /learn/
     <h2>BNC の 50 Ω と 75 Ω</h2>
     <p>特性インピーダンス、嵌合ピン径、誘電体の見え方、混ぜたときの反射と嵌合、計測・無線と映像・放送、RG-58 と RG-59 の例です。値は学習用の目安で、製品の保証値ではありません。</p>
     <p><a href="{{ '/learn/bnc-50-75/' | relative_url }}">違いと見分け方へ</a></p>
+  </article>
+  <article class="card">
+    <h2>BNC と TNC</h2>
+    <p>バヨネットとねじ込み、外導体内径 6.5 mm、7/16-28、使用周波数の目安、振動試験の条件、50 Ω と 75 Ω の注意です。値は学習用の目安で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/bnc-tnc/' | relative_url }}">違いと使い分けへ</a></p>
   </article>
   <article class="card">
     <h2>F型コネクタ（F型接栓）</h2>

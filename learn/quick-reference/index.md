@@ -2,7 +2,7 @@
 layout: default
 title: "高周波コネクタのトルク・VSWR・リターンロス早見表"
 description: "高周波アッセンブリで使うトルクレンチ、ピン深さゲージ、VNA、ストリップ工具、かしめ工具と、嵌合トルク、二面幅、VSWRとリターンロスの対応です。"
-lastmod: 2026-11-07
+lastmod: 2026-11-09
 permalink: /learn/quick-reference/
 ---
 
@@ -68,7 +68,7 @@ Keysight は、SMA 用トルクレンチ 8710-1582 を 56 N·cm（5 inch-pounds�
 
 N 型は、資料が一つに揃いません。Rosenberger の RPC-N は 0.70–1.10 N·m、N と 7-16 のアダプタの N 側は 0.7–1.1 N·m です。Amphenol RF の標準 N は 8–12 inch-pounds と書き、同じ表に N·m を併記していません。インチポンドを、この早見で N·m に換算して推奨値にはしません。開口も、SMA の 8 mm と、RPC-N プラグの hex 19 では違います。系列の読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。
 
-TNC の 0.46–0.69 N·m は RPC-TNC です。Amphenol RF の標準 TNC は 4–6 inch-pounds（0.51–0.67 N·m）です。0.7–1.1 N·m は N 型の資料の幅であり、TNC の推奨ではありません。
+TNC の 0.46–0.69 N·m は RPC-TNC です。Amphenol RF の標準 TNC は 4–6 inch-pounds（0.51–0.67 N·m）です。0.7–1.1 N·m は N 型の資料の幅であり、TNC の推奨ではありません。この幅を、バヨネットの BNC へは使いません。結合と周波数の読み分けは [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。
 
 7/16 の 25–30 N·m は、屋外などで使う系列の推奨です。計測器のポートに、このトルクをかけない工具があります。レンチの節に分けて書いてあります。
 

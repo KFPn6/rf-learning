@@ -2,7 +2,7 @@
 layout: default
 title: "BNCコネクタの50Ωと75Ωの違いと見分け方"
 description: "BNCの50Ωと75Ωの違いを、特性インピーダンス、中心コンタクトの径、誘電体の見え方、混在時の反射とVSWR、嵌合と損傷の注意、計測・無線と映像・放送の用途、RG-58とRG-59の例で整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-08
+lastmod: 2026-11-09
 permalink: /learn/bnc-50-75/
 ---
 
@@ -14,7 +14,7 @@ BNC は、二本のスタッドで留めるバヨネットの同軸コネクタ�
 
 ここにある数字は、公開の規格のプレビューと、メーカーの製品案内から取った学習用の目安です。個別の製品が保証する値ではありません。同じ系列でも、資料が複数の周波数を置きます。平均して一つの上限にはしません。
 
-径と比誘電率の式、50 Ω と 75 Ω を一つの境目でつないだときの 0.2 は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。その 0.2 を VSWR やリターンロスへ入れる電卓は [電卓]({{ '/learn/calculator/#reflect' | relative_url }}) です。反射の読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。系列の結合と周波数の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、4 GHz と 10 GHz と 11 GHz を一つの上限にしない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。同じ 50 Ω のまま界面のピン径が資料で違う例は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。名前の展開は [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。会話はフィクション演出で、発明者とは断定しません。
+径と比誘電率の式、50 Ω と 75 Ω を一つの境目でつないだときの 0.2 は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。その 0.2 を VSWR やリターンロスへ入れる電卓は [電卓]({{ '/learn/calculator/#reflect' | relative_url }}) です。反射の読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。系列の結合と周波数の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、4 GHz と 10 GHz と 11 GHz を一つの上限にしない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。同じ 50 Ω のまま界面のピン径が資料で違う例は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。名前の展開は [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。会話はフィクション演出で、発明者とは断定しません。同じ 6.5 mm の呼びでも、結合をねじにした TNC は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。バヨネットのままでは掛かり合いません。
 
 ## 先に、確認できた違い
 
@@ -156,6 +156,7 @@ RG の番号は、同じ呼びでも中心導体や外被が分かれること�
 - RG-58 の構造と損失の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。
 - 名前の展開は [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。短い定義は [用語集の BNC]({{ '/glossary/' | relative_url }}#bnc) です。
 - 75 Ω でもねじ結合の F 型は、バヨネットの BNC とは別の界面です。[F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
+- 同じ呼びの外導体内径で、結合だけをねじにした系列は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。
 
 ## 出典
 
