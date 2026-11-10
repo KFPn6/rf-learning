@@ -2,7 +2,7 @@
 layout: default
 title: "VSWR・リターンロス変換と反射係数・同軸ケーブル損失の計算"
 description: "VSWR、リターンロス（dB）、反射係数、ミスマッチ損失、反射電力をブラウザ内で相互に変換します。RG-58、RG-316、RG-174、RG-402、3D-2V、5D-2V などの同軸ケーブル損失も、周波数と長さから概算します。"
-lastmod: 2026-11-04
+lastmod: 2026-11-10
 permalink: /learn/calculator/
 ---
 
@@ -73,7 +73,7 @@ VSWR が 1 のとき &#124;Γ&#124; は 0 で、リターンロスは無限大�
 
 プリセットは、公表されている式か、公表されている標準減衰量の掲載点だけです。式の形は a×√f + b×f です。f の単位と、結果の単位はケーブルごとに違います。掲載点が三つの 3D-2V と 5D-2V は、式がカタログに無いので、10 MHz、400 MHz、900 MHz では表の値を使い、そのあいだだけ周波数の常用対数で直線補間します。掲載範囲の外は計算しません。
 
-同じ呼びでも、中心導体や外被が違えば減衰は違います。RG-58 のプリセットは、HUBER+SUHNER の RG_58_C/U です。Times Microwave Systems の整理表にある M17/28-RG58 の 1 GHz とは、別の数字です。呼びの読み分けは [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。
+同じ呼びでも、中心導体や外被が違えば減衰は違います。RG-58 のプリセットは、HUBER+SUHNER の RG_58_C/U です。Times Microwave Systems の整理表にある M17/28-RG58 の 1 GHz とは、別の数字です。呼びの読み分けは [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。RG-174、RG-316、RG-58 を外径と温度と並べるページは [RG-174・RG-316・RG-58]({{ '/learn/rg-174-316-58/' | relative_url }}) です。
 
 <div class="table-scroll" markdown="1">
 

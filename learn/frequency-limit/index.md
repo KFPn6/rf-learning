@@ -2,7 +2,7 @@
 layout: default
 title: "同軸コネクタの使用周波数の上限（カットオフ・SMA・3.5mm・2.92mm）"
 description: "同軸のTEMとTE11のカットオフ周波数の概算、SMA・3.5mm・2.92mm・2.4mmなど主要コネクタの使用周波数の早見、ケーブルとアダプタと嵌合で定格の上限まで使えないことがある点を整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-09
+lastmod: 2026-11-10
 permalink: /learn/frequency-limit/
 ---
 
@@ -154,7 +154,7 @@ N と TNC の 11 GHz と 18 GHz は、標準と、拡張または精密の分か
 
 ### ケーブル側
 
-Times Microwave Systems の整理表では、M17/28-RG58 の掃引範囲は 0.05–1 GHz です。N 型の精密側が 18 GHz までと書いてあっても、このケーブルの掲載範囲を 18 GHz には読みません。呼びの詳細は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。
+Times Microwave Systems の整理表では、M17/28-RG58 の掃引範囲は 0.05–1 GHz です。N 型の精密側が 18 GHz までと書いてあっても、このケーブルの掲載範囲を 18 GHz には読みません。呼びの詳細は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。RG-174 と RG-316 の掃引の行は [RG-174・RG-316・RG-58]({{ '/learn/rg-174-316-58/' | relative_url }}) です。
 
 HUBER+SUHNER の SUCOFORM 141 Cu は、使用周波数の上限を 33 GHz と書いています。端の系列を、SMA のシリーズ資料が書く 18 GHz にすると、コネクタ側の数字の方が低いです。端を 2.92 mm の 40 GHz にすると、ケーブル側の 33 GHz の方が低いです。これは、別々の公開仕様を並べた読み方です。その組み合わせを測った値でも、保証値でもありません。
 
