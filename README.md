@@ -35,6 +35,7 @@
 - [同軸コネクタの使用周波数の上限（カットオフ・SMA・3.5mm・2.92mm）](https://kfpn6.github.io/rf-learning/learn/frequency-limit/)
 - [同軸ケーブルの種類一覧（RG-58・RG-316・セミリジッド・LMR-400）](https://kfpn6.github.io/rf-learning/learn/cable-types/)
 - [RG-174・RG-316・RG-58の違いと選び方](https://kfpn6.github.io/rf-learning/learn/rg-174-316-58/)
+- [LMR-200・LMR-240・LMR-400の違いと選び方](https://kfpn6.github.io/rf-learning/learn/lmr-200-240-400/)
 - [同軸ケーブルの損失と減衰量の計算（dB/m・挿入損失）](https://kfpn6.github.io/rf-learning/learn/cable-loss/)
 - [同軸ケーブルのシールド構造と遮蔽効果（編組・箔・伝達インピーダンス）](https://kfpn6.github.io/rf-learning/learn/shielding/)
 - [同軸ケーブルの位相安定性と電気長（温度・曲げ・PTFE）](https://kfpn6.github.io/rf-learning/learn/phase-stability/)

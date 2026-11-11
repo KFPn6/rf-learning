@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "高周波コネクタと同軸ケーブルの学習ガイド"
-description: "SMA・N型・BNC、N型とSMAの違い、BNCの50Ωと75Ω、BNCとTNCの違い、F型コネクタ（F型接栓）、SMAと3.5mm・2.92mmの互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、RG-174・RG-316・RG-58の違い、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
-lastmod: 2026-11-10
+description: "SMA・N型・BNC、N型とSMAの違い、BNCの50Ωと75Ω、BNCとTNCの違い、F型コネクタ（F型接栓）、SMAと3.5mm・2.92mmの互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、RG-174・RG-316・RG-58の違い、LMR-200・LMR-240・LMR-400の違い、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
+lastmod: 2026-11-11
 permalink: /learn/
 ---
 
@@ -97,6 +97,11 @@ permalink: /learn/
     <h2>RG-174・RG-316・RG-58</h2>
     <p>外径、減衰、耐熱、誘電体と外被。細い二本と、太い RG-58 を、同じ資料の行のまま読み分けます。値は学習用の目安で、製品の保証値ではありません。</p>
     <p><a href="{{ '/learn/rg-174-316-58/' | relative_url }}">違いと選び方へ</a></p>
+  </article>
+  <article class="card">
+    <h2>LMR-200・LMR-240・LMR-400</h2>
+    <p>外径、減衰、曲げ半径、発泡ポリエチレンとアルミテープと編組。RG-58 や RG-8/9913 との関係を、データシートの行のまま読み分けます。値は学習用の目安で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/lmr-200-240-400/' | relative_url }}">違いと選び方へ</a></p>
   </article>
   <article class="card">
     <h2>同軸ケーブルの損失</h2>

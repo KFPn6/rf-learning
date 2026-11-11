@@ -2,7 +2,7 @@
 layout: default
 title: "同軸ケーブルの損失と減衰量の計算（dB/m・挿入損失）"
 description: "同軸ケーブルの減衰量と挿入損失を、dB/mとdB/100mの読み方、長さと周波数の計算例、表皮効果と誘電損失で整理します。値は学習用の例です。"
-lastmod: 2026-11-10
+lastmod: 2026-11-11
 permalink: /learn/cable-loss/
 ---
 
@@ -12,7 +12,7 @@ permalink: /learn/cable-loss/
 
 同軸ケーブルの減衰量が、周波数、長さ、太さ、誘電体、導体でどう変わるかを、一ページにまとめます。dB/m と dB/100 m の読み方、dB の足し算、長さと周波数を変えた計算例、高い周波数で損失が増える理由の入口です。公開資料の式と、データシートの行から組み立てた学習用の読み方であり、個別の製品が保証する値ではありません。条件と、使う周波数の行は、各メーカーのデータシートが定めます。
 
-短い定義は [用語集]({{ '/glossary/' | relative_url }}#insertion-loss) です。反射係数、VSWR、リターンロスとの切り分けは [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。呼びごとの減衰の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。RG-174、RG-316、RG-58 を同じ資料の行で並べた読み分けは [RG-174・RG-316・RG-58]({{ '/learn/rg-174-316-58/' | relative_url }}) です。特性インピーダンスが径と比誘電率で決まることは [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。組み上がった一本の検査の置き場所は [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }})、挿入損失をどう測るかの概略は [検査と測定]({{ '/learn/assembly-testing/' | relative_url }}) です。計測器の入口は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。周波数と長さを入れて減衰の概算を出す電卓は [VSWR・リターンロス変換と反射係数・同軸ケーブル損失の計算]({{ '/learn/calculator/#cable' | relative_url }}) です。
+短い定義は [用語集]({{ '/glossary/' | relative_url }}#insertion-loss) です。反射係数、VSWR、リターンロスとの切り分けは [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。呼びごとの減衰の概数は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。RG-174、RG-316、RG-58 を同じ資料の行で並べた読み分けは [RG-174・RG-316・RG-58]({{ '/learn/rg-174-316-58/' | relative_url }}) です。LMR-200、LMR-240、LMR-400 を同じデータシートの行で並べた読み分けは [LMR-200・LMR-240・LMR-400]({{ '/learn/lmr-200-240-400/' | relative_url }}) です。特性インピーダンスが径と比誘電率で決まることは [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。組み上がった一本の検査の置き場所は [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }})、挿入損失をどう測るかの概略は [検査と測定]({{ '/learn/assembly-testing/' | relative_url }}) です。計測器の入口は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。周波数と長さを入れて減衰の概算を出す電卓は [VSWR・リターンロス変換と反射係数・同軸ケーブル損失の計算]({{ '/learn/calculator/#cable' | relative_url }}) です。
 
 ## 減衰量と挿入損失
 

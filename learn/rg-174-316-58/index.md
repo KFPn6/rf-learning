@@ -2,7 +2,7 @@
 layout: default
 title: "RG-174・RG-316・RG-58の違いと選び方"
 description: "RG-174、RG-316、RG-58の違いを、外径、減衰量、耐熱、誘電体と外被で整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-10
+lastmod: 2026-11-11
 permalink: /learn/rg-174-316-58/
 ---
 
@@ -14,7 +14,7 @@ RG-174、RG-316、RG-58 は、いずれも柔軟な 50 Ω の同軸として名�
 
 数字は、公開のデータシートと整理表から取った学習用の概数です。個別の製品が保証する値ではありません。同じ呼びでも、部品番号で外径と温度が分かれます。資料が違う行を、平均して一つの仕様にはしません。
 
-呼びを広く並べた一覧は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。セミリジッドと LMR-400 は、そちらにあります。dB を長さへ掛ける手順は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }})、係数を入れて概算する電卓は [電卓]({{ '/learn/calculator/#cable' | relative_url }}) です。径と比誘電率の式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。ケーブルの呼びだけで端の系列は決まりません。N 型と SMA の例は [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。掃引の行を、コネクタの 18 GHz へ伸ばさない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
+呼びを広く並べた一覧は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。セミリジッドと LMR-400 は、そちらにあります。LMR-200、LMR-240、LMR-400 の三本は [LMR-200・LMR-240・LMR-400]({{ '/learn/lmr-200-240-400/' | relative_url }}) です。dB を長さへ掛ける手順は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }})、係数を入れて概算する電卓は [電卓]({{ '/learn/calculator/#cable' | relative_url }}) です。径と比誘電率の式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。ケーブルの呼びだけで端の系列は決まりません。N 型と SMA の例は [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。掃引の行を、コネクタの 18 GHz へ伸ばさない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
 
 ## 先に、確認できた違い
 
@@ -130,7 +130,7 @@ Belden 8216 の動作は −30 °C から +75 °C で、UL の温度欄は 60 °
 
 ## 関連するページ
 
-- セミリジッド、LMR-400、RG-142 を含む一覧は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。dB/m の手順は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }})、係数の電卓は [電卓]({{ '/learn/calculator/#cable' | relative_url }}) です。
+- セミリジッド、LMR-400、RG-142 を含む一覧は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。LMR-200、LMR-240、LMR-400 の読み分けは [LMR-200・LMR-240・LMR-400]({{ '/learn/lmr-200-240-400/' | relative_url }}) です。dB/m の手順は [同軸ケーブルの損失]({{ '/learn/cable-loss/' | relative_url }})、係数の電卓は [電卓]({{ '/learn/calculator/#cable' | relative_url }}) です。
 - 径と比誘電率は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }})、掃引の行とコネクタの上限は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
 - 端の系列の例は [N型とSMA]({{ '/learn/n-sma/' | relative_url }})、BNC に付く RG-58 は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。
 - 遮蔽は [同軸ケーブルのシールド]({{ '/learn/shielding/' | relative_url }})、環境の重なりは [アッセンブリの構造と製作工程]({{ '/learn/assembly-basics/' | relative_url }}) です。

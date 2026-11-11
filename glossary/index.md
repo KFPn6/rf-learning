@@ -2,7 +2,7 @@
 layout: default
 title: "高周波・RF用語集（VSWR・特性インピーダンス・シールド・PIM）"
 description: "VSWR、リターンロス、特性インピーダンス、挿入損失、PIM、表皮効果、シールド、セミリジッドなど、高周波コネクタと同軸ケーブルの用語集です。短い定義であり、製品の保証値ではありません。"
-lastmod: 2026-11-10
+lastmod: 2026-11-11
 permalink: /glossary/
 ---
 
@@ -20,6 +20,7 @@ permalink: /glossary/
   <a class="tag" href="#rp-sma">RP-SMA</a>
   <a class="tag" href="#small-rf">小型RF</a>
   <a class="tag" href="#coax">同軸</a>
+  <a class="tag" href="#lmr">LMR</a>
   <a class="tag" href="#fiber">光ファイバー</a>
   <a class="tag" href="#impedance">インピーダンス</a>
   <a class="tag" href="#vswr">VSWR</a>
@@ -95,7 +96,13 @@ SMA より小さい同軸の界面です。MCX と MMCX はスナップオンで
 
 <p class="term-en">coaxial cable</p>
 
-中心導体、誘電体、外部導体を、同じ軸に重ねた伝送路です。「同」は同じ軸、という意味で、中心導体と外部導体が同じ中心線を共有します。外部導体が信号の戻り経路と遮蔽を兼ねます。電源線と違い、断面の寸法比と誘電体で特性インピーダンスが決まります。電気の高周波の波を運び、光を運ぶ光ファイバーとは媒体が違います。比較は [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。呼びごとの並びは [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }})、RG-174、RG-316、RG-58 の読み分けは [RG-174・RG-316・RG-58]({{ '/learn/rg-174-316-58/' | relative_url }}) です。会話は [第2話]({{ '/manga/02-coax-fiber/' | relative_url }}) と、名前の意味の [第3話]({{ '/manga/03-same-axis/' | relative_url }}) です。
+中心導体、誘電体、外部導体を、同じ軸に重ねた伝送路です。「同」は同じ軸、という意味で、中心導体と外部導体が同じ中心線を共有します。外部導体が信号の戻り経路と遮蔽を兼ねます。電源線と違い、断面の寸法比と誘電体で特性インピーダンスが決まります。電気の高周波の波を運び、光を運ぶ光ファイバーとは媒体が違います。比較は [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) です。呼びごとの並びは [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }})、RG-174、RG-316、RG-58 の読み分けは [RG-174・RG-316・RG-58]({{ '/learn/rg-174-316-58/' | relative_url }})、LMR-200、LMR-240、LMR-400 の読み分けは [LMR-200・LMR-240・LMR-400]({{ '/learn/lmr-200-240-400/' | relative_url }}) です。会話は [第2話]({{ '/manga/02-coax-fiber/' | relative_url }}) と、名前の意味の [第3話]({{ '/manga/03-same-axis/' | relative_url }}) です。
+
+## LMR {#lmr}
+
+<p class="term-en">LMR-200, LMR-240, LMR-400</p>
+
+Times Microwave Systems の低損失フレキシブル同軸の呼びです。データシートは、LMR の名の横に登録商標の ® を置きます。LMR-200、LMR-240、LMR-400 は、いずれも 50 Ω で、誘電体は発泡ポリエチレン、外部導体はアルミテープとその外のすずめっき銅の編組です。外径、減衰、曲げ半径は、三本で揃いません。読み分けは [LMR-200・LMR-240・LMR-400]({{ '/learn/lmr-200-240-400/' | relative_url }}) です。呼びを広く並べた一覧の LMR-400 は [ケーブルの種類]({{ '/learn/cable-types/' | relative_url }}) です。
 
 ## 光ファイバー {#fiber}
 
