@@ -2,7 +2,7 @@
 layout: default
 title: "高周波コネクタのトルク・VSWR・リターンロス早見表"
 description: "高周波アッセンブリで使うトルクレンチ、ピン深さゲージ、VNA、ストリップ工具、かしめ工具と、嵌合トルク、二面幅、VSWRとリターンロスの対応です。"
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 permalink: /learn/quick-reference/
 ---
 
@@ -57,6 +57,7 @@ permalink: /learn/quick-reference/
 | N | 各メーカーの仕様 | 一つの幅にまとめない。下の例を参照 |
 | TNC | 0.46–0.69 N·m | Rosenberger の精密 RPC-TNC。別資料は 0.51–0.67 N·m |
 | 7/16（7-16） | 25–30 N·m | Rosenberger。試験トルクの上限 35 N·m は、推奨の嵌合トルクではない |
+| 4.3-10 のねじ | 5 N·m | Rosenberger。手締めはトルクなし、と製品案内。試験 8 N·m は推奨ではない |
 
 </div>
 
@@ -70,7 +71,7 @@ N 型は、資料が一つに揃いません。Rosenberger の RPC-N は 0.70–
 
 TNC の 0.46–0.69 N·m は RPC-TNC です。Amphenol RF の標準 TNC は 4–6 inch-pounds（0.51–0.67 N·m）です。0.7–1.1 N·m は N 型の資料の幅であり、TNC の推奨ではありません。この幅を、バヨネットの BNC へは使いません。結合と周波数の読み分けは [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。
 
-7/16 の 25–30 N·m は、屋外などで使う系列の推奨です。計測器のポートに、このトルクをかけない工具があります。レンチの節に分けて書いてあります。
+7/16 の 25–30 N·m は、屋外などで使う系列の推奨です。計測器のポートに、このトルクをかけない工具があります。レンチの節に分けて書いてあります。4.3-10 のねじの 5 N·m を、この 25–30 N·m の代わりにはしません。手締めにトルクを書かないことは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。
 
 ## レンチの二面幅
 
@@ -146,6 +147,8 @@ VSWR が 1 のとき Γ は 0 で、リターンロスは無限大に相当し�
 - Amphenol RF、TNC（0.51–0.67 N·m）: https://www.amphenolrf.com/en-us/products/rf-connectors/tnc-connectors/
 - Rosenberger、RPC-TNC 技術資料（推奨トルク 0.46–0.69 N·m）: https://www.rosenberger.com/fileadmin/content/headquarter/Products_Services/TM/RPC-TNC/06-000-000_TD.pdf
 - Rosenberger、7-16 シリーズ技術資料（推奨 25–30 N·m、試験の上限 35 N·m）: https://rin.rosenberger.com/fileadmin/content/headquarter/Products_Services/COM/7-16/60-000-000_TD_01.pdf
+- Rosenberger、4.3-10 シリーズ技術資料（推奨 5 N·m、試験 8 N·m）: https://www.rosenberger.com/fileadmin/content/headquarter/Products_Services/COM/4.3-10/64-000-000_TD_01.pdf
+- Rosenberger、4.3-10 製品案内（ねじの推奨 5 N·m、手締めはトルクなし）: https://www.rosenberger.com/product/43-10/
 - Rosenberger、RPC-TNC トルクレンチ 06W021-000（二面幅 15 mm、0.55 N·m）: https://products.rosenberger.com/_ocassets/db/06W021-000_DB.pdf
 - Rosenberger、RPC-N トルクレンチ 53W009-000（二面幅 20 mm、1.10 N·m）: https://products.rosenberger.com/_ocassets/db/53W009-000_DB.pdf
 - Rosenberger、RPC-N コンビレンチ 53W011-000（二面幅 13、14、15、16 mm）: https://products.rosenberger.com/_ocassets/db/53W011-000_DB.pdf

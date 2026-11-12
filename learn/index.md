@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "高周波コネクタと同軸ケーブルの学習ガイド"
-description: "SMA・N型・BNC、N型とSMAの違い、BNCの50Ωと75Ω、BNCとTNCの違い、F型コネクタ（F型接栓）、SMAと3.5mm・2.92mmの互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、RG-174・RG-316・RG-58の違い、LMR-200・LMR-240・LMR-400の違い、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
-lastmod: 2026-11-11
+description: "SMA・N型・BNC、N型とSMAの違い、7/16と4.3-10の違い、BNCの50Ωと75Ω、BNCとTNCの違い、F型コネクタ（F型接栓）、SMAと3.5mm・2.92mmの互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、RG-174・RG-316・RG-58の違い、LMR-200・LMR-240・LMR-400の違い、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
+lastmod: 2026-11-12
 permalink: /learn/
 ---
 
@@ -62,6 +62,11 @@ permalink: /learn/
     <h2>N型とSMA</h2>
     <p>ねじの呼び、外導体内径、結合ナットの二面幅、周波数と電力の目安、屋外のシール、変換アダプタです。値は学習用の目安で、製品の保証値ではありません。</p>
     <p><a href="{{ '/learn/n-sma/' | relative_url }}">違いと見分け方へ</a></p>
+  </article>
+  <article class="card">
+    <h2>7/16 と 4.3-10</h2>
+    <p>外導体内径 16 mm と 10 mm、ねじと手締めとクイックロック、規格の上限とメーカー資料の上限、推奨トルク、大きさ、PIM、N型、変換アダプタです。値は学習用の目安で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/7-16-43-10/' | relative_url }}">違いと使い分けへ</a></p>
   </article>
   <article class="card">
     <h2>BNC の 50 Ω と 75 Ω</h2>

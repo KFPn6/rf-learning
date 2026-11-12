@@ -2,7 +2,7 @@
 layout: default
 title: "高周波(RF)同軸コネクタの種類と周波数一覧（SMA・N型・BNC・3.5mm・2.92mm）"
 description: "SMA、N型、BNC、TNC、7/16、3.5mm、2.92mm（K）、2.4mm、F型の結合、使用周波数の目安、用途、嵌合トルクを一覧にします。値は学習用の目安で、製品の保証値ではありません。"
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 permalink: /learn/connector-types/
 ---
 
@@ -27,6 +27,7 @@ permalink: /learn/connector-types/
 | BNC | バヨネット | 50 Ω は、低い反射で見るとおおよそ 4 GHz まで | 計測器、映像、実験室 | バヨネット |
 | TNC | ねじ | 標準は DC–11 GHz。精密は DC–18 GHz | 振動のある無線、アンテナ、屋外 | 0.46–0.69 N·m。別資料では 0.51–0.67 N·m |
 | 7/16（7-16） | ねじ | DC–7.5 GHz | 屋外の中〜大電力、移動通信 | 25–30 N·m |
+| 4.3-10 | ねじ、手締め、クイックロック | 規格は 6 GHz まで。シリーズ資料は DC–12 GHz | 移動通信。例は RRU とアンテナ | ねじは 5 N·m。手締めはトルクなし |
 | 2.92 mm（K） | ねじ | DC–40 GHz。一部は 43.5 GHz | 精密な計測 | 各メーカーの仕様 |
 | 3.5 mm | ねじ | DC–26.5 GHz | 精密な計測 | 各メーカーの仕様 |
 | 2.4 mm | ねじ | DC–50 GHz | 精密な計測 | 各メーカーの仕様 |
@@ -76,7 +77,11 @@ BNC の接触部を、ねじ結合にしたものです。Amphenol RF は、標�
 
 ## 7/16（7-16）
 
-ねじ結合の 50 Ω です。IEC の呼びは type 7-16 です。Rosenberger のシリーズ資料は、界面を IEC 61169-4、周波数を DC–7.5 GHz、推奨トルクを 25–30 N·m、試験トルクの上限を 35 N·m としています。IEC 61169-4 は、中電力で、使用周波数は 7.5 GHz まで、と書いています。用途の例は、屋外の中〜大電力と、移動通信です。
+ねじ結合の 50 Ω です。IEC の呼びは type 7-16 です。Rosenberger のシリーズ資料は、界面を IEC 61169-4、周波数を DC–7.5 GHz、推奨トルクを 25–30 N·m、試験トルクの上限を 35 N·m としています。IEC 61169-4 は、中電力で、使用周波数は 7.5 GHz まで、と書いています。用途の例は、屋外の中〜大電力と、移動通信です。外導体内径、4.3-10 との結合の違い、規格の上限とメーカー資料の上限、推奨トルク、大きさ、PIM、N 型との関係、変換アダプタは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。
+
+## 4.3-10
+
+IEC の呼びは series 4,3-10 です。Rosenberger は 4.3-10 と書きます。外導体内径の題は 10 mm、結合はねじ、手締め、クイックロックです。IEC 61169-54 の上限は 6 GHz、Rosenberger の周波数範囲は DC–12 GHz です。6 と 12 を、一つの上限にはしません。ねじの推奨として確認できたのは 5 N·m です。上の 7/16 の 25–30 N·m を、このねじへは写しません。手締めは、トルクなし、と製品案内が書きます。外径、ピッチ、PIM、N 型、互いに嵌合しないことは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。
 
 ## 2.92 mm（K）
 
@@ -102,7 +107,7 @@ Rosenberger の RPC-2.40 は、IEC 60169-40、DC–50 GHz、ねじ結合です�
 
 ## 嵌合できることと、してよいことは違う
 
-SMA、3.5 mm、2.92 mm は、機械的には互いに差さることがあります。2.4 mm と 1.85 mm は、別の組み合わせです。N 型と SMA は、5/8-24 と 1/4-36 で、山が掛かり合う相手ではありません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。差さることを、その周波数まで保証された、とは読みません。誘電体の違い、ピン径、見分け方は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。カットオフと、資料によって分かれる上限の数字は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。反射と、傷めやすい組み合わせは [深掘り]({{ '/learn/master/' | relative_url }}) に整理してあります。
+SMA、3.5 mm、2.92 mm は、機械的には互いに差さることがあります。2.4 mm と 1.85 mm は、別の組み合わせです。N 型と SMA は、5/8-24 と 1/4-36 で、山が掛かり合う相手ではありません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。7/16 と 4.3-10 も、互いに嵌合する相手ではありません。読み分けは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。差さることを、その周波数まで保証された、とは読みません。誘電体の違い、ピン径、見分け方は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。カットオフと、資料によって分かれる上限の数字は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。反射と、傷めやすい組み合わせは [深掘り]({{ '/learn/master/' | relative_url }}) に整理してあります。
 
 50 Ω と 75 Ω も、プラグの形が近くても別の指定です。径と比誘電率、混ぜたときの反射は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。BNC でその二つをどう見分けるかは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、テレビ用の 75 Ω のねじは [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。MCX にも 50 Ω と 75 Ω の列があり、U.FL と SMP はさらに別の界面です。[小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。テレビの同軸を会話にしたのは [第4話]({{ '/manga/04-tv-coax/' | relative_url }}) です。
 
@@ -127,6 +132,9 @@ SMA、3.5 mm、2.92 mm は、機械的には互いに差さることがありま
 - Rosenberger、7-16 シリーズ技術資料（DC–7.5 GHz、推奨トルク 25–30 N·m）: https://rin.rosenberger.com/fileadmin/content/headquarter/Products_Services/COM/7-16/60-000-000_TD_01.pdf
 - Rosenberger、7-16 製品案内: https://www.rosenberger.com/product/7-16/
 - IEC 61169-4 の公開プレビュー（7-16、中電力、7.5 GHz）: https://www.en-standard.eu/publicdoc/iec_previews/73980.pdf
+- IEC 61169-54:2021（4,3-10。Webstore。外導体内径 10 mm、上限 6 GHz、ねじ／手締め／クイックロック）: https://webstore.iec.ch/en/publication/63365
+- Rosenberger、4.3-10 製品案内（DC–12 GHz、ねじの推奨 5 N·m、手締めはトルクなし）: https://www.rosenberger.com/product/43-10/
+- Rosenberger、4.3-10 シリーズ技術資料（DC–12 GHz、推奨トルク 5 N·m、試験 8 N·m）: https://www.rosenberger.com/fileadmin/content/headquarter/Products_Services/COM/4.3-10/64-000-000_TD_01.pdf
 - Rosenberger、RPC-2.92（DC–40 GHz、一部 43.5 GHz、SMA・3.5 mm と嵌合）: https://www.rosenberger.com/product/rpc-292/
 - Amphenol RF、2.92 mm（DC–40 GHz、K という呼び、ねじ）: https://www.amphenolrf.com/en-us/products/rf-connectors/2-92-mm-connectors/
 - Anritsu、Extended-K（K を 2.92 mm とし、43.5 GHz、SMA・3.5 mm との嵌合）: https://dl.cdn-anritsu.com/en-us/test-measurement/files/Brochures-Datasheets-Catalogs/datasheet/11410-01192B.pdf
