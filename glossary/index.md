@@ -2,7 +2,7 @@
 layout: default
 title: "高周波・RF用語集（VSWR・特性インピーダンス・シールド・PIM）"
 description: "VSWR、リターンロス、特性インピーダンス、挿入損失、PIM、表皮効果、シールド、セミリジッドなど、高周波コネクタと同軸ケーブルの用語集です。短い定義であり、製品の保証値ではありません。"
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 permalink: /glossary/
 ---
 
@@ -20,6 +20,7 @@ permalink: /glossary/
   <a class="tag" href="#tnc">TNC</a>
   <a class="tag" href="#f-type">F型</a>
   <a class="tag" href="#rp-sma">RP-SMA</a>
+  <a class="tag" href="#qma">QMA</a>
   <a class="tag" href="#small-rf">小型RF</a>
   <a class="tag" href="#coax">同軸</a>
   <a class="tag" href="#lmr">LMR</a>
@@ -56,7 +57,7 @@ permalink: /glossary/
 
 <p class="term-en">RF connector</p>
 
-同軸の構造を、機器のポートや相手のコネクタへ受け渡す界面です。系列（N、SMA、2.92 mm など）ごとに寸法と、使える周波数の目安が違います。単体では、伝送路の長さも損失も決まりません。相手と嵌合してはいけない組み合わせがあります。N 型と SMA はどちらもねじでも、呼びが違って山は掛かり合いません。見分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。SMA、3.5 mm、2.92 mm が機械的に差さることと、精密側を傷めないことは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。中心コンタクトを入れ替えた RP-SMA は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。スナップオンの MCX、MMCX と、基板実装の U.FL、SMP は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
+同軸の構造を、機器のポートや相手のコネクタへ受け渡す界面です。系列（N、SMA、2.92 mm など）ごとに寸法と、使える周波数の目安が違います。単体では、伝送路の長さも損失も決まりません。相手と嵌合してはいけない組み合わせがあります。N 型と SMA はどちらもねじでも、呼びが違って山は掛かり合いません。見分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。SMA、3.5 mm、2.92 mm が機械的に差さることと、精密側を傷めないことは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。中心コンタクトを入れ替えた RP-SMA は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。クイックロックの QMA は、ねじの SMA とは嵌合しません。分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。スナップオンの MCX、MMCX と、基板実装の U.FL、SMP は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
 
 ## N型 {#n-type}
 
@@ -99,6 +100,12 @@ permalink: /glossary/
 <p class="term-en">reverse polarity SMA</p>
 
 SMA のねじ結合を残したまま、中心のピンとソケットを入れ替えた界面を、資料が RP-SMA と呼びます。極性という語は、その資料では正と負の電圧を指しません。標準では内ねじの側にピンがあり、RP として広く書かれるものでは内ねじの側がソケットです。オスという一語では、ピンの有無は決まりません。別の部品図は、同じ題名で左ねじを指定します。右ねじ同士ではナットが掛かりえても、中心はピン同士かソケット同士です。見分けは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。
+
+## QMA {#qma}
+
+<p class="term-en">type QMA</p>
+
+クイックロックの 50 Ω です。IEC 61169-50:2014 の題は、外導体の内径 4,11 mm、クイックロック、type QMA で、動作範囲は 6 GHz までです。Rosenberger の製品案内は、周波数範囲を DC–18 GHz、SMA とは嵌合しない、と書きます。6 と 18 を一つの上限にはしません。ねじの SMA は、IEC 61169-15 の題が外導体の内径 4,13 mm です。見分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。
 
 ## 小型RFコネクタ {#small-rf}
 

@@ -2,7 +2,7 @@
 layout: default
 title: "SMAとRP-SMAの違いと見分け方"
 description: "SMAとRP-SMA（リバースポラリティSMA）の違いを、外ねじと内ねじ、中心のピンとソケット、オス・メスの呼び方、無線LANで使われてきた規制の経緯、誤って嵌合したときの問題で整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 permalink: /learn/sma-rp-sma/
 ---
 
@@ -14,7 +14,7 @@ SMA と RP-SMA は、どちらもねじ結合の同軸コネクタです。確�
 
 ここにある数字は、公開の規格のプレビューと、メーカーの技術資料から取った学習用の目安です。個別の製品が保証する値ではありません。同じ名前でも、資料が複数の周波数と、複数のねじの呼びを置きます。平均して一つの仕様にはしません。
 
-標準の SMA と、3.5 mm、2.92 mm の嵌合、ピン径、ピン位置は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。名前の経路は [第13話]({{ '/manga/13-sma-origin/' | relative_url }}) です。RP-SMA は、その話の BRM や OSM ではありません。系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、締付の読み分けは [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) と [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。形が近くて指定が違う別の例は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。
+標準の SMA と、3.5 mm、2.92 mm の嵌合、ピン径、ピン位置は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。名前の経路は [第13話]({{ '/manga/13-sma-origin/' | relative_url }}) です。RP-SMA は、その話の BRM や OSM ではありません。系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、締付の読み分けは [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) と [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。形が近くて指定が違う別の例は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。結合をクイックロックにした QMA は、この中心の入れ替えではありません。ねじの SMA とは嵌合しない、と案内が書きます。[QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。
 
 ## 先に、確認できた違い
 
@@ -169,7 +169,7 @@ Amphenol のカタログは、逆極性の SMA は標準の SMA と嵌合しな�
 
 ## 関連するページ
 
-- 標準の SMA と、3.5 mm、2.92 mm のピン径、誘電体、ゲージは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。
+- 標準の SMA と、3.5 mm、2.92 mm のピン径、誘電体、ゲージは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。クイックロックの QMA は [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。
 - 結合と周波数の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
 - 締付、清掃、ピン位置は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }})、トルクの行は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。
 - 形が近くてオームが違う例は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、反射の読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。

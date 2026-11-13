@@ -2,7 +2,7 @@
 layout: default
 title: "N型とSMAの違いと見分け方"
 description: "N型とSMAの違いを、ねじの呼び、外導体内径、結合ナットの二面幅、周波数と電力の目安、屋外のシール、変換アダプタで整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 permalink: /learn/n-sma/
 ---
 
@@ -14,7 +14,7 @@ N 型と SMA は、どちらもねじ結合の同軸コネクタです。確認�
 
 ここにある数字は、公開の規格のプレビューと、メーカーの技術資料から取った学習用の目安です。個別の製品が保証する値ではありません。同じ名前でも、資料が複数の周波数と、複数の電力と、複数のトルクを置きます。平均して一つの仕様にはしません。
 
-系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。SMA が 3.5 mm、2.92 mm と機械的に嵌合しうることと、ピン径は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。同じ 1/4-36 でも中心を入れ替えた呼びは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }})、締付の幅は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) と [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。名前の話は [第8話]({{ '/manga/08-paul-neill/' | relative_url }}) と [第13話]({{ '/manga/13-sma-origin/' | relative_url }}) です。会話はフィクション演出です。
+系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。SMA が 3.5 mm、2.92 mm と機械的に嵌合しうることと、ピン径は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。同じ 1/4-36 でも中心を入れ替えた呼びは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }})、締付の幅は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) と [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。SMA の規格を基にしたクイックロックで、ねじの SMA とは嵌合しない QMA は [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。名前の話は [第8話]({{ '/manga/08-paul-neill/' | relative_url }}) と [第13話]({{ '/manga/13-sma-origin/' | relative_url }}) です。会話はフィクション演出です。
 
 ## 先に、確認できた違い
 
@@ -167,7 +167,7 @@ N と SMA は、ねじが掛かり合う相手ではありません。RP-SMA の
 ## 関連するページ
 
 - 結合、用途、トルクの早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
-- SMA と 3.5 mm、2.92 mm のピン径と誘電体は [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }})、中心を入れ替えた呼びは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。
+- SMA と 3.5 mm、2.92 mm のピン径と誘電体は [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }})、中心を入れ替えた呼びは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }})、クイックロックの QMA は [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。
 - 締付の幅は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) と [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
 - 75 Ω の別の例は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) と [F型コネクタ]({{ '/learn/f-type/' | relative_url }})、オームの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
 - 短い定義は [用語集の N 型]({{ '/glossary/' | relative_url }}#n-type) です。名前の経緯は [第8話]({{ '/manga/08-paul-neill/' | relative_url }}) と [第13話]({{ '/manga/13-sma-origin/' | relative_url }}) です。

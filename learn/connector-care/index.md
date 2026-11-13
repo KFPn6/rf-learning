@@ -2,7 +2,7 @@
 layout: default
 title: "高周波コネクタの締め付けトルクと取り扱い（SMA・N型・ピン深さ）"
 description: "SMAやN型など高周波コネクタの締付トルクの目安、トルクレンチ、清掃、外観点検、ピン深さゲージ、嵌合寿命、コネクタセーバーを整理します。値は資料で異なり、最終的には図面とメーカー指定に従います。"
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 permalink: /learn/connector-care/
 ---
 
@@ -95,7 +95,7 @@ Anritsu のケア資料が、ゲージの読みの許容として示す例です
 
 コネクタには、使える回数の限りがあります。Keysight は、校正標準もケーブルもテストポートも、通常の使用で摩耗して不良になりうる、と書きます。回数の一つの数字は、そのページにはありません。グレードは三つに分け、量産グレードが最も緩い公差、計測器グレードがその中間、メトロロジグレードが最も厳しく、寿命も最も長い、と書きます。一般に、メトロロジグレードを量産グレードと嵌合しない、とも書きます。
 
-回数の下限を資料が書く例は、次です。Rosenberger の SMA は、CuBe 相当またはステンレス鋼で 500 回以上、真鍮で 100 回以上です。RPC-3.50、RPC-2.92、RPC-2.40 のシリーズ資料は、いずれも 500 回以上です。これは、そのシートが機械データに置く耐久の下限であり、傷んだあともその回数まで使える、という意味ではありません。Maury は、ColorConnect の精密アダプタについて、補償したメス接触が使える寿命を 500 回を超えて延ばす、と書きます。その製品の説明です。Anritsu は、PIM 測定器の 7/16 DIN ポートについて、コネクタの寿命は通常 500 回の嵌合、と書きます。系列をまたいだ共通の寿命ではありません。
+回数の下限を資料が書く例は、次です。Rosenberger の SMA は、CuBe 相当またはステンレス鋼で 500 回以上、真鍮で 100 回以上です。同じ社の QMA の製品案内は、嵌合回数を 100 回以上とし、結合ナットを締めるトルクレンチは要らない、と書きます。SMA の 500 回や、ステンレスの 0.8–1.1 N·m を、このクイックロックへは写しません。分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。RPC-3.50、RPC-2.92、RPC-2.40 のシリーズ資料は、いずれも 500 回以上です。これは、そのシートが機械データに置く耐久の下限であり、傷んだあともその回数まで使える、という意味ではありません。Maury は、ColorConnect の精密アダプタについて、補償したメス接触が使える寿命を 500 回を超えて延ばす、と書きます。その製品の説明です。Anritsu は、PIM 測定器の 7/16 DIN ポートについて、コネクタの寿命は通常 500 回の嵌合、と書きます。系列をまたいだ共通の寿命ではありません。
 
 使ったあとの外観と、上のゲージの間隔で、早い劣化を見ます。寿命の回数だけを数えて、傷を後回しにはしません。
 
@@ -125,6 +125,7 @@ Anritsu は、PIM 測定器の 7/16 DIN メスの出力に、7/16 DIN のメス�
 - Anritsu、コネクタの清掃手順（90% より高いイソプロピルアルコール、空気は 40 PSI まで）: https://dl.cdn-anritsu.com/en-us/test-measurement/ohs/10450-00040AE/Calibration_and_Measurement/MG_Ch01_Cal_Overview.06.10.html
 - Anritsu、PIM 測定器のコネクタケア（7/16 DIN のセーバー、寿命の例は 500 回、セーバー取付は 25 N·m）: https://dl.cdn-anritsu.com/en-us/test-measurement/ohs/10450-00050N/User_Guide/Ch1_General.02.3.html
 - Rosenberger、SMA シリーズ技術資料（推奨 0.8–1.1 N·m / CuZn 0.5 N·m、嵌合回数 500 以上 / 真鍮 100 以上、試験トルクの上限）: https://www.rosenberger.com/fileadmin/content/headquarter/Products_Services/COM/SMA/32-000-000_TD_01.pdf
+- Rosenberger、QMA 製品案内（嵌合回数 100 回以上。結合ナットを締めるトルクレンチは要らない。SMA とは嵌合しない）: https://www.rosenberger.com/product/qma/
 - Rosenberger、SMA Reverse 技術資料（推奨トルク 0.5 N·m、試験の上限 0.6 N·m）: https://www.rosenberger.com/fileadmin/content/headquarter/Products_Services/COM/Reverse_SMA_BNC_TNC/32R-000-000_TD_01.pdf
 - Rosenberger、RPC-3.50 技術資料（推奨 0.80–1.10 N·m、試験 1.70 N·m、嵌合回数 500 以上）: https://www.rosenberger.com/fileadmin/content/headquarter/Products_Services/TM/RPC-3.50/03-000-000_TD.pdf
 - Rosenberger、RPC-2.92 技術資料（推奨 0.80–1.10 N·m、試験 1.70 N·m、嵌合回数 500 以上）: https://www.rosenberger.com/fileadmin/content/headquarter/Products_Services/TM/RPC-2.92/02-000-000_TD.pdf

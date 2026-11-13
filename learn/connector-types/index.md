@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "高周波(RF)同軸コネクタの種類と周波数一覧（SMA・N型・BNC・3.5mm・2.92mm）"
-description: "SMA、N型、BNC、TNC、7/16、3.5mm、2.92mm（K）、2.4mm、F型の結合、使用周波数の目安、用途、嵌合トルクを一覧にします。値は学習用の目安で、製品の保証値ではありません。"
-lastmod: 2026-11-12
+description: "SMA、QMA、N型、BNC、TNC、7/16、3.5mm、2.92mm（K）、2.4mm、F型の結合、使用周波数の目安、用途、嵌合トルクを一覧にします。値は学習用の目安で、製品の保証値ではありません。"
+lastmod: 2026-11-13
 permalink: /learn/connector-types/
 ---
 
@@ -23,6 +23,7 @@ permalink: /learn/connector-types/
 | 系列 | 結合 | 周波数の目安 | よくある用途 | 嵌合トルクの例 |
 | --- | --- | --- | --- | --- |
 | SMA | ねじ | DC–18 GHz | 通信、計測、機器のあいだ | 0.8–1.1 N·m（ステンレスまたは CuBe）。レンチ設定の例は 0.90 N·m |
+| QMA | クイックロック | 規格は 6 GHz まで。製品案内は DC–18 GHz | 移動体基地局 | トルクレンチは要らない、と製品案内が書く |
 | N | ねじ | 標準は DC–11 GHz。精密・拡張は DC–18 GHz | 無線のインフラ、アンテナ、屋外、計測 | 0.7–1.1 N·m |
 | BNC | バヨネット | 50 Ω は、低い反射で見るとおおよそ 4 GHz まで | 計測器、映像、実験室 | バヨネット |
 | TNC | ねじ | 標準は DC–11 GHz。精密は DC–18 GHz | 振動のある無線、アンテナ、屋外 | 0.46–0.69 N·m。別資料では 0.51–0.67 N·m |
@@ -47,9 +48,13 @@ permalink: /learn/connector-types/
 
 IEC 61169-15:2021 は、SMA が 3.5 mm および 2.92 mm と機械的に嵌合しうると書いています。誘電体、ピン径、ピン位置、ゲージの注意は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。精密側の界面を守る話は [深掘り]({{ '/learn/master/' | relative_url }}) です。
 
-ねじの呼びが同じ 1/4-36 でも、中心のピンとソケットを入れ替えた RP-SMA は、標準の SMA と対になりません。部品図によっては左ねじです。オス・メスの呼び方、規制の経緯、誤って嵌合したときの読み分けは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。N 型とは、ねじの呼びも外導体内径も違います。山は掛かり合いません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。
+ねじの呼びが同じ 1/4-36 でも、中心のピンとソケットを入れ替えた RP-SMA は、標準の SMA と対になりません。部品図によっては左ねじです。オス・メスの呼び方、規制の経緯、誤って嵌合したときの読み分けは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。N 型とは、ねじの呼びも外導体内径も違います。山は掛かり合いません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。SMA の規格を基にしたクイックロックで、ねじの SMA とは嵌合しない案内が QMA です。読み分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。
 
 名前の移り変わりは [第13話]({{ '/manga/13-sma-origin/' | relative_url }}) です。会話はフィクション演出で、BRM、OSM、SMA の展開と年は資料で一つに揃わず、発明者とは断定しません。
+
+## QMA
+
+クイックロックの 50 Ω です。IEC 61169-50:2014 の題は、外導体の内径 4,11 mm、クイックロック、type QMA です。適用範囲の文は、通常、50 Ω のコルゲートおよびフレキシブルケーブル、中電力、動作範囲は 6 GHz まで、と書きます。Rosenberger の製品案内は、界面を IEC 61169-50、周波数範囲を DC–18 GHz、SMA とは嵌合しない、と書きます。6 と 18 を、一つの上限にはしません。上の表のトルクの列は、数字ではなく、その案内がトルクレンチは要らない、と書く行です。結合、最小ピッチ、嵌合回数、変換アダプタは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。
 
 ## N
 
@@ -107,7 +112,7 @@ Rosenberger の RPC-2.40 は、IEC 60169-40、DC–50 GHz、ねじ結合です�
 
 ## 嵌合できることと、してよいことは違う
 
-SMA、3.5 mm、2.92 mm は、機械的には互いに差さることがあります。2.4 mm と 1.85 mm は、別の組み合わせです。N 型と SMA は、5/8-24 と 1/4-36 で、山が掛かり合う相手ではありません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。7/16 と 4.3-10 も、互いに嵌合する相手ではありません。読み分けは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。差さることを、その周波数まで保証された、とは読みません。誘電体の違い、ピン径、見分け方は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。カットオフと、資料によって分かれる上限の数字は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。反射と、傷めやすい組み合わせは [深掘り]({{ '/learn/master/' | relative_url }}) に整理してあります。
+SMA、3.5 mm、2.92 mm は、機械的には互いに差さることがあります。2.4 mm と 1.85 mm は、別の組み合わせです。N 型と SMA は、5/8-24 と 1/4-36 で、山が掛かり合う相手ではありません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。QMA と SMA も、互いに嵌合する相手ではありません。読み分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。7/16 と 4.3-10 も、互いに嵌合する相手ではありません。読み分けは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。差さることを、その周波数まで保証された、とは読みません。誘電体の違い、ピン径、見分け方は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。カットオフと、資料によって分かれる上限の数字は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。反射と、傷めやすい組み合わせは [深掘り]({{ '/learn/master/' | relative_url }}) に整理してあります。
 
 50 Ω と 75 Ω も、プラグの形が近くても別の指定です。径と比誘電率、混ぜたときの反射は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。BNC でその二つをどう見分けるかは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、テレビ用の 75 Ω のねじは [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。MCX にも 50 Ω と 75 Ω の列があり、U.FL と SMP はさらに別の界面です。[小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。テレビの同軸を会話にしたのは [第4話]({{ '/manga/04-tv-coax/' | relative_url }}) です。
 
@@ -144,3 +149,5 @@ SMA、3.5 mm、2.92 mm は、機械的には互いに差さることがありま
 - Amphenol RF、F-Type（75 Ω、DC–1 GHz / 拡張 DC–3 GHz、ねじ、ANSI/SCTE）: https://www.amphenolrf.com/en-us/products/rf-connectors/f-type-connectors/
 - IEC 61169-24:2019（F 型。Webstore）: https://webstore.iec.ch/en/publication/61451
 - IEC 61169-24:2019 の公開サンプル（75 Ω、ねじ、周波数区分）: https://cdn.standards.iteh.ai/samples/101346/e72508bcad3c4e07a30363b4aa10fbda/IEC-61169-24-2019.pdf
+- IEC 61169-50:2014（QMA。Webstore。外導体の内径 4,11 mm、クイックロック、50 Ω。動作範囲は 6 GHz まで）: https://webstore.iec.ch/en/publication/4752
+- Rosenberger、QMA 製品案内（IEC 61169-50、DC–18 GHz、SMA とは嵌合しない、トルクレンチは要らない）: https://www.rosenberger.com/product/qma/

@@ -2,7 +2,7 @@
 layout: default
 title: "同軸コネクタの使用周波数の上限（カットオフ・SMA・3.5mm・2.92mm）"
 description: "同軸のTEMとTE11のカットオフ周波数の概算、SMA・3.5mm・2.92mm・2.4mmなど主要コネクタの使用周波数の早見、ケーブルとアダプタと嵌合で定格の上限まで使えないことがある点を整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 permalink: /learn/frequency-limit/
 ---
 
@@ -134,7 +134,9 @@ d の列は、D/2.30 を 0.001 mm 単位で四捨五入した表示です。fc �
 
 BNC の 4 GHz は、カタログが低い反射として書く範囲です。上の TE11 の概算を、BNC の寸法へ入れた値ではありません。このページは、BNC の外導体内径を確認していないので、その概算は置きません。4 と 10 と 11 も、一つの上限にはまとめません。75 Ω の行、嵌合ピン径、混ぜたときの反射は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。TNC 側の 11 GHz と 18 GHz、市販系列の 4 GHz と 10 GHz を、BNC の 4、10、11、12 と一つの上限にしない読み方は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。F 型の 1 GHz、2 GHz、3 GHz、6 GHz は、このカットオフ表には入れていません。[F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
 
-SMA の 18 GHz は、Rosenberger のシリーズ資料と、IEC 61169-15:2021 の適用範囲です。24 GHz は、Keysight の嵌合表の行です。技術概要は、24 GHz まで使えるほかのコネクタに比べ、多くの SMA の反射が大きい、と書いています。24 GHz まで使える、と 18 GHz まで、を一つの文にはしません。SMA は PTFE の誘電体であることが多く、3.5 mm 以降の精密系列は空気誘電体です。名前の移り変わりは [第13話]({{ '/manga/13-sma-origin/' | relative_url }}) です。
+SMA の 18 GHz は、Rosenberger のシリーズ資料と、IEC 61169-15:2021 の適用範囲です。QMA は別です。IEC 61169-50:2014 の適用範囲は 6 GHz までで、Rosenberger の QMA の製品案内が書く周波数範囲は DC–18 GHz です。6 と 18 を、SMA の 18 GHz と一つの上限にはしません。外導体内径の題は 4,11 mm です。内導体の外径は、開いた資料に無いので、このページのカットオフの式へは入れていません。読み分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。
+
+24 GHz は、Keysight の嵌合表の行です。技術概要は、24 GHz まで使えるほかのコネクタに比べ、多くの SMA の反射が大きい、と書いています。24 GHz まで使える、と 18 GHz まで、を一つの文にはしません。SMA は PTFE の誘電体であることが多く、3.5 mm 以降の精密系列は空気誘電体です。名前の移り変わりは [第13話]({{ '/manga/13-sma-origin/' | relative_url }}) です。
 
 3.5 mm の 26.5、33、34 は、それぞれ RPC-3.50、Keysight の技術概要、同じ社の嵌合表、および Pino の記事の数字です。IEEE 287-2007 の販売ページが掲げる附属書 F の題は、3.5 mm、DC から 33 GHz です。Pino の 34 GHz は、定格ではなく理論上の上限として書かれた行です。定格の 26.5 と、同じ欄には置きません。経緯は [第14話]({{ '/manga/14-renihan-35mm/' | relative_url }}) です。
 
@@ -170,7 +172,7 @@ Rosenberger の RPC-1.85 ストレートプラグ 08S141-270L5 は、周波数�
 
 機械的に差さる組み合わせは、二つに分かれます。
 
-一つ目は、SMA、3.5 mm、2.92 mm です。IEC 61169-15:2021 は、SMA が 3.5 mm および 2.92 mm と機械的に嵌合しうる、と書いています。Keysight の嵌合表も、この三つを同じ組に置きます。嵌合したあとの上限は、低い側の定格を超えて伸びません。Pino は、良い品質の SMA と 3.5 mm の嵌合で、18 GHz まで悪い電気的結果は予期しない、と書いています。3.5 mm の 26.5 GHz が、SMA を嵌合したあともそのまま残る、とは読みません。寸法の甘い SMA のピンが、空気誘電体の精密側を傷めうる話は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) と [深掘り]({{ '/learn/master/' | relative_url }}) です。同じ 1/4-36 でも、中心コンタクトを入れ替えた RP-SMA は、この組の嵌合先には入れません。ねじは掛かりえても、中心がピン同士、またはソケット同士になります。部品図によっては左ねじです。[SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。
+一つ目は、SMA、3.5 mm、2.92 mm です。IEC 61169-15:2021 は、SMA が 3.5 mm および 2.92 mm と機械的に嵌合しうる、と書いています。Keysight の嵌合表も、この三つを同じ組に置きます。嵌合したあとの上限は、低い側の定格を超えて伸びません。Pino は、良い品質の SMA と 3.5 mm の嵌合で、18 GHz まで悪い電気的結果は予期しない、と書いています。3.5 mm の 26.5 GHz が、SMA を嵌合したあともそのまま残る、とは読みません。寸法の甘い SMA のピンが、空気誘電体の精密側を傷めうる話は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) と [深掘り]({{ '/learn/master/' | relative_url }}) です。同じ 1/4-36 でも、中心コンタクトを入れ替えた RP-SMA は、この組の嵌合先には入れません。ねじは掛かりえても、中心がピン同士、またはソケット同士になります。部品図によっては左ねじです。[SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。クイックロックの QMA も、この組には入りません。Rosenberger は、SMA とは嵌合しない、と書きます。[QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。
 
 二つ目は、2.4 mm と 1.85 mm です。Rosenberger の RPC-2.40 は、1.85 mm および V と機械的に嵌合する、と書いています。RPC-1.85 は、RPC-2.40 と機械的に互換、と技術資料に書いています。Anritsu の 2003 年のキット資料も、V が 2.4 mm と機械的および電気的に互換、と書いています。この組と、SMA の組は、直接は合いません。力で回して入れません。Rosenberger の 2.92 mm と 2.4 mm のアダプタ資料は、2.92 mm 側の互換先を 3.5 mm と SMA、2.4 mm 側の互換先を 1.85 mm と分けて書いています。
 
@@ -200,7 +202,7 @@ Rosenberger の RPC-1.85 ストレートプラグ 08S141-270L5 は、周波数�
 見る順番は、次です。
 
 - 系列のカタログの幅と、その製品の行と、ケーブルの行と、アダプタの行を分けます。一番低い行が、その一本の入口です。
-- 同じ系列の 18 と 24、26.5 と 33 と 34、40 と 43.5、60 と 65 と 70 は、資料の違いとして残します。平均しません。
+- 同じ系列の 18 と 24、26.5 と 33 と 34、40 と 43.5、60 と 65 と 70 は、資料の違いとして残します。平均しません。QMA の 6 と 18 も、規格の適用範囲と、製品案内の周波数範囲として残します。SMA の 18 とは平均しません。
 - 定格は、理想化した TE11 の概算より低い側にあることが多いです。概算を、保証の上限にはしません。
 - 機械的に差さることと、その周波数まで仕様を満たすことは別です。
 - カットオフより下でも、挿入損失は長さと周波数で増えます。反射が小さくても、別の予算です。
@@ -219,6 +221,8 @@ Rosenberger の RPC-1.85 ストレートプラグ 08S141-270L5 は、周波数�
 - Keysight、ナレッジセンタ “What RF Connectors are Mateable?”（2022-08-29 更新。1.0 mm は 110 GHz まで、嵌合先は 1.0 mm。1.85 mm は 70 GHz まで、2.4 mm と嵌合。2.4 mm は 50 GHz まで、1.85 mm と嵌合。2.92 mm は 40 GHz まで、3.5 mm と SMA。3.5 mm は 34 GHz まで、2.92 mm と SMA。SMA は 24 GHz まで、PTFE、2.92 mm と 3.5 mm。名前は空気誘電体の径。表の先頭側は空気誘電体）: https://docs.keysight.com/kkbopen/what-rf-connectors-are-mateable-749648236.html
 - Paul Pino、“Intermateability of SMA, 3.5 mm and 2.92 mm Connectors,” Microwave Journal, 2007-03-14（3.5 mm の定格 26.5 GHz、理論上の上限 34 GHz。良い品質の SMA と 3.5 mm の嵌合で、18 GHz まで悪い電気的結果は予期しない、と書く。図は転載していない）: https://www.microwavejournal.com/articles/4457-intermateability-of-sma-3-5-mm-and-2-92-mm-connectors
 - Rosenberger、SMA シリーズ技術資料（DC–18 GHz）: https://www.rosenberger.com/fileadmin/content/headquarter/Products_Services/COM/SMA/32-000-000_TD_01.pdf
+- IEC 61169-50:2014（QMA。Webstore。外導体の内径 4,11 mm、クイックロック。動作範囲は 6 GHz まで。内導体の外径は、開いた要旨には無い）: https://webstore.iec.ch/en/publication/4752
+- Rosenberger、QMA 製品案内（周波数範囲は DC–18 GHz。SMA とは嵌合しない）: https://www.rosenberger.com/product/qma/
 - IEC 61169-15:2021 の公開プレビュー（SMA、18 GHz、3.5 mm と 2.92 mm との機械的な嵌合）: https://www.en-standard.eu/publicdoc/iec_previews/1032466.pdf
 - Amphenol RF、N-Type（標準 DC–11 GHz、拡張 DC–18 GHz）: https://www.amphenolrf.com/en-us/products/rf-connectors/n-type-connectors/
 - IEC 61169-16:2006 の公開サンプル（grade と 11 / 12 / 18 GHz。75 Ω の N への注意）: https://cdn.standards.iteh.ai/samples/14184/32579e2bab614211b18c43b800c39e77/IEC-61169-16-2006.pdf

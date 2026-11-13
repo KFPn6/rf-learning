@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "高周波コネクタと同軸ケーブルの学習ガイド"
-description: "SMA・N型・BNC、N型とSMAの違い、7/16と4.3-10の違い、BNCの50Ωと75Ω、BNCとTNCの違い、F型コネクタ（F型接栓）、SMAと3.5mm・2.92mmの互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、RG-174・RG-316・RG-58の違い、LMR-200・LMR-240・LMR-400の違い、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
-lastmod: 2026-11-12
+description: "SMA・N型・BNC、N型とSMAの違い、QMAとSMAの違い、7/16と4.3-10の違い、BNCの50Ωと75Ω、BNCとTNCの違い、F型コネクタ（F型接栓）、SMAと3.5mm・2.92mmの互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、RG-174・RG-316・RG-58の違い、LMR-200・LMR-240・LMR-400の違い、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
+lastmod: 2026-11-13
 permalink: /learn/
 ---
 
@@ -57,6 +57,11 @@ permalink: /learn/
     <h2>SMA と RP-SMA</h2>
     <p>外ねじと内ねじ、中心のピンとソケット、オス・メスの呼び方、無線LANで使われてきた規制の経緯、誤って嵌合したときの問題です。値は学習用の目安で、製品の保証値ではありません。</p>
     <p><a href="{{ '/learn/sma-rp-sma/' | relative_url }}">違いと見分け方へ</a></p>
+  </article>
+  <article class="card">
+    <h2>QMA と SMA</h2>
+    <p>クイックロックとねじ、外導体内径 4.11 mm、互いに嵌合しないことと変換アダプタ、規格の 6 GHz と製品案内の 18 GHz、実装密度、嵌合回数です。値は学習用の目安で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/qma-sma/' | relative_url }}">違いと見分け方へ</a></p>
   </article>
   <article class="card">
     <h2>N型とSMA</h2>

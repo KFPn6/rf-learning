@@ -28,6 +28,7 @@
 - [高周波(RF)同軸コネクタの種類と周波数一覧（SMA・N型・BNC・3.5mm・2.92mm）](https://kfpn6.github.io/rf-learning/learn/connector-types/)
 - [SMA・3.5mm・2.92mm（Kコネクタ）の互換性と違い](https://kfpn6.github.io/rf-learning/learn/sma-35-292-compat/)
 - [SMAとRP-SMAの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/sma-rp-sma/)
+- [QMAとSMAの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/qma-sma/)
 - [N型とSMAの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/n-sma/)
 - [7/16と4.3-10の違いと使い分け](https://kfpn6.github.io/rf-learning/learn/7-16-43-10/)
 - [BNCコネクタの50Ωと75Ωの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/bnc-50-75/)
