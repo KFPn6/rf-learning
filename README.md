@@ -30,6 +30,7 @@
 - [SMAとRP-SMAの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/sma-rp-sma/)
 - [QMAとSMAの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/qma-sma/)
 - [N型とSMAの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/n-sma/)
+- [N型の50Ωと75Ωの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/n-50-75/)
 - [7/16と4.3-10の違いと使い分け](https://kfpn6.github.io/rf-learning/learn/7-16-43-10/)
 - [BNCコネクタの50Ωと75Ωの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/bnc-50-75/)
 - [F型コネクタ（F型接栓）の種類と見分け方](https://kfpn6.github.io/rf-learning/learn/f-type/)
