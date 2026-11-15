@@ -2,7 +2,7 @@
 layout: default
 title: "高周波・RF用語集（VSWR・特性インピーダンス・シールド・PIM）"
 description: "VSWR、リターンロス、特性インピーダンス、挿入損失、PIM、表皮効果、シールド、セミリジッドなど、高周波コネクタと同軸ケーブルの用語集です。短い定義であり、製品の保証値ではありません。"
-lastmod: 2026-11-14
+lastmod: 2026-11-15
 permalink: /glossary/
 ---
 
@@ -57,7 +57,7 @@ permalink: /glossary/
 
 <p class="term-en">RF connector</p>
 
-同軸の構造を、機器のポートや相手のコネクタへ受け渡す界面です。系列（N、SMA、2.92 mm など）ごとに寸法と、使える周波数の目安が違います。単体では、伝送路の長さも損失も決まりません。相手と嵌合してはいけない組み合わせがあります。N 型と SMA はどちらもねじでも、呼びが違って山は掛かり合いません。見分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。SMA、3.5 mm、2.92 mm が機械的に差さることと、精密側を傷めないことは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。中心コンタクトを入れ替えた RP-SMA は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。クイックロックの QMA は、ねじの SMA とは嵌合しません。分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。スナップオンの MCX、MMCX と、基板実装の U.FL、SMP は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
+同軸の構造を、機器のポートや相手のコネクタへ受け渡す界面です。系列（N、SMA、2.92 mm など）ごとに寸法と、使える周波数の目安が違います。単体では、伝送路の長さも損失も決まりません。相手と嵌合してはいけない組み合わせがあります。N 型と SMA はどちらもねじでも、呼びが違って山は掛かり合いません。見分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。SMA、3.5 mm、2.92 mm が機械的に差さることと、精密側を傷めないことは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。中心コンタクトを入れ替えた RP-SMA は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。クイックロックの QMA は、ねじの SMA とは嵌合しません。分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。ねじの SMA と、バヨネットの BNC は、掛かり合う相手ではありません。分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。スナップオンの MCX、MMCX と、基板実装の U.FL、SMP は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
 
 ## N型 {#n-type}
 
@@ -81,7 +81,7 @@ permalink: /glossary/
 
 <p class="term-en">BNC</p>
 
-二本のスタッドで留めるバヨネットの同軸コネクタです。50 Ω と 75 Ω があります。現行の IEC 61169-8 と IEC 61169-63 では、嵌合ピン径の行がどちらも 1.32–1.37 mm です。機械的に嵌合しうることと、反射が残らないこととは別です。見分けと、混ぜたときの読み方は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。外導体内径の呼びが同じ 6.5 mm でも、ねじの TNC とはロックの相手ではありません。分けは [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。名前の展開は [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。
+二本のスタッドで留めるバヨネットの同軸コネクタです。50 Ω と 75 Ω があります。現行の IEC 61169-8 と IEC 61169-63 では、嵌合ピン径の行がどちらも 1.32–1.37 mm です。機械的に嵌合しうることと、反射が残らないこととは別です。見分けと、混ぜたときの読み方は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。外導体内径の呼びが同じ 6.5 mm でも、ねじの TNC とはロックの相手ではありません。分けは [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。ねじの SMA とも、直接は嵌合しません。分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。名前の展開は [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。
 
 ## TNC {#tnc}
 

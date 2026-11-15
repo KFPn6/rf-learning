@@ -2,7 +2,7 @@
 layout: default
 title: "同軸コネクタの使用周波数の上限（カットオフ・SMA・3.5mm・2.92mm）"
 description: "同軸のTEMとTE11のカットオフ周波数の概算、SMA・3.5mm・2.92mm・2.4mmなど主要コネクタの使用周波数の早見、ケーブルとアダプタと嵌合で定格の上限まで使えないことがある点を整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-14
+lastmod: 2026-11-15
 permalink: /learn/frequency-limit/
 ---
 
@@ -132,7 +132,7 @@ d の列は、D/2.30 を 0.001 mm 単位で四捨五入した表示です。fc �
 
 </div>
 
-BNC の 4 GHz は、カタログが低い反射として書く範囲です。上の TE11 の概算を、BNC の寸法へ入れた値ではありません。このページは、BNC の外導体内径を確認していないので、その概算は置きません。4 と 10 と 11 も、一つの上限にはまとめません。75 Ω の行、嵌合ピン径、混ぜたときの反射は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。TNC 側の 11 GHz と 18 GHz、市販系列の 4 GHz と 10 GHz を、BNC の 4、10、11、12 と一つの上限にしない読み方は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。F 型の 1 GHz、2 GHz、3 GHz、6 GHz は、このカットオフ表には入れていません。[F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
+BNC の 4 GHz は、カタログが低い反射として書く範囲です。上の TE11 の概算を、BNC の寸法へ入れた値ではありません。このページは、BNC の外導体内径を確認していないので、その概算は置きません。4 と 10 と 11 も、一つの上限にはまとめません。75 Ω の行、嵌合ピン径、混ぜたときの反射は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。ねじの SMA と、このバヨネットを一つの対の上限にしない読み方は [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。TNC 側の 11 GHz と 18 GHz、市販系列の 4 GHz と 10 GHz を、BNC の 4、10、11、12 と一つの上限にしない読み方は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。F 型の 1 GHz、2 GHz、3 GHz、6 GHz は、このカットオフ表には入れていません。[F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
 
 SMA の 18 GHz は、Rosenberger のシリーズ資料と、IEC 61169-15:2021 の適用範囲です。QMA は別です。IEC 61169-50:2014 の適用範囲は 6 GHz までで、Rosenberger の QMA の製品案内が書く周波数範囲は DC–18 GHz です。6 と 18 を、SMA の 18 GHz と一つの上限にはしません。外導体内径の題は 4,11 mm です。内導体の外径は、開いた資料に無いので、このページのカットオフの式へは入れていません。読み分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。
 

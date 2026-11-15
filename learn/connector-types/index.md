@@ -2,7 +2,7 @@
 layout: default
 title: "高周波(RF)同軸コネクタの種類と周波数一覧（SMA・N型・BNC・3.5mm・2.92mm）"
 description: "SMA、QMA、N型、BNC、TNC、7/16、3.5mm、2.92mm（K）、2.4mm、F型の結合、使用周波数の目安、用途、嵌合トルクを一覧にします。値は学習用の目安で、製品の保証値ではありません。"
-lastmod: 2026-11-14
+lastmod: 2026-11-15
 permalink: /learn/connector-types/
 ---
 
@@ -48,7 +48,7 @@ permalink: /learn/connector-types/
 
 IEC 61169-15:2021 は、SMA が 3.5 mm および 2.92 mm と機械的に嵌合しうると書いています。誘電体、ピン径、ピン位置、ゲージの注意は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。精密側の界面を守る話は [深掘り]({{ '/learn/master/' | relative_url }}) です。
 
-ねじの呼びが同じ 1/4-36 でも、中心のピンとソケットを入れ替えた RP-SMA は、標準の SMA と対になりません。部品図によっては左ねじです。オス・メスの呼び方、規制の経緯、誤って嵌合したときの読み分けは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。N 型とは、ねじの呼びも外導体内径も違います。山は掛かり合いません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。SMA の規格を基にしたクイックロックで、ねじの SMA とは嵌合しない案内が QMA です。読み分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。
+ねじの呼びが同じ 1/4-36 でも、中心のピンとソケットを入れ替えた RP-SMA は、標準の SMA と対になりません。部品図によっては左ねじです。オス・メスの呼び方、規制の経緯、誤って嵌合したときの読み分けは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。N 型とは、ねじの呼びも外導体内径も違います。山は掛かり合いません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。バヨネットの BNC とも、掛かり合う相手ではありません。読み分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。SMA の規格を基にしたクイックロックで、ねじの SMA とは嵌合しない案内が QMA です。読み分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。
 
 名前の移り変わりは [第13話]({{ '/manga/13-sma-origin/' | relative_url }}) です。会話はフィクション演出で、BRM、OSM、SMA の展開と年は資料で一つに揃わず、発明者とは断定しません。
 
@@ -70,7 +70,7 @@ IEC 61169-16 は、75 Ω の N を強く非推奨としています。50 Ω と�
 
 二本のスタッドで留めるバヨネットです。Rosenberger は、50 Ω の最適を DC–4 GHz、最大を 10 GHz、75 Ω の最適を DC–1 GHz、最大を 4 GHz としています。界面は IEC 61169-8 です。Amphenol のカタログは、動作を 11 GHz までとし、低い反射は 4 GHz まで、と書いています。用途の例は、実験室、オシロスコープ、映像、データと通信です。
 
-Rosenberger は、50 Ω と 75 Ω が機械的に嵌合しうると書いています。インピーダンスが違うものを混ぜると、境目が反射点になります。嵌合ピン径、誘電体の見え方、反射と損傷の読み分けは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。
+Rosenberger は、50 Ω と 75 Ω が機械的に嵌合しうると書いています。インピーダンスが違うものを混ぜると、境目が反射点になります。嵌合ピン径、誘電体の見え方、反射と損傷の読み分けは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。ねじの SMA とは、直接は嵌合しません。読み分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。
 
 名前の話は [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。会話はフィクション演出で、名前の展開は資料で一つに揃わず、発明者とは断定しません。
 
@@ -112,7 +112,7 @@ Rosenberger の RPC-2.40 は、IEC 60169-40、DC–50 GHz、ねじ結合です�
 
 ## 嵌合できることと、してよいことは違う
 
-SMA、3.5 mm、2.92 mm は、機械的には互いに差さることがあります。2.4 mm と 1.85 mm は、別の組み合わせです。N 型と SMA は、5/8-24 と 1/4-36 で、山が掛かり合う相手ではありません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。QMA と SMA も、互いに嵌合する相手ではありません。読み分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。7/16 と 4.3-10 も、互いに嵌合する相手ではありません。読み分けは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。差さることを、その周波数まで保証された、とは読みません。誘電体の違い、ピン径、見分け方は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。カットオフと、資料によって分かれる上限の数字は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。反射と、傷めやすい組み合わせは [深掘り]({{ '/learn/master/' | relative_url }}) に整理してあります。
+SMA、3.5 mm、2.92 mm は、機械的には互いに差さることがあります。2.4 mm と 1.85 mm は、別の組み合わせです。N 型と SMA は、5/8-24 と 1/4-36 で、山が掛かり合う相手ではありません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。SMA の 1/4-36 と、BNC のバヨネットも、掛かり合う相手ではありません。読み分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。QMA と SMA も、互いに嵌合する相手ではありません。読み分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。7/16 と 4.3-10 も、互いに嵌合する相手ではありません。読み分けは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。差さることを、その周波数まで保証された、とは読みません。誘電体の違い、ピン径、見分け方は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。カットオフと、資料によって分かれる上限の数字は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。反射と、傷めやすい組み合わせは [深掘り]({{ '/learn/master/' | relative_url }}) に整理してあります。
 
 50 Ω と 75 Ω も、プラグの形が近くても別の指定です。径と比誘電率、混ぜたときの反射は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。BNC でその二つをどう見分けるかは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、N 型でねじが共通でも嵌合してはいけない読みは [N型の50Ωと75Ω]({{ '/learn/n-50-75/' | relative_url }})、テレビ用の 75 Ω のねじは [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。MCX にも 50 Ω と 75 Ω の列があり、U.FL と SMP はさらに別の界面です。[小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。テレビの同軸を会話にしたのは [第4話]({{ '/manga/04-tv-coax/' | relative_url }}) です。
 

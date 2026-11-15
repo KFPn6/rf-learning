@@ -2,7 +2,7 @@
 layout: default
 title: "QMAとSMAの違いと見分け方"
 description: "QMAとSMAの違いを、クイックロックとねじ、外導体内径 4.11 mm、互いに嵌合しないことと変換アダプタ、規格の 6 GHz と製品案内の 18 GHz、実装密度、嵌合回数で整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-13
+lastmod: 2026-11-15
 permalink: /learn/qma-sma/
 ---
 
@@ -14,7 +14,7 @@ QMA と SMA は、どちらも 50 Ω の同軸コネクタです。結合が違�
 
 ここにある数字は、公開の規格の題と適用範囲、メーカーの製品案内と、一型のアダプタ資料から取った学習用の目安です。個別の製品が保証する値ではありません。同じ名前でも、規格の適用範囲と、製品案内の周波数範囲と、リターンロスの行の終わりは、別の数字です。平均して一つの上限にはしません。
 
-系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。SMA が 3.5 mm、2.92 mm と機械的に嵌合しうることと、ピン径は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。同じねじの呼びでも中心を入れ替えた呼びは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。N 型とのねじの違いは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。上限を平均しない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }})、締付と嵌合回数の置き場所は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
+系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。SMA が 3.5 mm、2.92 mm と機械的に嵌合しうることと、ピン径は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。同じねじの呼びでも中心を入れ替えた呼びは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。N 型とのねじの違いは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。バヨネットの BNC とも、嵌合の相手ではありません。[SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。上限を平均しない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }})、締付と嵌合回数の置き場所は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
 
 ## 先に、確認できた違い
 
