@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "高周波コネクタと同軸ケーブルの学習ガイド"
-description: "SMA・N型・BNC、N型とSMAの違い、SMAとBNCの違い、N型の50Ωと75Ω、QMAとSMAの違い、7/16と4.3-10の違い、BNCの50Ωと75Ω、BNCとTNCの違い、F型コネクタ（F型接栓）、SMAと3.5mm・2.92mmの互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、RG-174・RG-316・RG-58の違い、LMR-200・LMR-240・LMR-400の違い、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
-lastmod: 2026-11-15
+description: "SMA・N型・BNC、N型とSMAの違い、SMAとBNCの違い、N型とBNCの違い、N型の50Ωと75Ω、QMAとSMAの違い、7/16と4.3-10の違い、BNCの50Ωと75Ω、BNCとTNCの違い、F型コネクタ（F型接栓）、SMAと3.5mm・2.92mmの互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、RG-174・RG-316・RG-58の違い、LMR-200・LMR-240・LMR-400の違い、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
+lastmod: 2026-11-16
 permalink: /learn/
 ---
 
@@ -72,6 +72,11 @@ permalink: /learn/
     <h2>SMA と BNC</h2>
     <p>ねじ結合とバヨネット、直接は嵌合しないこと、変換アダプタ、出典ごとの周波数、50 Ω と 75 Ω、着脱とトルクです。値は学習用の目安で、製品の保証値ではありません。</p>
     <p><a href="{{ '/learn/sma-bnc/' | relative_url }}">違いと使い分けへ</a></p>
+  </article>
+  <article class="card">
+    <h2>N型とBNC</h2>
+    <p>ねじ結合とバヨネット、直接は嵌合しないこと、変換アダプタ、出典ごとの周波数と電力、50 Ω と 75 Ω、屋外と着脱の速さです。値は学習用の目安で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/n-bnc/' | relative_url }}">違いと使い分けへ</a></p>
   </article>
   <article class="card">
     <h2>N型の 50 Ω と 75 Ω</h2>

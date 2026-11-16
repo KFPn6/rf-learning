@@ -2,7 +2,7 @@
 layout: default
 title: "SMAとBNCの違いと使い分け"
 description: "SMAのねじ結合（資料の呼びは1/4-36 UNS）とBNCのバヨネットの違い、直接は嵌合しないこと、変換アダプタ、出典ごとの周波数、50Ωと75Ω、着脱とトルクの読み分けを整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-15
+lastmod: 2026-11-16
 permalink: /learn/sma-bnc/
 ---
 
@@ -14,7 +14,7 @@ SMA と BNC は、どちらも高周波の同軸コネクタです。結合が�
 
 ここにある数字は、公開の規格のプレビューと、メーカーの技術資料、計測器メーカーのアプリケーションノートから取った学習用の目安です。個別の製品が保証する値ではありません。同じ名前でも、資料が複数の周波数と、複数のトルクを置きます。平均して一つの上限にはしません。
 
-系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。N 型の 5/8-24 とのねじの違いは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。同じ 6.5 mm の呼びでねじにした TNC は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。BNC の 50 Ω と 75 Ω の見分けと、誤嵌合の注意は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。このページは、BNC に両方があることと、その導線にとどめます。SMA が 3.5 mm、2.92 mm と機械的に嵌合しうることは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }})、中心を入れ替えた呼びは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }})、クイックロックの QMA は [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。上限を平均しない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
+系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。N 型の 5/8-24 とのねじの違いは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。ねじの N 型と、このバヨネットの使い分けは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }}) です。同じ 6.5 mm の呼びでねじにした TNC は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。BNC の 50 Ω と 75 Ω の見分けと、誤嵌合の注意は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。このページは、BNC に両方があることと、その導線にとどめます。SMA が 3.5 mm、2.92 mm と機械的に嵌合しうることは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }})、中心を入れ替えた呼びは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }})、クイックロックの QMA は [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。上限を平均しない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
 
 ## 先に、確認できた違い
 
@@ -172,7 +172,7 @@ BNC で確認できた数字は、別の種類です。IEC 61169-8 のゲージ�
 ## 関連するページ
 
 - 結合、用途、トルクの早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
-- 5/8-24 との違いは [N型とSMA]({{ '/learn/n-sma/' | relative_url }})、同じ 6.5 mm でねじにした系列は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。
+- 5/8-24 との違いは [N型とSMA]({{ '/learn/n-sma/' | relative_url }})、ねじの N 型とバヨネットは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }})、同じ 6.5 mm でねじにした系列は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。
 - 50 Ω と 75 Ω の見分けは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、式と境目の 0.2 は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) と [電卓]({{ '/learn/calculator/#reflect' | relative_url }}) です。
 - 3.5 mm、2.92 mm は [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }})、中心の入れ替えは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }})、クイックロックは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。
 - 締付の幅は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) と [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。

@@ -2,7 +2,7 @@
 layout: default
 title: "BNCとTNCの違いと使い分け"
 description: "BNCのバヨネットとTNCのねじ込みの違いを、外導体内径6.5mm、7/16-28、使用周波数の目安、振動試験の条件、混ぜたときの注意、50Ωと75Ωで整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-15
+lastmod: 2026-11-16
 permalink: /learn/bnc-tnc/
 ---
 
@@ -14,7 +14,7 @@ BNC と TNC は、外導体の内径の呼びがどちらも 6.5 mm の同軸コ
 
 ここにある数字は、公開の規格のプレビューと、メーカーの製品案内から取った学習用の目安です。個別の製品が保証する値ではありません。同じ名前でも、資料が複数の周波数と、複数の振動試験の条件を置きます。平均して一つの上限にはしません。
 
-50 Ω と 75 Ω のピン径、誘電体の見え方、境目の 0.2 は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。オームの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。4、10、11、12、18 を一つの上限にしない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。スナップオンの MCX や、基板へ押し込む U.FL は、この 6.5 mm の組ではありません。[小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。名前の展開は [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。会話はフィクション演出で、発明者とは断定しません。
+50 Ω と 75 Ω のピン径、誘電体の見え方、境目の 0.2 は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。オームの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。4、10、11、12、18 を一つの上限にしない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。スナップオンの MCX や、基板へ押し込む U.FL は、この 6.5 mm の組ではありません。[小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。名前の展開は [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。会話はフィクション演出で、発明者とは断定しません。5/8-24 の N 型と、このバヨネットの使い分けは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }}) です。
 
 ## 先に、確認できた違い
 
@@ -160,7 +160,7 @@ Connex のカタログは、逆極性は部品番号に RP、逆ねじは RT を
 
 - ピン径、誘電体、境目の 0.2 は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
 - 上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }})、結合の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。
-- 5/8-24 と 1/4-36 は [N型とSMA]({{ '/learn/n-sma/' | relative_url }})、ねじとバヨネットの使い分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }})、中心を入れ替えた呼びは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }})、75 Ω の別のねじは [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
+- 5/8-24 と 1/4-36 は [N型とSMA]({{ '/learn/n-sma/' | relative_url }})、ねじの N 型とバヨネットは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }})、ねじとバヨネットの使い分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }})、中心を入れ替えた呼びは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }})、75 Ω の別のねじは [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
 - スナップオンと押し込みは [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。系列ごとに上限が分かれる並びは [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) と [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }}) です。
 - 締付の幅は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) と [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。嵌合の注意の並びは [深掘り]({{ '/learn/master/' | relative_url }}) です。
 - 短い定義は [用語集の BNC]({{ '/glossary/' | relative_url }}#bnc) と [用語集の TNC]({{ '/glossary/' | relative_url }}#tnc) です。名前の展開は [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。
