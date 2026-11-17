@@ -27,6 +27,7 @@
 - [高周波コネクタの締め付けトルクと取り扱い（SMA・N型・ピン深さ）](https://kfpn6.github.io/rf-learning/learn/connector-care/)
 - [高周波(RF)同軸コネクタの種類と周波数一覧（SMA・N型・BNC・3.5mm・2.92mm）](https://kfpn6.github.io/rf-learning/learn/connector-types/)
 - [SMA・3.5mm・2.92mm（Kコネクタ）の互換性と違い](https://kfpn6.github.io/rf-learning/learn/sma-35-292-compat/)
+- [2.4mmと1.85mm（Vコネクタ）の互換性と見分け方](https://kfpn6.github.io/rf-learning/learn/2-4-185/)
 - [SMAとRP-SMAの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/sma-rp-sma/)
 - [QMAとSMAの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/qma-sma/)
 - [N型とSMAの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/n-sma/)
