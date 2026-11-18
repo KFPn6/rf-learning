@@ -2,7 +2,7 @@
 layout: default
 title: "SMA・3.5mm・2.92mm（Kコネクタ）の互換性と違い"
 description: "SMA、3.5mm、2.92mm（Kコネクタ）の機械的な嵌合、PTFEと空気誘電体、50Ω、使用周波数の目安、SMAを精密側へ挿すときのピン径・ピン位置とゲージの注意を整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-17
+lastmod: 2026-11-18
 permalink: /learn/sma-35-292-compat/
 ---
 
@@ -47,7 +47,7 @@ Anritsu のケア資料の特性表は、上限を SMA 18 GHz、3.5 mm と WSMA 
 
 同じ資料の注は、WSMA、3.5 mm、2.92 mm、K が SMA と電気的に互換で、ナット寸法（8 mm）もトルク要求も同じ、と書きます。電気的に互換、は、嵌合したあとも高い側の周波数まで残る、という意味には読みません。WSMA は、SMA へ嵌合したときの電気を良くする設計、と別の注があります。空気誘電体で、外導体の欄は 3.5 mm です。SMA そのものではありません。
 
-2.4 mm と 1.85 mm（V）は、別の組です。Anritsu の同じ表は、ねじを M7 × 0.75 とします。Keysight は、1.85 mm と 2.4 mm の外ねじが、SMA、3.5 mm、2.92 mm より大きい、と書きます。ナットの開口が 8 mm でも、ねじが合う相手ではありません。力で回して入れません。あいだはアダプタです。ねじ、周波数、ピン位置の詳細は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。組の分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) にもあります。
+2.4 mm と 1.85 mm（V）は、別の組です。Anritsu の同じ表は、ねじを M7 × 0.75 とします。Keysight は、1.85 mm と 2.4 mm の外ねじが、SMA、3.5 mm、2.92 mm より大きい、と書きます。ナットの開口が 8 mm でも、ねじが合う相手ではありません。力で回して入れません。あいだはアダプタです。ねじ、周波数、ピン位置の詳細は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。2.92 mm と 2.4 mm のあいだのねじ、アダプタ、見分けは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。組の分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) にもあります。
 
 <figure class="assembly">
   <svg viewBox="0 0 680 168" role="img" aria-labelledby="groupTitle groupDesc">
@@ -181,7 +181,7 @@ SMA を精密側へ嵌合したあとの周波数は、低い側です。Rosenbe
 ## 関連するページ
 
 - 結合、用途、トルクの例は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。
-- カットオフと、資料ごとの上限は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。2.4 mm と 1.85 mm（V）の組は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。
+- カットオフと、資料ごとの上限は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。2.4 mm と 1.85 mm（V）の組は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }})、2.92 mm と 2.4 mm のあいだは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。
 - ゲージ、締付、セーバーは [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
 - 反射の読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }})、50 Ω の式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
 - 名前の経緯は [第13話]({{ '/manga/13-sma-origin/' | relative_url }})、[第14話]({{ '/manga/14-renihan-35mm/' | relative_url }})、[第11話]({{ '/manga/11-oldfield-k/' | relative_url }}) です。

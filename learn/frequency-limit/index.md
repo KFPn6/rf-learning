@@ -2,7 +2,7 @@
 layout: default
 title: "同軸コネクタの使用周波数の上限（カットオフ・SMA・3.5mm・2.92mm）"
 description: "同軸のTEMとTE11のカットオフ周波数の概算、SMA・3.5mm・2.92mm・2.4mm・1.85mmなど主要コネクタの使用周波数の早見、ケーブルとアダプタと嵌合で定格の上限まで使えないことがある点を整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-17
+lastmod: 2026-11-18
 permalink: /learn/frequency-limit/
 ---
 
@@ -174,7 +174,7 @@ Rosenberger の RPC-1.85 ストレートプラグ 08S141-270L5 は、周波数�
 
 一つ目は、SMA、3.5 mm、2.92 mm です。IEC 61169-15:2021 は、SMA が 3.5 mm および 2.92 mm と機械的に嵌合しうる、と書いています。Keysight の嵌合表も、この三つを同じ組に置きます。嵌合したあとの上限は、低い側の定格を超えて伸びません。Pino は、良い品質の SMA と 3.5 mm の嵌合で、18 GHz まで悪い電気的結果は予期しない、と書いています。3.5 mm の 26.5 GHz が、SMA を嵌合したあともそのまま残る、とは読みません。寸法の甘い SMA のピンが、空気誘電体の精密側を傷めうる話は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) と [深掘り]({{ '/learn/master/' | relative_url }}) です。同じ 1/4-36 でも、中心コンタクトを入れ替えた RP-SMA は、この組の嵌合先には入れません。ねじは掛かりえても、中心がピン同士、またはソケット同士になります。部品図によっては左ねじです。[SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。クイックロックの QMA も、この組には入りません。Rosenberger は、SMA とは嵌合しない、と書きます。[QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。
 
-二つ目は、2.4 mm と 1.85 mm です。Rosenberger の RPC-2.40 は、1.85 mm および V と機械的に嵌合する、と書いています。RPC-1.85 は、RPC-2.40 と機械的に互換、と技術資料に書いています。Anritsu の 2003 年のキット資料も、V が 2.4 mm と機械的および電気的に互換、と書いています。この組と、SMA の組は、直接は合いません。力で回して入れません。Rosenberger の 2.92 mm と 2.4 mm のアダプタ資料は、2.92 mm 側の互換先を 3.5 mm と SMA、2.4 mm 側の互換先を 1.85 mm と分けて書いています。ねじ、溝、ピン位置は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。
+二つ目は、2.4 mm と 1.85 mm です。Rosenberger の RPC-2.40 は、1.85 mm および V と機械的に嵌合する、と書いています。RPC-1.85 は、RPC-2.40 と機械的に互換、と技術資料に書いています。Anritsu の 2003 年のキット資料も、V が 2.4 mm と機械的および電気的に互換、と書いています。この組と、SMA の組は、直接は合いません。力で回して入れません。Rosenberger の 2.92 mm と 2.4 mm のアダプタ資料は、2.92 mm 側の互換先を 3.5 mm と SMA、2.4 mm 側の互換先を 1.85 mm と分けて書いています。ねじ、溝、ピン位置は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。2.92 mm と 2.4 mm のあいだのねじ、アダプタ、見分けは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。
 
 <figure class="assembly">
   <svg viewBox="0 0 680 150" role="img" aria-labelledby="mateTitle mateDesc">

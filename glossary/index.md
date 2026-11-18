@@ -2,7 +2,7 @@
 layout: default
 title: "高周波・RF用語集（VSWR・特性インピーダンス・シールド・PIM）"
 description: "VSWR、リターンロス、特性インピーダンス、挿入損失、PIM、表皮効果、シールド、セミリジッドなど、高周波コネクタと同軸ケーブルの用語集です。短い定義であり、製品の保証値ではありません。"
-lastmod: 2026-11-17
+lastmod: 2026-11-18
 permalink: /glossary/
 ---
 
@@ -59,7 +59,7 @@ permalink: /glossary/
 
 <p class="term-en">RF connector</p>
 
-同軸の構造を、機器のポートや相手のコネクタへ受け渡す界面です。系列（N、SMA、2.92 mm、2.4 mm など）ごとに寸法と、使える周波数の目安が違います。単体では、伝送路の長さも損失も決まりません。相手と嵌合してはいけない組み合わせがあります。N 型と SMA はどちらもねじでも、呼びが違って山は掛かり合いません。見分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。SMA、3.5 mm、2.92 mm が機械的に差さることと、精密側を傷めないことは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。2.4 mm と 1.85 mm（V）は別のねじの組です。分けは [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。中心コンタクトを入れ替えた RP-SMA は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。クイックロックの QMA は、ねじの SMA とは嵌合しません。分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。ねじの SMA と、バヨネットの BNC は、掛かり合う相手ではありません。分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。スナップオンの MCX、MMCX と、基板実装の U.FL、SMP は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
+同軸の構造を、機器のポートや相手のコネクタへ受け渡す界面です。系列（N、SMA、2.92 mm、2.4 mm など）ごとに寸法と、使える周波数の目安が違います。単体では、伝送路の長さも損失も決まりません。相手と嵌合してはいけない組み合わせがあります。N 型と SMA はどちらもねじでも、呼びが違って山は掛かり合いません。見分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。SMA、3.5 mm、2.92 mm が機械的に差さることと、精密側を傷めないことは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。2.4 mm と 1.85 mm（V）は別のねじの組です。分けは [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。2.92 mm と 2.4 mm のあいだは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。中心コンタクトを入れ替えた RP-SMA は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。クイックロックの QMA は、ねじの SMA とは嵌合しません。分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。ねじの SMA と、バヨネットの BNC は、掛かり合う相手ではありません。分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。スナップオンの MCX、MMCX と、基板実装の U.FL、SMP は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
 
 ## N型 {#n-type}
 
@@ -215,13 +215,13 @@ Times Microwave Systems の低損失フレキシブル同軸の呼びです。�
 
 <p class="term-en">K connector／2.92 mm</p>
 
-2.92 mm の精密同軸コネクタの呼びです。帯域名の K（おおよそ 18–27 GHz）とは別の言葉です。空気を誘電体にする系列で、SMA および 3.5 mm と機械的に嵌合しうることがあります。差さること、相手の周波数まで使えること、精密側の界面を傷めないことは、別です。整理は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。帯域との違いは [規格・周波数]({{ '/spectrum/' | relative_url }})、名前の経緯は [第11話]({{ '/manga/11-oldfield-k/' | relative_url }}) です。会話はフィクション演出です。2.4 mm と 1.85 mm とは、ねじが違って直接は嵌合しません。[2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。
+2.92 mm の精密同軸コネクタの呼びです。帯域名の K（おおよそ 18–27 GHz）とは別の言葉です。空気を誘電体にする系列で、SMA および 3.5 mm と機械的に嵌合しうることがあります。差さること、相手の周波数まで使えること、精密側の界面を傷めないことは、別です。整理は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。帯域との違いは [規格・周波数]({{ '/spectrum/' | relative_url }})、名前の経緯は [第11話]({{ '/manga/11-oldfield-k/' | relative_url }}) です。会話はフィクション演出です。2.4 mm と 1.85 mm とは、ねじが違って直接は嵌合しません。[2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。2.92 mm と 2.4 mm のあいだのねじ、アダプタ、見分けは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。
 
 ## 2.4 mm {#connector-2-4}
 
 <p class="term-en">2.4 mm connector</p>
 
-外導体の呼びが 2.4 mm の、ねじ結合の精密同軸です。確認した資料のインピーダンスは 50 Ω で、動作の行は 50 GHz までと置く例が並びます。1.85 mm（V）と機械的に嵌合しうることがあります。SMA、3.5 mm、2.92 mm とはねじが違い、直接は嵌合しません。50 GHz を、別の資料のモードフリーの数字と一つの上限にはしません。ねじ、周波数、ピン位置は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。経緯は [第15話]({{ '/manga/15-botka-24mm/' | relative_url }}) です。会話はフィクション演出で、発明者とは断定しません。
+外導体の呼びが 2.4 mm の、ねじ結合の精密同軸です。確認した資料のインピーダンスは 50 Ω で、動作の行は 50 GHz までと置く例が並びます。1.85 mm（V）と機械的に嵌合しうることがあります。SMA、3.5 mm、2.92 mm とはねじが違い、直接は嵌合しません。50 GHz を、別の資料のモードフリーの数字と一つの上限にはしません。ねじ、周波数、ピン位置は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。2.92 mm とのあいだは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。経緯は [第15話]({{ '/manga/15-botka-24mm/' | relative_url }}) です。会話はフィクション演出で、発明者とは断定しません。
 
 ## Vコネクタ {#v-connector}
 
