@@ -2,7 +2,7 @@
 layout: default
 title: "2.4mmと1.85mm（Vコネクタ）の互換性と見分け方"
 description: "2.4mmと1.85mm（Vコネクタ）は同じねじの組で互いに嵌合しうること、SMA・3.5mm・2.92mmとはねじが違い直接は嵌合しないこと、出典ごとの周波数の目安、精密側のピン深さを整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-18
+lastmod: 2026-11-19
 permalink: /learn/2-4-185/
 ---
 
@@ -14,7 +14,7 @@ permalink: /learn/2-4-185/
 
 ここにある数字は、IEC の公開案内と公開プレビュー、メーカーと計測器メーカーの公開資料から取った学習用の目安です。個別の製品が保証する値ではありません。同じ系列でも、資料が複数の周波数と、複数のピン位置を置きます。平均して一つの上限にはしません。
 
-SMA、3.5 mm、2.92 mm のねじ、誘電体、ピン径は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。このページは、その組が別であることの詳細を持ちません。2.92 mm と 2.4 mm のあいだのねじ、嵌合しないこと、アダプタ、見分け、取り扱いは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。カットオフと、資料ごとの上限の置き方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。締付、清掃、ゲージの一般の手順は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。このページに置くのは、2.4 mm と 1.85 mm の界面に固有の注意です。系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、嵌合の原則は [深掘り]({{ '/learn/master/' | relative_url }}) です。2.4 mm の経緯（1980年代、1986年の論文）は [第15話]({{ '/manga/15-botka-24mm/' | relative_url }}) です。会話はフィクション演出で、発明者とは断定しません。このページでも、開発の主語と年は決めません。帯域名の V との違いは [規格・周波数]({{ '/spectrum/' | relative_url }})、短い定義は [用語集の V コネクタ]({{ '/glossary/' | relative_url }}#v-connector) です。
+SMA、3.5 mm、2.92 mm のねじ、誘電体、ピン径は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。このページは、その組が別であることの詳細を持ちません。2.92 mm と 2.4 mm のあいだのねじ、嵌合しないこと、アダプタ、見分け、取り扱いは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。1.85 mm と 1.0 mm のあいだのねじ、嵌合しないこと、アダプタ、見分け、取り扱いは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。カットオフと、資料ごとの上限の置き方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。締付、清掃、ゲージの一般の手順は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。このページに置くのは、2.4 mm と 1.85 mm の界面に固有の注意です。系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、嵌合の原則は [深掘り]({{ '/learn/master/' | relative_url }}) です。2.4 mm の経緯（1980年代、1986年の論文）は [第15話]({{ '/manga/15-botka-24mm/' | relative_url }}) です。会話はフィクション演出で、発明者とは断定しません。このページでも、開発の主語と年は決めません。帯域名の V との違いは [規格・周波数]({{ '/spectrum/' | relative_url }})、短い定義は [用語集の V コネクタ]({{ '/glossary/' | relative_url }}#v-connector) です。
 
 ## 先に、確認できた違い
 
@@ -75,7 +75,7 @@ Anritsu のケア資料の特性表は、2.4 mm と V（1.85 mm）のねじを�
 
 機械的に嵌合しうることと、高い側の周波数まで仕様が残ることは、別です。嵌合したあとの上限は、低い側の行を超えて伸びません。2.4 mm の動作の行を 50 GHz と置く資料に、1.85 mm の 70 GHz を嵌合したまま残す、とは読みません。電気的に互換、という 2003 年の文も、そのキットが続ける保証は 60 GHz まで、使用は 65 GHz まで、です。70 を、その保証には読みません。
 
-1.0 mm は、さらに別の系列です。Keysight の同じ嵌合表は、嵌合先を 1.0 mm だけとし、下のどれよりもずっと小さい、と書きます。Anritsu の同じ特性表は、W1（1 mm）のねじを M4 × 0.7 とします。M7 × 0.75 の組へは、力で進めません。
+1.0 mm は、さらに別の系列です。Keysight の同じ嵌合表は、嵌合先を 1.0 mm だけとし、下のどれよりもずっと小さい、と書きます。Anritsu の同じ特性表は、W1（1 mm）のねじを M4 × 0.7 とします。M7 × 0.75 の組へは、力で進めません。ねじ、アダプタ、見分け、1.0 mm 側の取り扱いは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。
 
 ## 外観で、どこまで分かるか
 
@@ -176,15 +176,15 @@ SMA、3.5 mm、2.92 mm と、この組のあいだは、アダプタです。Key
 
 </div>
 
-SMA 側の組の中の嵌合、ピン径、誘電体は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。1.0 mm は、上の三列のどれにも直接は入りません。
+SMA 側の組の中の嵌合、ピン径、誘電体は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。1.0 mm は、上の三列のどれにも直接は入りません。あいだは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。
 
 ## 関連するページ
 
-- 1/4-36 の組の詳細は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。2.92 mm と 2.4 mm のあいだは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。
+- 1/4-36 の組の詳細は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。2.92 mm と 2.4 mm のあいだは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。1.85 mm と 1.0 mm のあいだは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。
 - 結合と用途の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、カットオフと資料ごとの上限は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
 - 清掃、一般のゲージ、セーバーは [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }})、嵌合の原則は [深掘り]({{ '/learn/master/' | relative_url }}) です。
 - 2.4 mm の経緯は [第15話]({{ '/manga/15-botka-24mm/' | relative_url }})、1.85 mm（V）の側の名前の話は [第11話]({{ '/manga/11-oldfield-k/' | relative_url }}) です。会話はフィクション演出で、発明者とは断定しません。
-- 帯域名の V は [規格・周波数]({{ '/spectrum/' | relative_url }})、短い定義は [用語集の 2.4 mm]({{ '/glossary/' | relative_url }}#connector-2-4) と [用語集の V コネクタ]({{ '/glossary/' | relative_url }}#v-connector) です。
+- 帯域名の V は [規格・周波数]({{ '/spectrum/' | relative_url }})、短い定義は [用語集の 2.4 mm]({{ '/glossary/' | relative_url }}#connector-2-4) と [用語集の V コネクタ]({{ '/glossary/' | relative_url }}#v-connector) と [用語集の 1.0 mm]({{ '/glossary/' | relative_url }}#connector-1-0) です。
 
 ## 出典
 
