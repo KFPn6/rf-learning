@@ -2,7 +2,7 @@
 layout: default
 title: "高周波(RF)同軸コネクタの種類と周波数一覧（SMA・N型・BNC・3.5mm・2.92mm）"
 description: "SMA、QMA、N型、BNC、TNC、7/16、3.5mm、2.92mm（K）、2.4mm、1.85mm（Vコネクタ）、F型の結合、使用周波数の目安、用途、嵌合トルクを一覧にします。値は学習用の目安で、製品の保証値ではありません。"
-lastmod: 2026-11-19
+lastmod: 2026-11-20
 permalink: /learn/connector-types/
 ---
 
@@ -103,7 +103,7 @@ Rosenberger の RPC-3.50 は、空気誘電体、IEC 60169-23、DC–26.5 GHz、
 
 ## 2.4 mm
 
-Rosenberger の RPC-2.40 は、IEC 60169-40、DC–50 GHz、ねじ結合です。2.4 mm、1.85 mm、V と機械的に嵌合します。同社の 2.92 mm と 2.4 mm のアダプタ資料は、2.92 mm 側の互換先を 3.5 mm と SMA、2.4 mm 側の互換先を 1.85 mm と分けて書いています。精密な計測で、50 GHz 付近までを見る系列です。1.85 mm（V）の周波数は、資料が 65 GHz、67 GHz、70 GHz などを置きます。ねじ、溝、ピン位置の詳細は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。2.92 mm とのあいだのねじ、アダプタ、見分けは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。1.0 mm（資料が W や W1 とも呼ぶ）は、この組には入りません。ねじとアダプタは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。50 GHz は、このページの一覧が置く学習用の目安です。
+Rosenberger の RPC-2.40 は、IEC 60169-40、DC–50 GHz、ねじ結合です。2.4 mm、1.85 mm、V と機械的に嵌合します。同社の 2.92 mm と 2.4 mm のアダプタ資料は、2.92 mm 側の互換先を 3.5 mm と SMA、2.4 mm 側の互換先を 1.85 mm と分けて書いています。精密な計測で、50 GHz 付近までを見る系列です。1.85 mm（V）の周波数は、資料が 65 GHz、67 GHz、70 GHz などを置きます。ねじ、溝、ピン位置の詳細は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。2.92 mm とのあいだのねじ、アダプタ、見分けは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。1.0 mm（資料が W や W1 とも呼ぶ）は、この組には入りません。ねじとアダプタは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。1.35 mm（資料が E とも呼ぶ）も、この組にも 1.0 mm にも入りません。[1.35 mm と 1.85 mm・1.0 mm]({{ '/learn/1-35/' | relative_url }}) です。50 GHz は、このページの一覧が置く学習用の目安です。
 
 経緯の話は [第15話]({{ '/manga/15-botka-24mm/' | relative_url }}) です。会話はフィクション演出で、1980年代の開発、1986年の論文、50 GHz まで、という資料の範囲で書き、発明者とは断定しません。
 
@@ -113,7 +113,7 @@ Rosenberger の RPC-2.40 は、IEC 60169-40、DC–50 GHz、ねじ結合です�
 
 ## 嵌合できることと、してよいことは違う
 
-SMA、3.5 mm、2.92 mm は、機械的には互いに差さることがあります。2.4 mm と 1.85 mm は、別の組み合わせです。ねじとピン位置は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。2.92 mm と 2.4 mm のあいだは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。1.85 mm と 1.0 mm のあいだは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。N 型と SMA は、5/8-24 と 1/4-36 で、山が掛かり合う相手ではありません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。SMA の 1/4-36 と、BNC のバヨネットも、掛かり合う相手ではありません。読み分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。N 型の 5/8-24 と、BNC のバヨネットも、掛かり合う相手ではありません。読み分けは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }}) です。QMA と SMA も、互いに嵌合する相手ではありません。読み分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。7/16 と 4.3-10 も、互いに嵌合する相手ではありません。読み分けは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。差さることを、その周波数まで保証された、とは読みません。誘電体の違い、ピン径、見分け方は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。カットオフと、資料によって分かれる上限の数字は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。反射と、傷めやすい組み合わせは [深掘り]({{ '/learn/master/' | relative_url }}) に整理してあります。
+SMA、3.5 mm、2.92 mm は、機械的には互いに差さることがあります。2.4 mm と 1.85 mm は、別の組み合わせです。ねじとピン位置は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。2.92 mm と 2.4 mm のあいだは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。1.85 mm と 1.0 mm のあいだは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。1.35 mm とのあいだは [1.35 mm と 1.85 mm・1.0 mm]({{ '/learn/1-35/' | relative_url }}) です。N 型と SMA は、5/8-24 と 1/4-36 で、山が掛かり合う相手ではありません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。SMA の 1/4-36 と、BNC のバヨネットも、掛かり合う相手ではありません。読み分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。N 型の 5/8-24 と、BNC のバヨネットも、掛かり合う相手ではありません。読み分けは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }}) です。QMA と SMA も、互いに嵌合する相手ではありません。読み分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。7/16 と 4.3-10 も、互いに嵌合する相手ではありません。読み分けは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。差さることを、その周波数まで保証された、とは読みません。誘電体の違い、ピン径、見分け方は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。カットオフと、資料によって分かれる上限の数字は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。反射と、傷めやすい組み合わせは [深掘り]({{ '/learn/master/' | relative_url }}) に整理してあります。
 
 50 Ω と 75 Ω も、プラグの形が近くても別の指定です。径と比誘電率、混ぜたときの反射は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。BNC でその二つをどう見分けるかは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、N 型でねじが共通でも嵌合してはいけない読みは [N型の50Ωと75Ω]({{ '/learn/n-50-75/' | relative_url }})、テレビ用の 75 Ω のねじは [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。MCX にも 50 Ω と 75 Ω の列があり、U.FL と SMP はさらに別の界面です。[小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。テレビの同軸を会話にしたのは [第4話]({{ '/manga/04-tv-coax/' | relative_url }}) です。
 

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "高周波コネクタと同軸ケーブルの学習ガイド"
-description: "SMA・N型・BNC、N型とSMAの違い、SMAとBNCの違い、N型とBNCの違い、N型の50Ωと75Ω、QMAとSMAの違い、7/16と4.3-10の違い、BNCの50Ωと75Ω、BNCとTNCの違い、F型コネクタ（F型接栓）、SMAと3.5mm・2.92mmの互換、2.4mmと1.85mm（Vコネクタ）の互換、2.92mm（Kコネクタ）と2.4mmの互換、1.85mm（V）と1.0mm（W）の互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、RG-174・RG-316・RG-58の違い、LMR-200・LMR-240・LMR-400の違い、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
-lastmod: 2026-11-19
+description: "SMA・N型・BNC、N型とSMAの違い、SMAとBNCの違い、N型とBNCの違い、N型の50Ωと75Ω、QMAとSMAの違い、7/16と4.3-10の違い、BNCの50Ωと75Ω、BNCとTNCの違い、F型コネクタ（F型接栓）、SMAと3.5mm・2.92mmの互換、2.4mmと1.85mm（Vコネクタ）の互換、2.92mm（Kコネクタ）と2.4mmの互換、1.85mm（V）と1.0mm（W）の互換、1.35mm（E）と1.85mm・1.0mmの違い、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、RG-174・RG-316・RG-58の違い、LMR-200・LMR-240・LMR-400の違い、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
+lastmod: 2026-11-20
 permalink: /learn/
 ---
 
@@ -67,6 +67,11 @@ permalink: /learn/
     <h2>1.85 mm（V）と 1.0 mm（W）</h2>
     <p>別の嵌合の組で、ねじが違い直接は嵌合しないこと。1.85 mm は 2.4 mm と同じ組、1.0 mm はその組に入りません。あいだはアダプタ、出典ごとの周波数、精密界面の注意です。値は学習用の目安で、製品の保証値ではありません。</p>
     <p><a href="{{ '/learn/1-85-10/' | relative_url }}">互換と見分け方へ</a></p>
+  </article>
+  <article class="card">
+    <h2>1.35 mm（E）と 1.85 mm・1.0 mm</h2>
+    <p>1.35 mm は 1.85 mm（V）とも 1.0 mm（W、W1）とも別の嵌合の組で、ねじが違い直接は嵌合しません。1.85 mm は 2.4 mm と同じ組です。あいだはアダプタ、出典ごとの周波数、精密界面の注意です。値は学習用の目安で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/1-35/' | relative_url }}">違いと見分け方へ</a></p>
   </article>
   <article class="card">
     <h2>SMA と RP-SMA</h2>
