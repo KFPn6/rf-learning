@@ -2,7 +2,7 @@
 layout: default
 title: "1.35mm（E）と1.85mm・1.0mmの違いと見分け方"
 description: "1.35mm（E）は1.85mm（V）とも1.0mm（W、W1）とも別の嵌合の組で、ねじが違い直接は嵌合しないこと、1.85mmは2.4mmと同じ組、1.0mmはその組にも1.35mmにも入らないこと、アダプタ、出典ごとの周波数の目安、精密界面の注意を整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-20
+lastmod: 2026-11-21
 permalink: /learn/1-35/
 ---
 
@@ -50,7 +50,7 @@ M5.5 は呼び径 5.5 mm、ピッチ 0.5 mm です。M7 は呼び径 7 mm、ピ�
 
 Keysight の嵌合の表、同じ社の電気コネクタの表、同じ社のレンチ表に、1.35 mm の行は、このページでは読んでいません。Anritsu の公開表（10450-00040、Rev. AE）の列は、V（1.85 mm）と W1（1 mm）のあとが 0.8 mm です。1.35 mm の列はありません。同じ社のケア資料（10100-00031、Rev. D）の特性表にも、1.35 mm の行は、このページでは読んでいません。無い行は、M5.5 × 0.5 でも、90 GHz でも埋めません。
 
-0.8 mm は、さらに小さい別の系列です。Anritsu のその公開表は、嵌合先をその列だけ、ねじを M3.5 x 0.35 とします。1.35 mm の組には入りません。ここでも、主題にはしません。
+0.8 mm は、さらに小さい別の系列です。Anritsu のその公開表は、嵌合先をその列だけ、ねじを M3.5 x 0.35 とします。1.35 mm の組には入りません。1.0 mm とのあいだは [0.8 mm と 1.0 mm]({{ '/learn/0-8-10/' | relative_url }}) です。ここでも、主題にはしません。
 
 <figure class="assembly">
   <svg viewBox="0 0 720 210" role="img" aria-labelledby="groupTitle groupDesc">
@@ -180,7 +180,7 @@ Rosenberger の RPC-1.35 では、D はどちらの性別も 0.003–0.05 mm で
 | 1.0 mm（W、W1） | 直接は合わない。あいだはアダプタ。読んだ表の嵌合先は、この系列だけ |
 | 2.4 mm | 直接は合わない。1.85 mm 側のアダプタのもう片面が 2.4 mm と嵌合しうることとは別 |
 | SMA・3.5 mm・2.92 mm | 直接は合わない。あいだはアダプタ |
-| 0.8 mm | さらに小さい別系列。このページの主題ではない |
+| 0.8 mm | さらに小さい別系列。1.0 mm とのあいだは別ページ。このページの主題ではない |
 
 </div>
 
@@ -193,7 +193,8 @@ Rosenberger の RPC-1.35 では、D はどちらの性別も 0.003–0.05 mm で
 - 結合と用途の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、カットオフと資料ごとの上限は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
 - 清掃、一般のゲージ、セーバーは [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }})、嵌合の原則は [深掘り]({{ '/learn/master/' | relative_url }}) です。
 - 名前の話は [第11話]({{ '/manga/11-oldfield-k/' | relative_url }})、2.4 mm の経緯は [第15話]({{ '/manga/15-botka-24mm/' | relative_url }}) です。会話はフィクション演出で、発明者とは断定しません。
-- 帯域名の V と W は [規格・周波数]({{ '/spectrum/' | relative_url }})、短い定義は [用語集の 1.35 mm]({{ '/glossary/' | relative_url }}#connector-1-35) と [用語集の V コネクタ]({{ '/glossary/' | relative_url }}#v-connector) と [用語集の 1.0 mm]({{ '/glossary/' | relative_url }}#connector-1-0) です。
+- 0.8 mm と 1.0 mm のあいだは [0.8 mm と 1.0 mm]({{ '/learn/0-8-10/' | relative_url }}) です。
+- 帯域名の V と W は [規格・周波数]({{ '/spectrum/' | relative_url }})、短い定義は [用語集の 1.35 mm]({{ '/glossary/' | relative_url }}#connector-1-35) と [用語集の V コネクタ]({{ '/glossary/' | relative_url }}#v-connector) と [用語集の 1.0 mm]({{ '/glossary/' | relative_url }}#connector-1-0) と [用語集の 0.8 mm]({{ '/glossary/' | relative_url }}#connector-0-8) です。
 
 ## 出典
 

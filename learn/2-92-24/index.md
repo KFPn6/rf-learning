@@ -2,7 +2,7 @@
 layout: default
 title: "2.92mm（Kコネクタ）と2.4mmの互換性と見分け方"
 description: "2.92mm（Kコネクタ）と2.4mmはねじが違う別の嵌合の組で、直接は嵌合しないこと、2.92mmはSMA・3.5mmと同じ組、2.4mmは1.85mm（V）と同じ組であること、アダプタ、出典ごとの周波数の目安、精密界面の注意を整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-20
+lastmod: 2026-11-21
 permalink: /learn/2-92-24/
 ---
 
@@ -177,12 +177,12 @@ Rosenberger の二つのシリーズ資料は、推奨をどちらも 0.80 N·m 
 
 </div>
 
-SMA 側の組の中の嵌合は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }})、2.4 mm と 1.85 mm の組の中は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。1.0 mm は、上の四列のどれにも直接は入りません。1.85 mm と 1.0 mm のあいだは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。1.35 mm は、その組にも 1.0 mm にも入りません。[1.35 mm と 1.85 mm・1.0 mm]({{ '/learn/1-35/' | relative_url }}) です。
+SMA 側の組の中の嵌合は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }})、2.4 mm と 1.85 mm の組の中は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。1.0 mm は、上の四列のどれにも直接は入りません。1.85 mm と 1.0 mm のあいだは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。1.35 mm は、その組にも 1.0 mm にも入りません。[1.35 mm と 1.85 mm・1.0 mm]({{ '/learn/1-35/' | relative_url }}) です。0.8 mm も、その組にも 1.0 mm にも入りません。[0.8 mm と 1.0 mm]({{ '/learn/0-8-10/' | relative_url }}) です。
 
 ## 関連するページ
 
 - 1/4-36 の組の詳細は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。
-- M7 × 0.75 の組の詳細は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。1.85 mm と 1.0 mm のあいだは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。1.35 mm は、その組にも 1.0 mm にも入りません。[1.35 mm と 1.85 mm・1.0 mm]({{ '/learn/1-35/' | relative_url }}) です。
+- M7 × 0.75 の組の詳細は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。1.85 mm と 1.0 mm のあいだは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。1.35 mm は、その組にも 1.0 mm にも入りません。[1.35 mm と 1.85 mm・1.0 mm]({{ '/learn/1-35/' | relative_url }}) です。0.8 mm と 1.0 mm のあいだは [0.8 mm と 1.0 mm]({{ '/learn/0-8-10/' | relative_url }}) です。
 - 結合と用途の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、カットオフと資料ごとの上限は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
 - 清掃、一般のゲージ、セーバーは [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }})、嵌合の原則は [深掘り]({{ '/learn/master/' | relative_url }}) です。
 - K の経緯は [第11話]({{ '/manga/11-oldfield-k/' | relative_url }})、2.4 mm の経緯は [第15話]({{ '/manga/15-botka-24mm/' | relative_url }}) です。会話はフィクション演出で、発明者とは断定しません。

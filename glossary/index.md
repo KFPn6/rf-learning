@@ -2,7 +2,7 @@
 layout: default
 title: "高周波・RF用語集（VSWR・特性インピーダンス・シールド・PIM）"
 description: "VSWR、リターンロス、特性インピーダンス、挿入損失、PIM、表皮効果、シールド、セミリジッドなど、高周波コネクタと同軸ケーブルの用語集です。短い定義であり、製品の保証値ではありません。"
-lastmod: 2026-11-20
+lastmod: 2026-11-21
 permalink: /glossary/
 ---
 
@@ -43,6 +43,7 @@ permalink: /glossary/
   <a class="tag" href="#v-connector">Vコネクタ</a>
   <a class="tag" href="#connector-1-35">1.35 mm</a>
   <a class="tag" href="#connector-1-0">1.0 mm</a>
+  <a class="tag" href="#connector-0-8">0.8 mm</a>
   <a class="tag" href="#torque">嵌合トルク</a>
   <a class="tag" href="#pin-depth">ピン深さ</a>
   <a class="tag" href="#mating-cycles">嵌合寿命</a>
@@ -61,7 +62,7 @@ permalink: /glossary/
 
 <p class="term-en">RF connector</p>
 
-同軸の構造を、機器のポートや相手のコネクタへ受け渡す界面です。系列（N、SMA、2.92 mm、2.4 mm など）ごとに寸法と、使える周波数の目安が違います。単体では、伝送路の長さも損失も決まりません。相手と嵌合してはいけない組み合わせがあります。N 型と SMA はどちらもねじでも、呼びが違って山は掛かり合いません。見分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。SMA、3.5 mm、2.92 mm が機械的に差さることと、精密側を傷めないことは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。2.4 mm と 1.85 mm（V）は別のねじの組です。分けは [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。2.92 mm と 2.4 mm のあいだは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。1.85 mm と 1.0 mm は、さらに別のねじで、直接は嵌合しません。分けは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。1.35 mm は、そのどちらとも別のねじです。分けは [1.35 mm]({{ '/learn/1-35/' | relative_url }}) です。中心コンタクトを入れ替えた RP-SMA は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。クイックロックの QMA は、ねじの SMA とは嵌合しません。分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。ねじの SMA と、バヨネットの BNC は、掛かり合う相手ではありません。分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。スナップオンの MCX、MMCX と、基板実装の U.FL、SMP は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
+同軸の構造を、機器のポートや相手のコネクタへ受け渡す界面です。系列（N、SMA、2.92 mm、2.4 mm など）ごとに寸法と、使える周波数の目安が違います。単体では、伝送路の長さも損失も決まりません。相手と嵌合してはいけない組み合わせがあります。N 型と SMA はどちらもねじでも、呼びが違って山は掛かり合いません。見分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。SMA、3.5 mm、2.92 mm が機械的に差さることと、精密側を傷めないことは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。2.4 mm と 1.85 mm（V）は別のねじの組です。分けは [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。2.92 mm と 2.4 mm のあいだは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。1.85 mm と 1.0 mm は、さらに別のねじで、直接は嵌合しません。分けは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。1.35 mm は、そのどちらとも別のねじです。分けは [1.35 mm]({{ '/learn/1-35/' | relative_url }}) です。0.8 mm は、1.0 mm とも 1.35 mm とも別のねじです。分けは [0.8 mm と 1.0 mm]({{ '/learn/0-8-10/' | relative_url }}) です。中心コンタクトを入れ替えた RP-SMA は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。クイックロックの QMA は、ねじの SMA とは嵌合しません。分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。ねじの SMA と、バヨネットの BNC は、掛かり合う相手ではありません。分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。スナップオンの MCX、MMCX と、基板実装の U.FL、SMP は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
 
 ## N型 {#n-type}
 
@@ -229,19 +230,25 @@ Times Microwave Systems の低損失フレキシブル同軸の呼びです。�
 
 <p class="term-en">V connector／1.85 mm</p>
 
-1.85 mm の精密同軸を、資料が V とも呼びます。帯域名の V（おおよそ 40–75 GHz）とは別の言葉です。Anritsu の資料は、行の名を V（1.85 mm）とします。2.4 mm と機械的に嵌合しうることがあります。周波数は、資料が 60 GHz、65 GHz、67 GHz、70 GHz などを置きます。一つの上限にはしません。呼び名の由来と発明者は、この用語集では決めません。ねじ、ピン位置、出典ごとの数字は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。1.0 mm とは、ねじが違って直接は嵌合しません。あいだは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }})、項は [1.0 mm（W）](#connector-1-0) です。1.35 mm とも、ねじが違って直接は嵌合しません。あいだは [1.35 mm]({{ '/learn/1-35/' | relative_url }})、項は [1.35 mm（E）](#connector-1-35) です。帯域との違いは [規格・周波数]({{ '/spectrum/' | relative_url }}) です。
+1.85 mm の精密同軸を、資料が V とも呼びます。帯域名の V（おおよそ 40–75 GHz）とは別の言葉です。Anritsu の資料は、行の名を V（1.85 mm）とします。2.4 mm と機械的に嵌合しうることがあります。周波数は、資料が 60 GHz、65 GHz、67 GHz、70 GHz などを置きます。一つの上限にはしません。呼び名の由来と発明者は、この用語集では決めません。ねじ、ピン位置、出典ごとの数字は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。1.0 mm とは、ねじが違って直接は嵌合しません。あいだは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }})、項は [1.0 mm（W）](#connector-1-0) です。1.35 mm とも、ねじが違って直接は嵌合しません。あいだは [1.35 mm]({{ '/learn/1-35/' | relative_url }})、項は [1.35 mm（E）](#connector-1-35) です。0.8 mm とも、ねじが違って直接は嵌合しません。あいだは [0.8 mm と 1.0 mm]({{ '/learn/0-8-10/' | relative_url }})、項は [0.8 mm](#connector-0-8) です。帯域との違いは [規格・周波数]({{ '/spectrum/' | relative_url }}) です。
 
 ## 1.35 mm（E） {#connector-1-35}
 
 <p class="term-en">1.35 mm connector／E connector</p>
 
-外導体の呼びが 1.35 mm の、ねじ結合の精密同軸です。資料が E や E Connector とも呼びます。帯域名の E とは別の言葉です。確認した公開案内のインピーダンスは 50 Ω です。動作周波数は、公開要旨が 90 GHz までと書き、別の案内が 90 GHz と 90（92）GHz を置きます。一つの上限にはしません。1.85 mm（V）の組にも、1.0 mm（W、W1）の組にも入りません。ねじが違うので、直接は嵌合しません。あいだはアダプタです。正式な商標名と、経緯と、発明者は、この用語集では決めません。ねじ、アダプタ、出典ごとの数字は [1.35 mm と 1.85 mm・1.0 mm]({{ '/learn/1-35/' | relative_url }}) です。隣の項は [Vコネクタ](#v-connector) と [1.0 mm（W）](#connector-1-0) です。帯域との違いは [規格・周波数]({{ '/spectrum/' | relative_url }}) です。
+外導体の呼びが 1.35 mm の、ねじ結合の精密同軸です。資料が E や E Connector とも呼びます。帯域名の E とは別の言葉です。確認した公開案内のインピーダンスは 50 Ω です。動作周波数は、公開要旨が 90 GHz までと書き、別の案内が 90 GHz と 90（92）GHz を置きます。一つの上限にはしません。1.85 mm（V）の組にも、1.0 mm（W、W1）の組にも入りません。ねじが違うので、直接は嵌合しません。あいだはアダプタです。正式な商標名と、経緯と、発明者は、この用語集では決めません。ねじ、アダプタ、出典ごとの数字は [1.35 mm と 1.85 mm・1.0 mm]({{ '/learn/1-35/' | relative_url }}) です。0.8 mm とも、ねじが違って直接は嵌合しません。あいだは [0.8 mm と 1.0 mm]({{ '/learn/0-8-10/' | relative_url }})、項は [0.8 mm](#connector-0-8) です。隣の項は [Vコネクタ](#v-connector) と [1.0 mm（W）](#connector-1-0) です。帯域との違いは [規格・周波数]({{ '/spectrum/' | relative_url }}) です。
 
 ## 1.0 mm（W） {#connector-1-0}
 
 <p class="term-en">1.0 mm connector／W connector／W1</p>
 
-外導体の呼びが 1.0 mm の、ねじ結合の精密同軸です。資料が W や W1 とも呼びます。帯域名の W（おおよそ 75–110 GHz）とは別の言葉です。確認した資料のインピーダンスは 50 Ω で、動作の行は 110 GHz までと置く例が並びます。110 を、アダプタ自身の行や、理想化した計算と一つの上限にはしません。嵌合先は、読んだ表ではこの系列だけです。1.85 mm（V）や 2.4 mm とは、ねじが違って直接は嵌合しません。あいだはアダプタです。1.35 mm とも、ねじが違って直接は嵌合しません。正式な商標名と、経緯と、発明者は、この用語集では決めません。ねじ、アダプタ、出典ごとの数字は [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。1.35 mm とのあいだは [1.35 mm]({{ '/learn/1-35/' | relative_url }})、項は [1.35 mm（E）](#connector-1-35) です。1.85 mm の項は [Vコネクタ](#v-connector) です。帯域との違いは [規格・周波数]({{ '/spectrum/' | relative_url }}) です。
+外導体の呼びが 1.0 mm の、ねじ結合の精密同軸です。資料が W や W1 とも呼びます。帯域名の W（おおよそ 75–110 GHz）とは別の言葉です。確認した資料のインピーダンスは 50 Ω で、動作の行は 110 GHz までと置く例が並びます。110 を、アダプタ自身の行や、理想化した計算と一つの上限にはしません。嵌合先は、読んだ表ではこの系列だけです。1.85 mm（V）や 2.4 mm とは、ねじが違って直接は嵌合しません。あいだはアダプタです。1.35 mm とも、ねじが違って直接は嵌合しません。0.8 mm とも、ねじが違って直接は嵌合しません。正式な商標名と、経緯と、発明者は、この用語集では決めません。ねじ、アダプタ、出典ごとの数字は [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。1.35 mm とのあいだは [1.35 mm]({{ '/learn/1-35/' | relative_url }})、項は [1.35 mm（E）](#connector-1-35) です。0.8 mm とのあいだは [0.8 mm と 1.0 mm]({{ '/learn/0-8-10/' | relative_url }})、項は [0.8 mm](#connector-0-8) です。1.85 mm の項は [Vコネクタ](#v-connector) です。帯域との違いは [規格・周波数]({{ '/spectrum/' | relative_url }}) です。
+
+## 0.8 mm {#connector-0-8}
+
+<p class="term-en">0.8 mm connector／type 0,8</p>
+
+外導体の呼びが 0.8 mm の、ねじ結合の精密同軸です。資料が type 0,8 とも書きます。帯域名の D とは別の言葉です。確認した公開案内のインピーダンスは 50 Ω です。動作周波数は、公開要旨が 145 GHz までと書き、別の案内が 145 GHz と 167 GHz を置きます。記事は、理論上の空気の遮断を約 166 GHz、定格の欄を未定、と置きます。一つの上限にはしません。1.0 mm（W、W1）の組にも、1.35 mm（E）の組にも、1.85 mm（V）の組にも入りません。ねじが違うので、直接は嵌合しません。あいだはアダプタです。正式な商標名と、経緯と、発明者は、この用語集では決めません。ねじ、アダプタ、出典ごとの数字は [0.8 mm と 1.0 mm]({{ '/learn/0-8-10/' | relative_url }}) です。隣の項は [1.0 mm（W）](#connector-1-0) と [1.35 mm（E）](#connector-1-35) です。帯域との違いは [規格・周波数]({{ '/spectrum/' | relative_url }}) です。
 
 ## 嵌合トルク {#torque}
 
@@ -253,7 +260,7 @@ Times Microwave Systems の低損失フレキシブル同軸の呼びです。�
 
 <p class="term-en">pin depth</p>
 
-中心導体が、相手と当たる合わせ面に対して、どれだけ引っ込み、または突き出しているかです。突き出しは相手を傷つけ、引っ込みすぎは接触の隙間になります。ダイヤルゲージとマスタで見ます。ミリメートルの許容は系列と製品で違うので、この用語集には置きません。見方は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。SMA を 3.5 mm や 2.92 mm へ差すときのピン径とピン位置は [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。2.4 mm と 1.85 mm の窓は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。1.0 mm の窓は [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。1.35 mm の窓は [1.35 mm]({{ '/learn/1-35/' | relative_url }}) です。
+中心導体が、相手と当たる合わせ面に対して、どれだけ引っ込み、または突き出しているかです。突き出しは相手を傷つけ、引っ込みすぎは接触の隙間になります。ダイヤルゲージとマスタで見ます。ミリメートルの許容は系列と製品で違うので、この用語集には置きません。見方は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。SMA を 3.5 mm や 2.92 mm へ差すときのピン径とピン位置は [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。2.4 mm と 1.85 mm の窓は [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。1.0 mm の窓は [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。1.35 mm の窓は [1.35 mm]({{ '/learn/1-35/' | relative_url }}) です。0.8 mm の窓は [0.8 mm と 1.0 mm]({{ '/learn/0-8-10/' | relative_url }}) です。
 
 ## 嵌合寿命 {#mating-cycles}
 
