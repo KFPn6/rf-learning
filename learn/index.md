@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "高周波コネクタと同軸ケーブルの学習ガイド"
-description: "SMA・N型・BNC、N型とSMAの違い、SMAとBNCの違い、N型とBNCの違い、N型の50Ωと75Ω、QMAとSMAの違い、7/16と4.3-10の違い、BNCの50Ωと75Ω、BNCとTNCの違い、F型コネクタ（F型接栓）、SMAと3.5mm・2.92mmの互換、2.4mmと1.85mm（Vコネクタ）の互換、2.92mm（Kコネクタ）と2.4mmの互換、1.85mm（V）と1.0mm（W）の互換、1.35mm（E）と1.85mm・1.0mmの違い、0.8mmと1.0mm（W）の互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、RG-174・RG-316・RG-58の違い、LMR-200・LMR-240・LMR-400の違い、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
-lastmod: 2026-11-21
+description: "SMA・N型・BNC、N型とSMAの違い、SMAとBNCの違い、SMAとTNCの違い、N型とBNCの違い、N型の50Ωと75Ω、QMAとSMAの違い、7/16と4.3-10の違い、BNCの50Ωと75Ω、BNCとTNCの違い、F型コネクタ（F型接栓）、SMAと3.5mm・2.92mmの互換、2.4mmと1.85mm（Vコネクタ）の互換、2.92mm（Kコネクタ）と2.4mmの互換、1.85mm（V）と1.0mm（W）の互換、1.35mm（E）と1.85mm・1.0mmの違い、0.8mmと1.0mm（W）の互換、SMAとRP-SMA、MCX・MMCX・U.FLなどの小型RFコネクタ、VSWR、特性インピーダンス、RG-174・RG-316・RG-58の違い、LMR-200・LMR-240・LMR-400の違い、ケーブル損失、シールド、位相安定、アッセンブリの検査まで、高周波コネクタと同軸ケーブルの学習ページをまとめています。"
+lastmod: 2026-11-22
 permalink: /learn/
 ---
 
@@ -122,6 +122,11 @@ permalink: /learn/
     <h2>BNC と TNC</h2>
     <p>バヨネットとねじ込み、外導体内径 6.5 mm、7/16-28、使用周波数の目安、振動試験の条件、50 Ω と 75 Ω の注意です。値は学習用の目安で、製品の保証値ではありません。</p>
     <p><a href="{{ '/learn/bnc-tnc/' | relative_url }}">違いと使い分けへ</a></p>
+  </article>
+  <article class="card">
+    <h2>SMA と TNC</h2>
+    <p>どちらもねじ結合であること、1/4-36 と 7/16-28、外導体内径 4.13 mm と 6.5 mm、直接は嵌合しないこと、変換アダプタ、出典ごとの周波数とトルクです。値は学習用の目安で、製品の保証値ではありません。</p>
+    <p><a href="{{ '/learn/sma-tnc/' | relative_url }}">違いと使い分けへ</a></p>
   </article>
   <article class="card">
     <h2>F型コネクタ（F型接栓）</h2>

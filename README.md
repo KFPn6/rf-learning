@@ -41,6 +41,7 @@
 - [7/16と4.3-10の違いと使い分け](https://kfpn6.github.io/rf-learning/learn/7-16-43-10/)
 - [BNCコネクタの50Ωと75Ωの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/bnc-50-75/)
 - [BNCとTNCの違いと使い分け](https://kfpn6.github.io/rf-learning/learn/bnc-tnc/)
+- [SMAとTNCの違いと使い分け](https://kfpn6.github.io/rf-learning/learn/sma-tnc/)
 - [F型コネクタ（F型接栓）の種類と見分け方](https://kfpn6.github.io/rf-learning/learn/f-type/)
 - [小型RFコネクタの比較と見分け方（MCX・MMCX・U.FL・SMP）](https://kfpn6.github.io/rf-learning/learn/small-rf-connectors/)
 - [同軸コネクタの使用周波数の上限（カットオフ・SMA・3.5mm・2.92mm）](https://kfpn6.github.io/rf-learning/learn/frequency-limit/)

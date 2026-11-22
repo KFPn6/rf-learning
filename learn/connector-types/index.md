@@ -2,7 +2,7 @@
 layout: default
 title: "高周波(RF)同軸コネクタの種類と周波数一覧（SMA・N型・BNC・3.5mm・2.92mm）"
 description: "SMA、QMA、N型、BNC、TNC、7/16、3.5mm、2.92mm（K）、2.4mm、1.85mm（Vコネクタ）、F型の結合、使用周波数の目安、用途、嵌合トルクを一覧にします。値は学習用の目安で、製品の保証値ではありません。"
-lastmod: 2026-11-21
+lastmod: 2026-11-22
 permalink: /learn/connector-types/
 ---
 
@@ -49,7 +49,7 @@ permalink: /learn/connector-types/
 
 IEC 61169-15:2021 は、SMA が 3.5 mm および 2.92 mm と機械的に嵌合しうると書いています。誘電体、ピン径、ピン位置、ゲージの注意は [SMA・3.5 mm・2.92 mm の互換]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。精密側の界面を守る話は [深掘り]({{ '/learn/master/' | relative_url }}) です。
 
-ねじの呼びが同じ 1/4-36 でも、中心のピンとソケットを入れ替えた RP-SMA は、標準の SMA と対になりません。部品図によっては左ねじです。オス・メスの呼び方、規制の経緯、誤って嵌合したときの読み分けは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。N 型とは、ねじの呼びも外導体内径も違います。山は掛かり合いません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。バヨネットの BNC とも、掛かり合う相手ではありません。読み分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。SMA の規格を基にしたクイックロックで、ねじの SMA とは嵌合しない案内が QMA です。読み分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。
+ねじの呼びが同じ 1/4-36 でも、中心のピンとソケットを入れ替えた RP-SMA は、標準の SMA と対になりません。部品図によっては左ねじです。オス・メスの呼び方、規制の経緯、誤って嵌合したときの読み分けは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。N 型とは、ねじの呼びも外導体内径も違います。山は掛かり合いません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。バヨネットの BNC とも、掛かり合う相手ではありません。読み分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。同じねじでも、TNC は 7/16-28 で、山は掛かり合いません。読み分けは [SMAとTNC]({{ '/learn/sma-tnc/' | relative_url }}) です。SMA の規格を基にしたクイックロックで、ねじの SMA とは嵌合しない案内が QMA です。読み分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。
 
 名前の移り変わりは [第13話]({{ '/manga/13-sma-origin/' | relative_url }}) です。会話はフィクション演出で、BRM、OSM、SMA の展開と年は資料で一つに揃わず、発明者とは断定しません。
 
@@ -79,7 +79,7 @@ Rosenberger は、50 Ω と 75 Ω が機械的に嵌合しうると書いてい�
 
 BNC の接触部を、ねじ結合にしたものです。Amphenol RF は、標準を DC–11 GHz、拡張を DC–18 GHz、推奨トルクを 4–6 inch-pounds（0.51–0.67 N·m）としています。用途の例は、無線インフラ、アンテナ、産業、屋外です。Rosenberger の精密 RPC-TNC は、IEC 61169-26、周波数 DC–18 GHz、推奨トルク 0.46–0.69 N·m です。
 
-このページで TNC の推奨として確認できたのは、0.46–0.69 N·m と 0.51–0.67 N·m です。0.7–1.1 N·m は、上の N 型の資料に書かれた幅です。バヨネットとの違い、7/16-28、周波数の行を一つにしない読み方、振動試験の条件の文字、50 Ω と 75 Ω は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。
+このページで TNC の推奨として確認できたのは、0.46–0.69 N·m と 0.51–0.67 N·m です。0.7–1.1 N·m は、上の N 型の資料に書かれた幅です。バヨネットとの違い、7/16-28、周波数の行を一つにしない読み方、振動試験の条件の文字、50 Ω と 75 Ω は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。1/4-36 の SMA との大きさ、周波数、トルク、アダプタは [SMAとTNC]({{ '/learn/sma-tnc/' | relative_url }}) です。
 
 ## 7/16（7-16）
 

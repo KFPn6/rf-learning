@@ -2,7 +2,7 @@
 layout: default
 title: "高周波・RF用語集（VSWR・特性インピーダンス・シールド・PIM）"
 description: "VSWR、リターンロス、特性インピーダンス、挿入損失、PIM、表皮効果、シールド、セミリジッドなど、高周波コネクタと同軸ケーブルの用語集です。短い定義であり、製品の保証値ではありません。"
-lastmod: 2026-11-21
+lastmod: 2026-11-22
 permalink: /glossary/
 ---
 
@@ -62,7 +62,7 @@ permalink: /glossary/
 
 <p class="term-en">RF connector</p>
 
-同軸の構造を、機器のポートや相手のコネクタへ受け渡す界面です。系列（N、SMA、2.92 mm、2.4 mm など）ごとに寸法と、使える周波数の目安が違います。単体では、伝送路の長さも損失も決まりません。相手と嵌合してはいけない組み合わせがあります。N 型と SMA はどちらもねじでも、呼びが違って山は掛かり合いません。見分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。SMA、3.5 mm、2.92 mm が機械的に差さることと、精密側を傷めないことは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。2.4 mm と 1.85 mm（V）は別のねじの組です。分けは [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。2.92 mm と 2.4 mm のあいだは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。1.85 mm と 1.0 mm は、さらに別のねじで、直接は嵌合しません。分けは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。1.35 mm は、そのどちらとも別のねじです。分けは [1.35 mm]({{ '/learn/1-35/' | relative_url }}) です。0.8 mm は、1.0 mm とも 1.35 mm とも別のねじです。分けは [0.8 mm と 1.0 mm]({{ '/learn/0-8-10/' | relative_url }}) です。中心コンタクトを入れ替えた RP-SMA は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。クイックロックの QMA は、ねじの SMA とは嵌合しません。分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。ねじの SMA と、バヨネットの BNC は、掛かり合う相手ではありません。分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。スナップオンの MCX、MMCX と、基板実装の U.FL、SMP は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
+同軸の構造を、機器のポートや相手のコネクタへ受け渡す界面です。系列（N、SMA、2.92 mm、2.4 mm など）ごとに寸法と、使える周波数の目安が違います。単体では、伝送路の長さも損失も決まりません。相手と嵌合してはいけない組み合わせがあります。N 型と SMA はどちらもねじでも、呼びが違って山は掛かり合いません。見分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。SMA、3.5 mm、2.92 mm が機械的に差さることと、精密側を傷めないことは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。2.4 mm と 1.85 mm（V）は別のねじの組です。分けは [2.4 mm と 1.85 mm]({{ '/learn/2-4-185/' | relative_url }}) です。2.92 mm と 2.4 mm のあいだは [2.92 mm と 2.4 mm]({{ '/learn/2-92-24/' | relative_url }}) です。1.85 mm と 1.0 mm は、さらに別のねじで、直接は嵌合しません。分けは [1.85 mm と 1.0 mm]({{ '/learn/1-85-10/' | relative_url }}) です。1.35 mm は、そのどちらとも別のねじです。分けは [1.35 mm]({{ '/learn/1-35/' | relative_url }}) です。0.8 mm は、1.0 mm とも 1.35 mm とも別のねじです。分けは [0.8 mm と 1.0 mm]({{ '/learn/0-8-10/' | relative_url }}) です。中心コンタクトを入れ替えた RP-SMA は [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }}) です。クイックロックの QMA は、ねじの SMA とは嵌合しません。分けは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。ねじの SMA と、バヨネットの BNC は、掛かり合う相手ではありません。分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。ねじの SMA と、ねじの TNC も、呼びが違って山は掛かり合いません。分けは [SMAとTNC]({{ '/learn/sma-tnc/' | relative_url }}) です。スナップオンの MCX、MMCX と、基板実装の U.FL、SMP は [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。
 
 ## N型 {#n-type}
 
@@ -92,7 +92,7 @@ permalink: /glossary/
 
 <p class="term-en">TNC</p>
 
-ねじ結合の同軸コネクタです。IEC 61169-17:2022 の題は、外導体内径 6.5 mm、ねじ、50 Ω、type TNC で、動作周波数は 11 GHz までです。ねじの呼びは、別の資料が 7/16-28 UNEF と書きます。BNC のバヨネットとは、掛かり合う相手ではありません。標準の 11 GHz、拡張や TNCA の 18 GHz、市販系列の 4 GHz と 10 GHz は、一つの上限にしません。50 Ω と 75 Ω、振動試験の条件の文字、見分けは [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。
+ねじ結合の同軸コネクタです。IEC 61169-17:2022 の題は、外導体内径 6.5 mm、ねじ、50 Ω、type TNC で、動作周波数は 11 GHz までです。ねじの呼びは、別の資料が 7/16-28 UNEF と書きます。BNC のバヨネットとは、掛かり合う相手ではありません。標準の 11 GHz、拡張や TNCA の 18 GHz、市販系列の 4 GHz と 10 GHz は、一つの上限にしません。50 Ω と 75 Ω、振動試験の条件の文字、見分けは [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。ねじの呼びが 1/4-36 の SMA とも、掛かり合う相手ではありません。大きさ、周波数、トルク、アダプタは [SMAとTNC]({{ '/learn/sma-tnc/' | relative_url }}) です。
 
 ## F型 {#f-type}
 

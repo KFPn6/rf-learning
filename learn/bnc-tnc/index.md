@@ -2,7 +2,7 @@
 layout: default
 title: "BNCとTNCの違いと使い分け"
 description: "BNCのバヨネットとTNCのねじ込みの違いを、外導体内径6.5mm、7/16-28、使用周波数の目安、振動試験の条件、混ぜたときの注意、50Ωと75Ωで整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-16
+lastmod: 2026-11-22
 permalink: /learn/bnc-tnc/
 ---
 
@@ -41,7 +41,7 @@ ANSI が公開する IEC 60169-17 第1版のプレビューは、この型を市
 
 ねじの呼びは、IEC 61169-17 の開いたプレビューの寸法表には、文字としてありません。結合ナットを前に出した位置、という注はあります。呼びは、別の資料で置きます。IEC 61169-26:2013 のピン中心の図は 7/16-28UNEF-2B、ソケット中心の図は 7/16-28UNEF-2A です。Rosenberger の RPC-TNC も、プラグの F が 7/16-28 UNEF-2B、ジャックの F が 7/16-28 UNEF-2A です。Amphenol のカタログの結合の欄は、TNC を 7/16-28 threaded coupling、BNC を bayonet とします。
 
-2B は内ねじ、2A は外ねじの等級です。ピン中心の側に結合ナットの内ねじがある、という並びは、N 型や SMA の技術資料と同じ側です。山の数字が違います。N 型は 5/8-24、SMA は 1/4-36 です。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。
+2B は内ねじ、2A は外ねじの等級です。ピン中心の側に結合ナットの内ねじがある、という並びは、N 型や SMA の技術資料と同じ側です。山の数字が違います。N 型は 5/8-24、SMA は 1/4-36 です。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。1/4-36 と 7/16-28 のあいだは [SMAとTNC]({{ '/learn/sma-tnc/' | relative_url }}) です。
 
 7/16 インチは 0.4375 インチです。0.4375 × 25.4 = 11.1125 mm です。これはねじの呼び径の換算であり、結合ナットの二面幅ではありません。確認できたレンチの一例は、Rosenberger の RPC-TNC 用 06W021-000 が二面幅 15 mm です。11.1125 を、15 mm の開口には読みません。すべての TNC のナットが 15 mm、とも読みません。幅の残りは [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。
 
@@ -105,7 +105,7 @@ Amphenol の現行の二ページだけを、この 1980年の文へ当てはめ
 
 BNC は、二本のラグが四分の一回転で掛かるバヨネットです。ねじを、最後まで締め続ける系列ではありません。TNC は、7/16-28 のねじです。指で回し始めて、山が噛み合わない相手は、その対ではありません。金色に見えること、白い樹脂が見えること、全体が小さいことは、BNC と TNC を分けません。外導体内径の題は、どちらも 6.5 mm です。
 
-ねじがあることだけでも、TNC とは決まりません。N 型は 5/8-24、SMA は 1/4-36、F 型は別のねじの 75 Ω です。7/16-28 のナットは、5/8-24 にも 1/4-36 にも進みません。F 型を、75 Ω の TNC とは呼びません。[F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。N を、大きい BNC とも呼びません。[N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。ねじの SMA と、バヨネットの BNC の使い分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。このページは、同じ 6.5 mm の BNC と TNC です。
+ねじがあることだけでも、TNC とは決まりません。N 型は 5/8-24、SMA は 1/4-36、F 型は別のねじの 75 Ω です。7/16-28 のナットは、5/8-24 にも 1/4-36 にも進みません。F 型を、75 Ω の TNC とは呼びません。[F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。N を、大きい BNC とも呼びません。[N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。ねじの SMA と、バヨネットの BNC の使い分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。どちらもねじである SMA と TNC の呼び、大きさ、周波数は [SMAとTNC]({{ '/learn/sma-tnc/' | relative_url }}) です。このページは、同じ 6.5 mm の BNC と TNC です。
 
 中心がピンか穴かだけでは、BNC と TNC は分かれません。資料上のプラグは、どちらの系列も、結合の側にピンを置く形があります。ピン径の行は、IEC 61169-8 も IEC 61169-17 も 1.32–1.37 mm です。目視の太さを、その公差の測定にはしません。
 
@@ -160,7 +160,7 @@ Connex のカタログは、逆極性は部品番号に RP、逆ねじは RT を
 
 - ピン径、誘電体、境目の 0.2 は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
 - 上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }})、結合の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。
-- 5/8-24 と 1/4-36 は [N型とSMA]({{ '/learn/n-sma/' | relative_url }})、ねじの N 型とバヨネットは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }})、ねじとバヨネットの使い分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }})、中心を入れ替えた呼びは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }})、75 Ω の別のねじは [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
+- 5/8-24 と 1/4-36 は [N型とSMA]({{ '/learn/n-sma/' | relative_url }})、ねじの N 型とバヨネットは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }})、ねじとバヨネットの使い分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }})、どちらもねじの SMA と TNC は [SMAとTNC]({{ '/learn/sma-tnc/' | relative_url }})、中心を入れ替えた呼びは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }})、75 Ω の別のねじは [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
 - スナップオンと押し込みは [小型RFコネクタ]({{ '/learn/small-rf-connectors/' | relative_url }}) です。系列ごとに上限が分かれる並びは [同軸と光ファイバー]({{ '/learn/compare/coax-vs-fiber/' | relative_url }}) と [同軸と USB-C]({{ '/learn/compare/coax-vs-usbc/' | relative_url }}) です。
 - 締付の幅は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) と [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。嵌合の注意の並びは [深掘り]({{ '/learn/master/' | relative_url }}) です。
 - 短い定義は [用語集の BNC]({{ '/glossary/' | relative_url }}#bnc) と [用語集の TNC]({{ '/glossary/' | relative_url }}#tnc) です。名前の展開は [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。
