@@ -2,7 +2,7 @@
 layout: default
 title: "SMAとTNCの違いと使い分け"
 description: "SMAの1/4-36とTNCの7/16-28、外導体内径4.13mmと6.5mm、直接は嵌合しないこと、変換アダプタ、出典ごとの周波数とトルク、確認できた50Ωと75Ωの範囲を整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-22
+lastmod: 2026-11-23
 permalink: /learn/sma-tnc/
 ---
 
@@ -16,7 +16,7 @@ Rosenberger の市販 TNC の案内は、BNC の特性と界面寸法に基づ�
 
 ここにある数字は、公開の規格のプレビューと、メーカーの技術資料、計測器メーカーのアプリケーションノートから取った学習用の目安です。個別の製品が保証する値ではありません。同じ名前でも、資料が複数の周波数と、複数のトルクを置きます。平均して一つの上限にはしません。
 
-系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。ねじの SMA と、バヨネットの BNC は [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。同じ 6.5 mm の呼びで、バヨネットとねじを分ける組は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。N 型の 5/8-24 との違いは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。このページは、どちらもねじである SMA と TNC のあいだです。BNC の 50 Ω と 75 Ω の見分けは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。TNC の 50 Ω と 75 Ω は、このページで確認できた範囲だけを書きます。BNC のピン径の見分けは写しません。上限を平均しない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。帯域名との対応は [規格・周波数]({{ '/spectrum/' | relative_url }}) です。SMA も TNC も、コネクタの呼びです。帯域名ではありません。
+系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。ねじの SMA と、バヨネットの BNC は [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) です。同じ 6.5 mm の呼びで、バヨネットとねじを分ける組は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。N 型の 5/8-24 との違いは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。5/8-24 と 7/16-28 のあいだは [N型とTNC]({{ '/learn/n-tnc/' | relative_url }}) です。このページは、どちらもねじである SMA と TNC のあいだです。BNC の 50 Ω と 75 Ω の見分けは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。TNC の 50 Ω と 75 Ω は、このページで確認できた範囲だけを書きます。BNC のピン径の見分けは写しません。上限を平均しない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。帯域名との対応は [規格・周波数]({{ '/spectrum/' | relative_url }}) です。SMA も TNC も、コネクタの呼びです。帯域名ではありません。
 
 ## 先に、確認できた違い
 
@@ -73,7 +73,7 @@ IEC 61169-17:2022 の適用範囲は、ねじ結合、特性インピーダン�
   </figcaption>
 </figure>
 
-N 型は 5/8-24 です。F 型は、別のねじの 75 Ω です。1/4-36 も 7/16-28 も、その相手には進みません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) と [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。バヨネットのスタッドは、どちらのねじでもありません。[SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) と [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。
+N 型は 5/8-24 です。F 型は、別のねじの 75 Ω です。1/4-36 も 7/16-28 も、その相手には進みません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) と [N型とTNC]({{ '/learn/n-tnc/' | relative_url }}) と [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。バヨネットのスタッドは、どちらのねじでもありません。[SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) と [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。
 
 ## 周波数の目安
 
@@ -198,7 +198,7 @@ Rosenberger の reverse の案内は、SMA、BNC、TNC の reverse を、規格�
 ## 関連するページ
 
 - 結合、用途、トルクの早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
-- バヨネットとの違いは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) と [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }})、5/8-24 との違いは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。
+- バヨネットとの違いは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) と [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }})、5/8-24 との違いは [N型とSMA]({{ '/learn/n-sma/' | relative_url }})、5/8-24 と 7/16-28 は [N型とTNC]({{ '/learn/n-tnc/' | relative_url }}) です。
 - 50 Ω と 75 Ω の式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }})、境目の 0.2 は [電卓]({{ '/learn/calculator/#reflect' | relative_url }})、BNC の見分けは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。
 - 3.5 mm、2.92 mm は [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }})、中心の入れ替えの考えは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }})、クイックロックは [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }})、別のねじの 75 Ω は [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
 - 締付の幅は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) と [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。

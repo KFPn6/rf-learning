@@ -2,7 +2,7 @@
 layout: default
 title: "N型の50Ωと75Ωの違いと見分け方"
 description: "N型の50Ωと75Ωの違いを、外導体内径7mm、ねじ結合、共通のねじでも嵌合してはいけないこと、オスピンとメスソケット、使用周波数の目安、無線・計測と映像・放送の用途、BNCとの違いで整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-16
+lastmod: 2026-11-23
 permalink: /learn/n-50-75/
 ---
 
@@ -14,7 +14,7 @@ N 型は、ねじ結合の同軸コネクタです。IEC 61169-16:2006 の Webst
 
 ここにある数字は、Webstore の公開案内と、計測器メーカーのアプリケーションノートと、メーカーのシリーズ資料から取った学習用の目安です。個別の製品が保証する値ではありません。同じ名前でも、資料が複数の周波数を置きます。平均して一つの上限にはしません。ピン径のミリメートルは、資料で差があるため、このページでは転載しません。
 
-径と比誘電率の式、50 Ω と 75 Ω を一つの境目でつないだときの反射は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。SMA とのねじの呼び、外径、電力の行は [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限を平均しない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。バヨネットの 50 Ω と 75 Ω は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、宅内のねじの 75 Ω は [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。ねじの N 型とバヨネットの BNC の使い分けは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }}) です。名前の話は [第8話]({{ '/manga/08-paul-neill/' | relative_url }}) です。会話はフィクション演出です。
+径と比誘電率の式、50 Ω と 75 Ω を一つの境目でつないだときの反射は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。SMA とのねじの呼び、外径、電力の行は [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限を平均しない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。バヨネットの 50 Ω と 75 Ω は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、宅内のねじの 75 Ω は [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。ねじの N 型とバヨネットの BNC の使い分けは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }}) です。同じねじでも山の違う TNC は [N型とTNC]({{ '/learn/n-tnc/' | relative_url }}) です。50 Ω と 75 Ω の見分けは、このページのままです。名前の話は [第8話]({{ '/manga/08-paul-neill/' | relative_url }}) です。会話はフィクション演出です。
 
 ## 先に、確認できた違い
 
@@ -186,7 +186,7 @@ N 型は、ねじです。Rohde & Schwarz は、ねじ径が共通でも適合�
 
 - バヨネットで、嵌合ピン径の行が同じ幅の例は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。
 - 径と比誘電率、混ぜた境目の反射は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
-- ねじの呼び、外径、電力、SMA との変換は [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。バヨネットの BNC との使い分けは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }}) です。
+- ねじの呼び、外径、電力、SMA との変換は [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。バヨネットの BNC との使い分けは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }}) です。7/16-28 の TNC との使い分けは [N型とTNC]({{ '/learn/n-tnc/' | relative_url }}) です。
 - 結合と用途の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限を平均しない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
 - 宅内のねじの 75 Ω は [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
 - 短い定義は [用語集の N 型]({{ '/glossary/' | relative_url }}#n-type) です。名前の経緯は [第8話]({{ '/manga/08-paul-neill/' | relative_url }}) です。
