@@ -2,7 +2,7 @@
 layout: default
 title: "N型とBNCの違いと使い分け"
 description: "N型とBNCの違いと使い分けを、ねじ結合とバヨネット、直接は嵌合しないこと、変換アダプタ、出典ごとの周波数と電力、50Ωと75Ωで整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-23
+lastmod: 2026-11-24
 permalink: /learn/n-bnc/
 ---
 
@@ -138,7 +138,7 @@ BNC で確認できた数字は、別の種類です。IEC 61169-8 のゲージ�
 
 指で回し始めて、山が噛み合わない相手は、その対ではありません。金色に見えること、白い樹脂が見えること、全体が大きいことは、N 型と BNC を分けません。中心がピンか穴かだけでも、決まりません。外導体内径の題は、7 mm と 6.5 mm で違います。目視の太さを、その呼びの測定にはしません。
 
-ねじがあることだけでも、N 型とは決まりません。SMA は 1/4-36、TNC は 7/16-28 です。5/8-24 のナットは、1/4-36 にも 7/16-28 にも進みません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) と [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) と [N型とTNC]({{ '/learn/n-tnc/' | relative_url }}) です。F 型のねじも、別の呼びです。[F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
+ねじがあることだけでも、N 型とは決まりません。SMA は 1/4-36、TNC は 7/16-28 です。5/8-24 のナットは、1/4-36 にも 7/16-28 にも進みません。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) と [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) と [N型とTNC]({{ '/learn/n-tnc/' | relative_url }}) です。メートルねじの type 7-16 も、別の呼びです。[N型と7/16]({{ '/learn/n-7-16/' | relative_url }}) です。F 型のねじも、別の呼びです。[F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
 
 50 Ω か 75 Ω かは、ねじが見えること、スタッドが見えることだけでは決まりません。N 型でそれをどう読むかは [N型の50Ωと75Ω]({{ '/learn/n-50-75/' | relative_url }})、BNC でそれをどう読むかは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。
 
@@ -184,7 +184,7 @@ BNC で確認できた数字は、別の種類です。IEC 61169-8 のゲージ�
 ## 関連するページ
 
 - 結合、用途、トルクの早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
-- 5/8-24 と 1/4-36 は [N型とSMA]({{ '/learn/n-sma/' | relative_url }})、1/4-36 とバヨネットは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }})、同じ 6.5 mm でねじにした系列は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }})、5/8-24 と 7/16-28 は [N型とTNC]({{ '/learn/n-tnc/' | relative_url }}) です。
+- 5/8-24 と 1/4-36 は [N型とSMA]({{ '/learn/n-sma/' | relative_url }})、1/4-36 とバヨネットは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }})、同じ 6.5 mm でねじにした系列は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }})、5/8-24 と 7/16-28 は [N型とTNC]({{ '/learn/n-tnc/' | relative_url }})、5/8-24 と M29×1.5 は [N型と7/16]({{ '/learn/n-7-16/' | relative_url }}) です。
 - 50 Ω と 75 Ω の見分けは [N型の50Ωと75Ω]({{ '/learn/n-50-75/' | relative_url }}) と [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、宅内の 75 Ω は [F型コネクタ]({{ '/learn/f-type/' | relative_url }})、式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) と [電卓]({{ '/learn/calculator/#reflect' | relative_url }}) です。
 - 締付の幅は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) と [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
 - 名前の話は [第8話]({{ '/manga/08-paul-neill/' | relative_url }}) と [第10話]({{ '/manga/10-bnc-name/' | relative_url }}) です。会話はフィクション演出です。短い定義は [用語集の N 型]({{ '/glossary/' | relative_url }}#n-type) と [用語集の BNC]({{ '/glossary/' | relative_url }}#bnc) です。

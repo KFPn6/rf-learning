@@ -2,7 +2,7 @@
 layout: default
 title: "N型とTNCの違いと使い分け"
 description: "N型の5/8-24とTNCの7/16-28、外導体内径7mmと6.5mm、どちらもねじで直接は嵌合しないこと、変換アダプタ、出典ごとの周波数と電力とトルク、屋外のシールを整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-23
+lastmod: 2026-11-24
 permalink: /learn/n-tnc/
 ---
 
@@ -108,7 +108,7 @@ Rosenberger の RPC-N の技術資料に、電力の行はありません。RPC-
 
 電圧も、単位の書き方が分かれます。一つの比にはしません。Amphenol の N は連続 500 V rms、耐電圧 1500 V rms です。同じ社の TNC は 500 V peak、耐電圧 1500 V rms です。500 rms と 500 peak は、同じ文字ではありません。Rosenberger の RPC-N は、試験電圧 2500 V rms、動作電圧 1000 V rms、またはケーブルの制限、です。RPC-TNC は、試験電圧 1500 V rms、動作電圧 500 V rms、またはケーブルの制限、です。1500 が、N では Amphenol の耐電圧、TNC の精密資料では試験電圧、という並びです。一つの 1500 にはしません。
 
-このサイトが中〜大電力の例に置く 7/16 は、別のねじと、別のトルクです。25–30 N·m を、N 型にも TNC にも使いません。外導体内径とトルクの読み分けは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。
+このサイトが中〜大電力の例に置く 7/16 は、別のねじと、別のトルクです。25–30 N·m を、N 型にも TNC にも使いません。TNC の 7/16-28 は、type 7-16 の呼びではありません。N 型と 7/16 の嵌合、周波数、電力、PIM、トルクは [N型と7/16]({{ '/learn/n-7-16/' | relative_url }}) です。外導体内径と、4.3-10 とのトルクの読み分けは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。
 
 ## インピーダンス
 
@@ -229,7 +229,7 @@ Rosenberger の reverse の案内は、SMA、BNC、TNC の reverse を、規格�
 ## 関連するページ
 
 - 結合、用途、トルクの早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
-- 5/8-24 と 1/4-36 は [N型とSMA]({{ '/learn/n-sma/' | relative_url }})、5/8-24 とバヨネットは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }})、1/4-36 と 7/16-28 は [SMAとTNC]({{ '/learn/sma-tnc/' | relative_url }})、同じ 6.5 mm でバヨネットとねじを分ける組は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }}) です。
+- 5/8-24 と 1/4-36 は [N型とSMA]({{ '/learn/n-sma/' | relative_url }})、5/8-24 とバヨネットは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }})、1/4-36 と 7/16-28 は [SMAとTNC]({{ '/learn/sma-tnc/' | relative_url }})、同じ 6.5 mm でバヨネットとねじを分ける組は [BNCとTNC]({{ '/learn/bnc-tnc/' | relative_url }})、5/8-24 と M29×1.5 の 7/16 は [N型と7/16]({{ '/learn/n-7-16/' | relative_url }}) です。
 - N 型の 50 Ω と 75 Ω の見分けは [N型の50Ωと75Ω]({{ '/learn/n-50-75/' | relative_url }})、BNC の見分けは [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }})、式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) と [電卓]({{ '/learn/calculator/#reflect' | relative_url }})、別のねじの 75 Ω は [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
 - 中心の入れ替えの考えは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }})、SMA が 3.5 mm や 2.92 mm と機械的に嵌合しうることは [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }}) です。
 - 締付の幅は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) と [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。

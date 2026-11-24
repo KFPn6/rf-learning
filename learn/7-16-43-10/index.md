@@ -2,7 +2,7 @@
 layout: default
 title: "7/16と4.3-10の違いと使い分け"
 description: "7/16（IEC の type 7-16）と 4.3-10 の違いを、外導体内径 16 mm と 10 mm、ねじと手締めとクイックロック、規格の上限とメーカー資料の上限、推奨トルク、大きさ、PIM、N型、変換アダプタで整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-12
+lastmod: 2026-11-24
 permalink: /learn/7-16-43-10/
 ---
 
@@ -131,7 +131,7 @@ N 型は、第三の界面です。IEC 61169-16 の題は、外導体内径 7 mm
 
 トルクも別です。N の推奨は、資料ごとに幅が違います。7-16 の 25–30 N·m も、4.3-10 のねじの 5 N·m も、その幅ではありません。25–30 N·m を N に使わないことは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) にあります。幅の並びは [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
 
-つながりは、アダプタです。4.3-10 の製品案内は、測定で、N 型の精密界面から同社の高精度アダプタを介して 4.3-10 へ切り替える、と書きます。部品番号は、その文にはありません。N と 7-16 のアダプタが両端のトルクを分けて書くことは [数値早見]({{ '/learn/quick-reference/' | relative_url }}) にあります。直接の嵌合の代わりに、そのアダプタの行を見ます。
+つながりは、アダプタです。4.3-10 の製品案内は、測定で、N 型の精密界面から同社の高精度アダプタを介して 4.3-10 へ切り替える、と書きます。部品番号は、その文にはありません。N と 7-16 のアダプタが両端のトルクを分けて書くことは [数値早見]({{ '/learn/quick-reference/' | relative_url }}) にあります。直接の嵌合の代わりに、そのアダプタの行を見ます。N 型と 7/16 のあいだの嵌合、周波数、電力、PIM、トルク、屋外、アダプタの詳細は [N型と7/16]({{ '/learn/n-7-16/' | relative_url }}) です。このページは、7/16 と 4.3-10 の読み分けのままです。
 
 ## 互いに嵌合しないことと、変換アダプタ
 
@@ -179,7 +179,7 @@ N 型は、第三の界面です。IEC 61169-16 の題は、外導体内径 7 mm
 
 ## 関連するページ
 
-- 結合、用途、トルクの早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、N 型のねじと外導体内径は [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。
+- 結合、用途、トルクの早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、N 型のねじと外導体内径は [N型とSMA]({{ '/learn/n-sma/' | relative_url }})、N 型と 7/16 の嵌合と電力と PIM とトルクは [N型と7/16]({{ '/learn/n-7-16/' | relative_url }}) です。
 - 上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }})、締付の幅は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) と [数値早見]({{ '/learn/quick-reference/' | relative_url }}) です。
 - PIM の現象としての説明は [深掘り]({{ '/learn/master/' | relative_url }})、オームの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
 - 短い定義は [用語集の 7/16]({{ '/glossary/' | relative_url }}#type-7-16) と [4.3-10]({{ '/glossary/' | relative_url }}#type-4-3-10) です。
