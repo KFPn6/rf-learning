@@ -2,7 +2,7 @@
 layout: default
 title: "N型とSMAの違いと見分け方"
 description: "N型とSMAの違いを、ねじの呼び、外導体内径、結合ナットの二面幅、周波数と電力の目安、屋外のシール、変換アダプタで整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-24
+lastmod: 2026-11-25
 permalink: /learn/n-sma/
 ---
 
@@ -93,7 +93,7 @@ Amphenol の N の見出しは、無線インフラ、産業、屋外向けの�
 
 Rosenberger の SMA の用途の文は、通信、計測、産業、機器、航空電子です。RPC-N の用途の文は、50 Ω で 18 GHz まで、75 Ω で 4 GHz までの精密測定、セミリジッドとマイクロ波部品、航空宇宙向けの品種、です。屋外の基地局だけ、とは書いていません。
 
-電力も、行のままです。IEC 61169-16 の適用範囲は、低から中の電力、と書きます。高電力の系列だ、とは書いていません。このサイトが中〜大電力の例に置く 7/16 は、別のねじと、別のトルクです。[コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) の 25–30 N·m を、N に使いません。7/16 と 4.3-10 は、N の 5/8-24 とも、互いのねじとも、掛かり合う相手ではありません。外導体内径とトルクの読み分けは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。N 型と 7/16 の嵌合、周波数、電力、PIM、トルクは [N型と7/16]({{ '/learn/n-7-16/' | relative_url }}) です。
+電力も、行のままです。IEC 61169-16 の適用範囲は、低から中の電力、と書きます。高電力の系列だ、とは書いていません。このサイトが中〜大電力の例に置く 7/16 は、別のねじと、別のトルクです。[コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) の 25–30 N·m を、N に使いません。7/16 と 4.3-10 は、N の 5/8-24 とも、互いのねじとも、掛かり合う相手ではありません。外導体内径とトルクの読み分けは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。N 型と 7/16 の嵌合、周波数、電力、PIM、トルクは [N型と7/16]({{ '/learn/n-7-16/' | relative_url }}) です。N 型と 4.3-10 のあいだは [N型と4.3-10]({{ '/learn/n-43-10/' | relative_url }}) です。
 
 Amphenol の仕様表は、同じ書き方で、N を 300 W @ 10 GHz @ 25 °C、SMA を 75 W @ 10 GHz @ 25 °C とします。注は、典型値であり、すべてのコネクタには当てはまらない、です。300 と 75 を、系列全体の倍率にはしません。Rosenberger の SMA は 200 W @ 2 GHz です。周波数の条件が違うので、75 W と一つの SMA の電力にはしません。RPC-N の技術資料には、電力の行がありません。無い行を、300 W で埋めません。
 
@@ -166,7 +166,7 @@ N と SMA は、ねじが掛かり合う相手ではありません。RP-SMA の
 
 ## 関連するページ
 
-- 結合、用途、トルクの早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }})、ねじとバヨネットの使い分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) と [N型とBNC]({{ '/learn/n-bnc/' | relative_url }})、どちらもねじの SMA と TNC は [SMAとTNC]({{ '/learn/sma-tnc/' | relative_url }})、どちらもねじの N 型と TNC は [N型とTNC]({{ '/learn/n-tnc/' | relative_url }})、どちらもねじの N 型と 7/16 は [N型と7/16]({{ '/learn/n-7-16/' | relative_url }}) です。
+- 結合、用途、トルクの早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }})、ねじとバヨネットの使い分けは [SMAとBNC]({{ '/learn/sma-bnc/' | relative_url }}) と [N型とBNC]({{ '/learn/n-bnc/' | relative_url }})、どちらもねじの SMA と TNC は [SMAとTNC]({{ '/learn/sma-tnc/' | relative_url }})、どちらもねじの N 型と TNC は [N型とTNC]({{ '/learn/n-tnc/' | relative_url }})、どちらもねじの N 型と 7/16 は [N型と7/16]({{ '/learn/n-7-16/' | relative_url }})、N 型と 4.3-10 は [N型と4.3-10]({{ '/learn/n-43-10/' | relative_url }}) です。
 - SMA と 3.5 mm、2.92 mm のピン径と誘電体は [互換のページ]({{ '/learn/sma-35-292-compat/' | relative_url }})、中心を入れ替えた呼びは [SMA と RP-SMA]({{ '/learn/sma-rp-sma/' | relative_url }})、クイックロックの QMA は [QMAとSMA]({{ '/learn/qma-sma/' | relative_url }}) です。
 - 締付の幅は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) と [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
 - 同じ type N の 50 Ω と 75 Ω は [N型の50Ωと75Ω]({{ '/learn/n-50-75/' | relative_url }}) です。75 Ω の別の例は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) と [F型コネクタ]({{ '/learn/f-type/' | relative_url }})、オームの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。

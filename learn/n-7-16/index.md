@@ -2,7 +2,7 @@
 layout: default
 title: "N型と7/16 DINの違いと使い分け"
 description: "N型の5/8-24とtype 7-16のM29×1.5、外導体内径7 mmと16 mm、どちらもねじで直接は嵌合しないこと、変換アダプタ、出典ごとの周波数と電力とPIMとトルクを整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-24
+lastmod: 2026-11-25
 permalink: /learn/n-7-16/
 ---
 
@@ -16,7 +16,7 @@ IEC の公開案内の題は type 7-16 です。その題に、DIN という文�
 
 ここにある数字は、公開の規格のプレビューと、メーカーの技術資料、計測器メーカーのアプリケーションノートから取った学習用の目安です。個別の製品が保証する値ではありません。同じ名前でも、資料が複数の周波数と、複数の電力と、複数の PIM と、複数のトルクを置きます。平均して一つの上限にはしません。
 
-系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。同じねじ同士の SMA との呼びの違いは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。ねじの N 型と、バヨネットの BNC は [N型とBNC]({{ '/learn/n-bnc/' | relative_url }}) です。同じねじでも山が 7/16-28 の TNC は [N型とTNC]({{ '/learn/n-tnc/' | relative_url }}) です。TNC の 7/16-28 は、インチねじの呼びです。type 7-16 の 7 と 16 は、その呼びではありません。4.3-10 との外径、結合の三種類、トルク、PIM の行は [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。このページは、その詳細を写しません。N 型の 50 Ω と 75 Ω の見分けと、誤嵌合の注意は [N型の50Ωと75Ω]({{ '/learn/n-50-75/' | relative_url }}) です。このページは、N 型に両方があることと、その導線にとどめます。上限を平均しない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。帯域名との対応は [規格・周波数]({{ '/spectrum/' | relative_url }}) です。N 型も 7/16 も、コネクタの呼びです。帯域名ではありません。
+系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。同じねじ同士の SMA との呼びの違いは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。ねじの N 型と、バヨネットの BNC は [N型とBNC]({{ '/learn/n-bnc/' | relative_url }}) です。同じねじでも山が 7/16-28 の TNC は [N型とTNC]({{ '/learn/n-tnc/' | relative_url }}) です。TNC の 7/16-28 は、インチねじの呼びです。type 7-16 の 7 と 16 は、その呼びではありません。4.3-10 との外径、結合の三種類、トルク、PIM の行は [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。N 型と 4.3-10 のあいだは [N型と4.3-10]({{ '/learn/n-43-10/' | relative_url }}) です。このページは、その詳細を写しません。N 型の 50 Ω と 75 Ω の見分けと、誤嵌合の注意は [N型の50Ωと75Ω]({{ '/learn/n-50-75/' | relative_url }}) です。このページは、N 型に両方があることと、その導線にとどめます。上限を平均しない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。帯域名との対応は [規格・周波数]({{ '/spectrum/' | relative_url }}) です。N 型も 7/16 も、コネクタの呼びです。帯域名ではありません。
 
 ## 先に、確認できた違い
 
@@ -221,7 +221,7 @@ Amphenol の N の案内は、SMA、TNC、F 型などへの cross-series adapter
 
 - 結合、用途、トルクの早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
 - 5/8-24 と 1/4-36 は [N型とSMA]({{ '/learn/n-sma/' | relative_url }})、5/8-24 とバヨネットは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }})、5/8-24 と 7/16-28 は [N型とTNC]({{ '/learn/n-tnc/' | relative_url }}) です。7/16-28 は、type 7-16 ではありません。
-- 7/16 と 4.3-10 の外径、結合、トルク、PIM は [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。
+- 7/16 と 4.3-10 の外径、結合、トルク、PIM は [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }})、N 型と 4.3-10 のあいだは [N型と4.3-10]({{ '/learn/n-43-10/' | relative_url }}) です。
 - N 型の 50 Ω と 75 Ω の見分けは [N型の50Ωと75Ω]({{ '/learn/n-50-75/' | relative_url }})、式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
 - 締付の幅は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) と [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
 - PIM の現象としての説明は [深掘り]({{ '/learn/master/' | relative_url }}) です。名前の話は [第8話]({{ '/manga/08-paul-neill/' | relative_url }}) です。会話はフィクション演出です。短い定義は [用語集の N 型]({{ '/glossary/' | relative_url }}#n-type) と [用語集の 7/16]({{ '/glossary/' | relative_url }}#type-7-16) です。

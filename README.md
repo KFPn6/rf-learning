@@ -41,6 +41,7 @@
 - [N型と7/16 DINの違いと使い分け](https://kfpn6.github.io/rf-learning/learn/n-7-16/)
 - [N型の50Ωと75Ωの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/n-50-75/)
 - [7/16と4.3-10の違いと使い分け](https://kfpn6.github.io/rf-learning/learn/7-16-43-10/)
+- [N型と4.3-10の違いと使い分け](https://kfpn6.github.io/rf-learning/learn/n-43-10/)
 - [BNCコネクタの50Ωと75Ωの違いと見分け方](https://kfpn6.github.io/rf-learning/learn/bnc-50-75/)
 - [BNCとTNCの違いと使い分け](https://kfpn6.github.io/rf-learning/learn/bnc-tnc/)
 - [SMAとTNCの違いと使い分け](https://kfpn6.github.io/rf-learning/learn/sma-tnc/)

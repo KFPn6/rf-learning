@@ -2,7 +2,7 @@
 layout: default
 title: "N型の50Ωと75Ωの違いと見分け方"
 description: "N型の50Ωと75Ωの違いを、外導体内径7mm、ねじ結合、共通のねじでも嵌合してはいけないこと、オスピンとメスソケット、使用周波数の目安、無線・計測と映像・放送の用途、BNCとの違いで整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-24
+lastmod: 2026-11-25
 permalink: /learn/n-50-75/
 ---
 
@@ -44,7 +44,7 @@ IEC 61169-16:2006 の Webstore の題は、外導体の内径 7 mm（0,276 in）
 
 Rohde & Schwarz のアプリケーションノート 1MA99 は、75 Ω と 50 Ω のタイプ N が共通のねじ径を持つ、と書きます。日本語版の語はネジ径です。呼びが 5/8-24 だ、とは、その注は書いていません。共通のねじ径を、嵌合してよい、には読みません。次の節です。
 
-SMA の 1/4-36 は、この 5/8-24 とは山が掛かり合う相手ではありません。外導体内径の題も、7 mm と 4.13 mm で違います。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。同じサイトが中〜大電力の例に置く 7/16 も、別のねじです。N 型との嵌合とトルクは [N型と7/16]({{ '/learn/n-7-16/' | relative_url }})、4.3-10 との読み分けは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。50 Ω と 75 Ω の見分けは、このページのままです。
+SMA の 1/4-36 は、この 5/8-24 とは山が掛かり合う相手ではありません。外導体内径の題も、7 mm と 4.13 mm で違います。読み分けは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。同じサイトが中〜大電力の例に置く 7/16 も、別のねじです。N 型との嵌合とトルクは [N型と7/16]({{ '/learn/n-7-16/' | relative_url }})、4.3-10 との読み分けは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }})、N 型と 4.3-10 のあいだは [N型と4.3-10]({{ '/learn/n-43-10/' | relative_url }}) です。50 Ω と 75 Ω の見分けは、このページのままです。
 
 ## ねじが共通でも、嵌合してはいけない
 
@@ -186,7 +186,7 @@ N 型は、ねじです。Rohde & Schwarz は、ねじ径が共通でも適合�
 
 - バヨネットで、嵌合ピン径の行が同じ幅の例は [BNC の 50 Ω と 75 Ω]({{ '/learn/bnc-50-75/' | relative_url }}) です。
 - 径と比誘電率、混ぜた境目の反射は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
-- ねじの呼び、外径、電力、SMA との変換は [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。バヨネットの BNC との使い分けは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }}) です。7/16-28 の TNC との使い分けは [N型とTNC]({{ '/learn/n-tnc/' | relative_url }}) です。M29×1.5 の 7/16 との使い分けは [N型と7/16]({{ '/learn/n-7-16/' | relative_url }}) です。
+- ねじの呼び、外径、電力、SMA との変換は [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。バヨネットの BNC との使い分けは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }}) です。7/16-28 の TNC との使い分けは [N型とTNC]({{ '/learn/n-tnc/' | relative_url }}) です。M29×1.5 の 7/16 との使い分けは [N型と7/16]({{ '/learn/n-7-16/' | relative_url }}) です。M20×1 の 4.3-10 との使い分けは [N型と4.3-10]({{ '/learn/n-43-10/' | relative_url }}) です。
 - 結合と用途の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限を平均しない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
 - 宅内のねじの 75 Ω は [F型コネクタ]({{ '/learn/f-type/' | relative_url }}) です。
 - 短い定義は [用語集の N 型]({{ '/glossary/' | relative_url }}#n-type) です。名前の経緯は [第8話]({{ '/manga/08-paul-neill/' | relative_url }}) です。
