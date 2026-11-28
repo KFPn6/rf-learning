@@ -2,7 +2,7 @@
 layout: default
 title: "N型と4.3-10の違いと使い分け"
 description: "N型の5/8-24とseries 4,3-10のM20×1、外導体内径7 mmと10 mm、互いに直接は嵌合しないこと、ねじ・手締め・クイックロック、出典ごとの周波数と電力とPIMとトルク、変換アダプタを整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-26
+lastmod: 2026-11-28
 permalink: /learn/n-43-10/
 ---
 
@@ -16,7 +16,7 @@ N 型と 4.3-10 は、通信や測定の現場で並ぶ同軸コネクタです�
 
 ここにある数字は、公開の規格の題と適用範囲、公開プレビューの寸法の行、メーカーの製品案内と技術資料、計測器メーカーのアプリケーションノートから取った学習用の目安です。個別の製品が保証する値ではありません。同じ名前でも、規格の上限と、シリーズ資料の周波数範囲と、標準と精密は、別の数字です。平均して一つの上限にはしません。
 
-系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。同じねじ同士の SMA との呼びの違いは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。ねじの N 型と、バヨネットの BNC は [N型とBNC]({{ '/learn/n-bnc/' | relative_url }}) です。同じねじでも山が 7/16-28 の TNC は [N型とTNC]({{ '/learn/n-tnc/' | relative_url }}) です。7/16 との嵌合、電力、PIM、トルクは [N型と7/16]({{ '/learn/n-7-16/' | relative_url }}) です。7/16 と 4.3-10 のあいだは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。このページは、7/16 のねじの呼びと推奨トルクの詳細を写しません。N 型の 50 Ω と 75 Ω の見分けと、誤嵌合の注意は [N型の50Ωと75Ω]({{ '/learn/n-50-75/' | relative_url }}) です。このページは、N 型に両方があることと、その導線にとどめます。上限を平均しない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。帯域名との対応は [規格・周波数]({{ '/spectrum/' | relative_url }}) です。N 型も 4.3-10 も、コネクタの呼びです。帯域名ではありません。同じ現場で並ぶ NEX10 とのあいだは [4.3-10とNEX10]({{ '/learn/43-10-nex10/' | relative_url }}) です。このページは、その嵌合と呼びの詳細を写しません。
+系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。同じねじ同士の SMA との呼びの違いは [N型とSMA]({{ '/learn/n-sma/' | relative_url }}) です。ねじの N 型と、バヨネットの BNC は [N型とBNC]({{ '/learn/n-bnc/' | relative_url }}) です。同じねじでも山が 7/16-28 の TNC は [N型とTNC]({{ '/learn/n-tnc/' | relative_url }}) です。7/16 との嵌合、電力、PIM、トルクは [N型と7/16]({{ '/learn/n-7-16/' | relative_url }}) です。7/16 と 4.3-10 のあいだは [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。このページは、7/16 のねじの呼びと推奨トルクの詳細を写しません。N 型の 50 Ω と 75 Ω の見分けと、誤嵌合の注意は [N型の50Ωと75Ω]({{ '/learn/n-50-75/' | relative_url }}) です。このページは、N 型に両方があることと、その導線にとどめます。上限を平均しない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。帯域名との対応は [規格・周波数]({{ '/spectrum/' | relative_url }}) です。N 型も 4.3-10 も、コネクタの呼びです。帯域名ではありません。同じ現場で並ぶ NEX10 とのあいだは [4.3-10とNEX10]({{ '/learn/43-10-nex10/' | relative_url }}) です。7/16 と NEX10 のあいだは [7/16とNEX10]({{ '/learn/7-16-nex10/' | relative_url }}) です。このページは、その嵌合と呼びの詳細を写しません。
 
 ## 先に、確認できた違い
 
@@ -229,7 +229,7 @@ Amphenol RF の 4.3-10 アダプタの案内は、シリーズ内とシリーズ
 
 - 結合、用途、トルクの早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。
 - 5/8-24 と 1/4-36 は [N型とSMA]({{ '/learn/n-sma/' | relative_url }})、5/8-24 とバヨネットは [N型とBNC]({{ '/learn/n-bnc/' | relative_url }})、5/8-24 と 7/16-28 は [N型とTNC]({{ '/learn/n-tnc/' | relative_url }}) です。7/16-28 は、type 7-16 でも、4.3-10 でもありません。
-- 7/16 と N 型は [N型と7/16]({{ '/learn/n-7-16/' | relative_url }})、7/16 と 4.3-10 は [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }})、4.3-10 と NEX10 は [4.3-10とNEX10]({{ '/learn/43-10-nex10/' | relative_url }}) です。
+- 7/16 と N 型は [N型と7/16]({{ '/learn/n-7-16/' | relative_url }})、7/16 と 4.3-10 は [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }})、4.3-10 と NEX10 は [4.3-10とNEX10]({{ '/learn/43-10-nex10/' | relative_url }})、7/16 と NEX10 は [7/16とNEX10]({{ '/learn/7-16-nex10/' | relative_url }}) です。
 - N 型の 50 Ω と 75 Ω の見分けは [N型の50Ωと75Ω]({{ '/learn/n-50-75/' | relative_url }})、式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }}) です。
 - 締付の幅は [数値早見]({{ '/learn/quick-reference/' | relative_url }}) と [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
 - PIM の現象としての説明は [深掘り]({{ '/learn/master/' | relative_url }}) です。短い定義は [用語集の N 型]({{ '/glossary/' | relative_url }}#n-type) と [4.3-10]({{ '/glossary/' | relative_url }}#type-4-3-10) です。

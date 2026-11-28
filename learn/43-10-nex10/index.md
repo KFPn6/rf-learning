@@ -2,7 +2,7 @@
 layout: default
 title: "4.3-10とNEX10の違いと使い分け"
 description: "4.3-10（series 4,3-10）とNEX10の違いを、外導体内径10 mmと5 mm、呼びの10、ねじと手締めとクイックロック、出典ごとの周波数と電力とPIMとトルクとフランジ高さ、変換アダプタで整理します。値は学習用で、製品の保証値ではありません。"
-lastmod: 2026-11-26
+lastmod: 2026-11-28
 permalink: /learn/43-10-nex10/
 ---
 
@@ -16,7 +16,7 @@ permalink: /learn/43-10-nex10/
 
 ここにある数字は、公開の規格の題と要旨、公開プレビューの適用範囲と寸法の行、メーカーの製品案内とフライヤーとアプリケーションノート、変換アダプタの公開データシートから取った学習用の目安です。個別の製品が保証する値ではありません。同じ名前でも、規格の上限と、製品案内の周波数範囲と、リターンロスの行の終わりは、別の数字です。平均して一つの上限にはしません。無い行は、空のままにします。
 
-7/16 との外径、結合、トルク、PIM は [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。N 型とのねじ、周波数、電力、PIM、トルクは [N型と4.3-10]({{ '/learn/n-43-10/' | relative_url }}) です。N 型と 7/16 のあいだは [N型と7/16]({{ '/learn/n-7-16/' | relative_url }}) です。このページは、そちらの表を転記しません。系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。上限を平均しない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。締付の幅は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。帯域名との対応は [規格・周波数]({{ '/spectrum/' | relative_url }}) です。4.3-10 も NEX10 も、コネクタの呼びです。5G や LTE という帯域の言葉ではありません。
+7/16 との外径、結合、トルク、PIM は [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }}) です。7/16 と NEX10 が直接嵌合しないこと、寸法の呼び、保護された接点、アダプタは [7/16とNEX10]({{ '/learn/7-16-nex10/' | relative_url }}) です。このページは、その表を写しません。N 型とのねじ、周波数、電力、PIM、トルクは [N型と4.3-10]({{ '/learn/n-43-10/' | relative_url }}) です。N 型と 7/16 のあいだは [N型と7/16]({{ '/learn/n-7-16/' | relative_url }}) です。このページは、そちらの表を転記しません。系列の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }}) です。上限を平均しない読み方は [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }}) です。締付の幅は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。帯域名との対応は [規格・周波数]({{ '/spectrum/' | relative_url }}) です。4.3-10 も NEX10 も、コネクタの呼びです。5G や LTE という帯域の言葉ではありません。
 
 Webstore の題、開いたプレビュー、Rosenberger の製品案内、HUBER+SUHNER の系列案内は、NEX10 の横に ® を置きます。Radiall のページは ™ を置きます。2018年11月付けのフライヤーは、本文に ® を置き、図の見出しの一箇所に ™ を置きます。Amphenol RF の系列概要の見出しに、このページが読んだ ® と ™ はありません。IEC の注は、NEX10® を市販品の例として書き、IEC がその製品を推奨する趣旨ではない、と書きます。経緯、発明者、商標の正式名は、このページでは決めません。
 
@@ -227,7 +227,7 @@ Rosenberger の製品案内は、同社が NEX10 のコンソーシアムの一�
 
 ## 関連するページ
 
-- 結合と用途の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、7/16 と 4.3-10 は [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }})、N 型と 4.3-10 は [N型と4.3-10]({{ '/learn/n-43-10/' | relative_url }})、N 型と 7/16 は [N型と7/16]({{ '/learn/n-7-16/' | relative_url }}) です。
+- 結合と用途の早見は [コネクタの種類]({{ '/learn/connector-types/' | relative_url }})、7/16 と 4.3-10 は [7/16と4.3-10]({{ '/learn/7-16-43-10/' | relative_url }})、N 型と 4.3-10 は [N型と4.3-10]({{ '/learn/n-43-10/' | relative_url }})、N 型と 7/16 は [N型と7/16]({{ '/learn/n-7-16/' | relative_url }})、7/16 と NEX10 は [7/16とNEX10]({{ '/learn/7-16-nex10/' | relative_url }}) です。
 - 上限の読み分けは [使用周波数の上限]({{ '/learn/frequency-limit/' | relative_url }})、締付の幅は [コネクタの取り扱い]({{ '/learn/connector-care/' | relative_url }}) です。
 - PIM の現象としての説明は [深掘り]({{ '/learn/master/' | relative_url }})、オームの式は [特性インピーダンス]({{ '/learn/impedance/' | relative_url }})、反射の読み方は [VSWR とリターンロス]({{ '/learn/vswr-return-loss/' | relative_url }}) です。
 - 帯域の呼びは [規格・周波数]({{ '/spectrum/' | relative_url }})、短い定義は [用語集の 4.3-10]({{ '/glossary/' | relative_url }}#type-4-3-10) と [NEX10]({{ '/glossary/' | relative_url }}#nex10) です。
